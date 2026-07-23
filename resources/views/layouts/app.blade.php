@@ -40,7 +40,7 @@
   {{-- Sitewide structured data: Organization + WebSite --}}
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
+    "@@context": "https://schema.org",
     "@type": "Organization",
     "name": "Federation of Environmental Health Students' of Uganda",
     "alternateName": "FEHSU",
@@ -64,7 +64,7 @@
   </script>
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
+    "@@context": "https://schema.org",
     "@type": "WebSite",
     "name": "FEHSU",
     "url": "{{ url('/') }}"

@@ -6,7 +6,7 @@
 @push('structured_data')
 <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
+        "@@context": "https://schema.org",
         "@type": "CollectionPage",
         "name": "FEHSU News",
         "url": "{{ url()->current() }}",

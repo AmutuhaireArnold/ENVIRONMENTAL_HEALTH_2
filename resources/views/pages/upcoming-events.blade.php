@@ -7,7 +7,7 @@
 @foreach ($events as $event)
 <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
+        "@@context": "https://schema.org",
         "@type": "Event",
         "name": @json($event - > title),
         "startDate": "{{ optional($event->starts_at)->toIso8601String() }}",
