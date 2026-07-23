@@ -8,7 +8,13 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Member extends Model
 {
     protected $fillable = [
-        'committee_id', 'organization_id', 'name', 'role', 'bio', 'photo', 'sort_order',
+        'committee_id',
+        'organization_id',
+        'name',
+        'role',
+        'bio',
+        'photo',
+        'sort_order',
     ];
 
     public function committee(): BelongsTo

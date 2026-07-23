@@ -8,7 +8,13 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class Organization extends Model
 {
     protected $fillable = [
-        'name', 'slug', 'type', 'description', 'logo', 'hero_image', 'sort_order',
+        'name',
+        'slug',
+        'type',
+        'description',
+        'logo',
+        'hero_image',
+        'sort_order',
     ];
 
     public function members(): HasMany

@@ -64,7 +64,10 @@ function rewrite(string $html): string
 
 foreach ($pages as $file => $view) {
     $path = "$srcDir/$file.html";
-    if (!is_file($path)) { echo "MISSING $file\n"; continue; }
+    if (!is_file($path)) {
+        echo "MISSING $file\n";
+        continue;
+    }
     $html = file_get_contents($path);
 
     preg_match('/<title>(.*?)<\/title>/s', $html, $t);
@@ -72,7 +75,10 @@ foreach ($pages as $file => $view) {
     preg_match('/<meta name="description" content="([^"]*)"/s', $html, $d);
     $desc = trim($d[1] ?? '');
 
-    if (!preg_match('/<main id="main-content">(.*)<\/main>/s', $html, $m)) { echo "NO MAIN $file\n"; continue; }
+    if (!preg_match('/<main id="main-content">(.*)<\/main>/s', $html, $m)) {
+        echo "NO MAIN $file\n";
+        continue;
+    }
     $main = rewrite(trim($m[1]));
 
     // Page-specific inline scripts outside <main> (skip the shared base script)

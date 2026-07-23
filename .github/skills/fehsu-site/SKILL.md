@@ -1,91 +1,75 @@
 ---
 name: fehsu-site
-description: Conventions and architecture for the FEHSU static website (Federation of Environmental Health Students' Association of Uganda). Use when creating/editing pages, styles, sliders, lightboxes, video embeds, nav/footer, committee or sister-org pages in this workspace.
+description: Conventions and architecture for the FEHSU website — a Laravel 13 + Filament 5 app (converted from a static HTML site) for the Federation of Environmental Health Students' Association of Uganda. Use when creating/editing pages, Blade views, Filament resources, models, routes, seeders, styles, or JS behaviors in this workspace.
 ---
 
-# FEHSU Static Site Skill
+# FEHSU Laravel Site Skill
 
-Static HTML site (no build step, no CMS, no framework). Served from XAMPP at `c:\xampp\htdocs\isaac\ENVIRONMENTAL_HEALTH_2`. 25 HTML pages, one stylesheet, three vanilla JS files.
+Laravel 13 (framework 13.21.1) + Filament v5.7 admin panel, at the repo root `c:\xampp\htdocs\isaac\ENVIRONMENTAL_HEALTH_2`. Converted from a static HTML site; the legacy site is kept untouched in `ENVIRONMENTAL HEALTH/` as visual reference. MySQL on 127.0.0.1:**3308**, database `laravel`. Dev server: `php artisan serve` → http://localhost:8000. Admin: `/admin` (Filament, user admin@fehsug.com).
 
 ## Golden rules
 
-1. **Header, nav, ticker, footer, and fixed UI are copy-pasted into every page.** Any change to them must be replicated across ALL `.html` files (use search/replace across the workspace, verify count matches page count).
-2. **Comment out removed code, don't delete it** — add `<!-- CHANGED: <reason> -->` / `// CHANGED: <reason>` markers (workspace collaborator convention).
-3. All styling lives in `assets/style.css` (CSS custom properties). Never add new CSS files; extend variables/components in place.
-4. JS is vanilla, loaded synchronously at end of `<body>` in this order: `lightbox.js`, `sliders.js`, `youtube-embed.js`. Page-specific behavior (splash, menu toggle, hero slideshow, bio modal, back-to-top, scroll reveal) is INLINE `<script>` in each page.
+1. **Comment out removed code, don't delete it** — add `// CHANGED: <reason>` / `<!-- CHANGED: <reason> -->` markers (workspace collaborator convention). Exception: reverting your own edits.
+2. All public styling lives in `public/assets/style.css` (CSS custom properties, copied verbatim from the legacy site). Frontend JS: `public/assets/lightbox.js`, `sliders.js`, `youtube-embed.js` — vanilla, loaded at end of body in that order by the layout. Page-specific JS (splash, menu toggle, hero slideshow, modals) is inline in `resources/views/layouts/app.blade.php` and page views.
+3. The shared header/nav/ticker/footer exist ONCE in `resources/views/layouts/app.blade.php` — never duplicate them into page views.
+4. No Vite/npm build for the public site — it uses plain CSS/JS from `public/assets/`. Filament assets are pre-published under `public/js/filament` etc.
 
-## Page template skeleton
+## Structure
 
-```html
-<!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page Title — FEHSU</title>
-  <meta name="description" content="...">
-  <link rel="icon" href="PHOTO.jpeg">
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-  <a class="skip-link" href="#main-content">Skip to main content</a>
-  <header> <nav>…navlinks, hamburgerBtn…</nav> <div class="ticker">…</div> </header>
-  <main id="main-content"> …page-hero / .sec sections… </main>
-  <footer id="contact-footer">…4-col grid…</footer>
-  <button id="backToTop">Top</button>
-  <div id="mobileNavBar" class="mobile-nav-bar">…</div>
-  <a class="whatsapp-float" …>WhatsApp</a>
-  <script>/* inline: splash, toggleMenu, slideshow, modals */</script>
-  <script src="assets/lightbox.js"></script>
-  <script src="assets/sliders.js"></script>
-  <script src="assets/youtube-embed.js"></script>
-</body></html>
-```
+- `app/Models/` — Post, Event, TickerMessage, Committee, Member, Organization, Document, MediaItem, User. All have `$fillable`; datetime/bool casts via `casts()` method.
+- `app/Http/Controllers/PageController.php` — all public pages (home, listings, dynamic committee/organization).
+- `app/Filament/Resources/{Posts,Events,TickerMessages,Committees,Members,Organizations,Documents,MediaItems}/` — Filament v5 structure: `*Resource.php` + `Schemas/*Form.php` + `Tables/*Table.php` + `Pages/`.
+- `resources/views/layouts/app.blade.php` — shared skeleton; ticker pulls active `TickerMessage` via inline `@php` query.
+- `resources/views/pages/*.blade.php` — 21 views extending `layouts.app`, section `content`.
+- `resources/views/partials/member-marquee.blade.php` (expects `$members` or `$chips`, `$duration`) and `photo-modal.blade.php`.
+- `routes/web.php` — `Route::view` for static pages; PageController for DB-driven; dynamic `/committees/{slug}` and `/associations/{slug}`; 301 redirects for legacy `*.html` URLs.
+- `database/migrations/2026_07_22_120000_create_content_tables.php` — all 8 content tables in one migration.
+- `database/seeders/ContentSeeder.php` — idempotent (`firstOrCreate`) import of the original static content.
+- `scripts/convert-static.php` — one-off converter used for the original migration (keep for reference).
 
-When creating a new page: copy an existing similar page (e.g. `history.html` for info pages, `sister-org-1.html` for member listings), replace `<main>` content, update `<title>`/description, and add the page to nav dropdowns + footer links on ALL pages if it should be reachable.
+## Content model
 
-## Navigation structure
+| Table | Key fields | Notes |
+|---|---|---|
+| posts | type enum(news, press_release, article), slug, excerpt, body, is_published, published_at | RichEditor body |
+| events | type enum(event, program, upcoming), starts_at, location, is_published | upcoming-events + home teasers use type=upcoming |
+| ticker_messages | message, is_active, sort_order | rendered twice in layout for seamless loop |
+| committees | slug, type enum(central, national, other), term_label, sort_order | archive pages; prev/next nav by sort_order within type |
+| organizations | slug, type enum(sister_org, partner, association), sort_order | sister-org-1..11 pages |
+| members | committee_id / organization_id (nullable FKs), name, role, bio, photo, sort_order | one table for both parents |
+| documents | file_path, category enum(press, standard, resource), published_at | PDFs; press-release page lists category=press |
+| media_items | type enum(image, youtube), file_path / youtube_id, sort_order | media gallery + home/media video grids |
 
-Top-level: Home | About (History, Objectives) | Membership (value/benefits, options) | Member Directory (corporate.html = Central Exec, committees.html = National Exec, partners, associations) | Events (upcoming-events, programs, events) | Resources (news, press-release, articles-journals, media, standard, resources) | Contact | "Join FEHSU" CTA → member-options.html.
+**Image/file path convention:** values starting with `/` are served from `public/` (seeded legacy files, e.g. `/images/5.jpeg`); anything else is a Filament upload on the public disk → render with `asset('storage/' . $path)`. Views use `str_starts_with($p, '/') ? $p : asset('storage/'.$p)`.
 
-Dropdown parents use `href="javascript:void(0)"`. Mobile drawer toggled by `#hamburgerBtn` + `toggleMenu()`; breakpoint 992px.
+## Page inventory
 
-## CSS design system (assets/style.css)
+- **DB-driven:** `/` (videos, upcoming teasers, updates), `/news`, `/articles-journals`, `/press-release` (documents), `/upcoming-events`, `/media`, `/committees/{slug}`, `/associations/{slug}`.
+- **Static Blade (hardcoded by design):** history, objectives, member-value-benefits, member-options, corporate, committees (assoc chart JS), partners, associations, events, programs, standard, resources, contact.
+- Legacy URLs: any `/{page}.html` 301-redirects to the new route (committee-*/other-committee-* → `/committees/{slug}`, sister-org-N → `/associations/sister-org-N`).
 
-Key variables:
-- Text/BG: `--ink #171a1f`, `--paper #fff`, `--paper-2 #f4f6f7`, `--steel #4c5560`, `--line`
-- Brand greens: `--clay #2f7a3d` (primary), `--clay-deep`, `--gold #7fc47a`, `--leaf #1f7a52`, `--leaf-light #e7f5ee`
-- Navy: `--navy #0e2233`, `--navy-deep #081522`; footer: `--footer-bg #5b7893`
-- Layout: `--header-h 62px` (56 mobile), `--radius 12px`, `--radius-sm 8px`, `--shadow-sm/md/lg`
-- Fonts: `--font-display` / `--font-condensed` / `--font-body` (SF Pro stacks)
+## Frontend JS hooks (unchanged from legacy)
 
-Components: `.cta-btn`, `.btn-outline`, `.btn-dark`; `.card`/`.info-card`/`.value-card`; `.hero`, `.page-hero(.has-photo)`, `.sec` + `.sec.alt`; `.card-grid` (3→2→1 cols), `.values-grid`, `.gallery-grid`; `.callout`, `.timeline`, `.badge.news/.event/.press`, `.tag.mono`; text utils `.display`, `.condensed`, `.mono`.
+- Marquees: `.marquee` > `.marquee-track` (inline `animation-duration`); member chips `.member-chip.tappable` with `data-photo/name/role/bio` → photo modal partial.
+- Videos: `.video-embed` with `data-yt` + `data-title`, thumbnail `img.video-thumb`, `button.video-play` (lazy youtube-nocookie embeds).
+- Lightbox auto-applies to content images; excludes `.slide img`, `.marquee-track img`, `.member-chip.tappable img`, `.logo-img`, `.video-embed img`.
 
-Breakpoints: 1080px (grids 2-col), 992px (mobile nav), 760px (1-col + mobile bottom bar), 600px, 480px.
+## Design system (public/assets/style.css)
 
-## JS hooks
+CSS vars: brand green `--clay #2f7a3d`, `--gold #7fc47a`, `--leaf #1f7a52`, navy `--navy #0e2233`, footer `--footer-bg #5b7893`, `--radius 12px`, `--header-h 62px`. Components: `.sec`/`.sec.alt`, `.page-hero.has-photo`, `.card-grid`, `.info-card`, `.update-card`, `.event-teaser`, `.cta-band`, text utils `.display/.condensed/.mono`. Breakpoints: 1080/992 (mobile nav)/760/600/480px.
 
-- **Lightbox** (`lightbox.js`): auto-applies to page images; EXCLUDES `.slide img`, `.marquee-track img`, `.member-chip.tappable img`, `.logo-img`, `.video-embed img`. Overlay classes: `.img-lightbox`, `.img-lightbox-frame`, `.img-lightbox-zoombar`.
-- **Sliders** (`sliders.js`): `.marquee` (member carousels; inline `style="animation-duration:95s"` controls speed; JS injects `.marquee-wrap`, nav buttons) and `.org-slider` (logo strips). Class-based detection, no data attributes. IntersectionObserver pauses off-screen.
-- **YouTube** (`youtube-embed.js`): lazy click-to-play:
-  ```html
-  <div class="video-embed" data-yt="VIDEO_ID" data-title="Title">
-    <img class="video-thumb" src="…"><button class="video-play">▶</button>
-  </div>
-  ```
-  Loads `youtube-nocookie.com` iframe on click.
-- **Member bio modal**: chips inside marquees use
-  `.member-chip.tappable` with `data-photo`, `data-name`, `data-role`, `data-bio`; inline script opens `.photo-modal` with prev/next browsing.
+## Workflows
 
-## Page families (template clones)
-
-- `committee-1st/2nd/3rd.html` + `other-committee-1st/2nd/3rd.html`: committee archives — hero eyebrow "COMMITTEE ARCHIVE · [YEARS]" + `.marquee` of member chips. Only years, photos, labels differ.
-- `sister-org-1.html … sister-org-11.html`: identical "Member Association N" template with placeholder chips (Chairperson, Vice Chair, Secretary, Treasurer, Publicity Secretary) and generic photos `1.jpeg`–`8.jpeg`. Editing one usually implies editing all 11.
-- `corporate.html` = Central Executive Committee; `committees.html` = National Executive Committee — **different committees, don't confuse**.
+- Migrate + seed fresh: `php artisan migrate:fresh --seed` (seeder is idempotent; admin user must be recreated after fresh: `php artisan make:filament-user`).
+- New admin-managed content type: migration → model (fillable+casts) → `php artisan make:filament-resource X --generate` → customize Schemas/Tables → controller/view wiring.
+- File uploads: Filament FileUpload → `disk('public')`, directory per type; `php artisan storage:link` already done.
 
 ## Known gotchas
 
-- `pdfs/` folder is a placeholder — `press-release.html` links to PDF filenames that don't exist yet; real PDFs must match those names.
-- Much content is placeholder (generic names/photos on committee & sister-org pages).
-- Splash screen shows once per session via `sessionStorage`.
-- Forms submit to external Google Forms (no on-page feedback).
-- Marquee tracks duplicate items for seamless loop — keep duplicates in sync when editing members.
-- Org name appears inconsistently across pages ("Students' Association" vs "Health and Safety Association") — confirm wording with user before mass-editing.
+- `.env` DB port is **3308** (not 3306). `DB_CONNECTION=mysql` must be set explicitly.
+- PowerShell: `$home` is a read-only automatic variable — don't use it in verification scripts.
+- Committee archive view requires `$prev`/`$next` from `PageController::committee()`.
+- Seeded press documents point at legacy `/pdfs/*.pdf` names that don't exist — real PDFs come via admin upload (replacing file_path with a storage path).
+- Much member/committee content is placeholder (generic names, photos `/images/1-8.jpeg`).
+- Org name varies across pages ("Students' Association" vs "Health and Safety Association") — confirm wording before mass edits.
+- Deploy notes: `APP_DEBUG=false`, point Apache docroot at `/public`, keep `.env` out of git.

@@ -8,7 +8,13 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class Committee extends Model
 {
     protected $fillable = [
-        'name', 'slug', 'type', 'term_label', 'description', 'hero_image', 'sort_order',
+        'name',
+        'slug',
+        'type',
+        'term_label',
+        'description',
+        'hero_image',
+        'sort_order',
     ];
 
     public function members(): HasMany
