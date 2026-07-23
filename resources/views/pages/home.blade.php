@@ -71,7 +71,7 @@
     </div>
 </section>
 
-<section class="home-search-wrap">
+<!-- <section class="home-search-wrap">
     <div class="wrap">
         <div class="home-search-shell reveal-left">
             <div class="home-search-copy">
@@ -87,7 +87,7 @@
             <div class="home-search-results" id="homeSearchResults" aria-live="polite"></div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="quick-access on-home">
     <div class="wrap">
