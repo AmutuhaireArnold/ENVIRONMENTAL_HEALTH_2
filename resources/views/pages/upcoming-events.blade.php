@@ -4,28 +4,29 @@
 @section('description', 'FEHSU\'s calendar of upcoming conferences, workshops, and networking events.')
 
 @push('structured_data')
-@foreach ($events as $event)
-<script type="application/ld+json">
-    {
-        "@@context": "https://schema.org",
-        "@type": "Event",
-        "name": @json($event - > title),
-        "startDate": "{{ optional($event->starts_at)->toIso8601String() }}",
-        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "location": {
-            "@type": "Place",
-            "name": @json($event - > location ? : 'Kampala, Uganda'),
-            "address": @json($event - > location ? : 'Kampala, Uganda')
-        },
-        "description": @json($event - > description),
-        "organizer": {
-            "@type": "Organization",
-            "name": "FEHSU",
-            "url": "{{ url('/') }}"
-        }
-    }
-</script>
+@php
+    $eventsLd = $events->map(fn ($event) => [
+        '@context' => 'https://schema.org',
+        '@type' => 'Event',
+        'name' => $event->title,
+        'startDate' => optional($event->starts_at)->toIso8601String(),
+        'eventAttendanceMode' => 'https://schema.org/OfflineEventAttendanceMode',
+        'eventStatus' => 'https://schema.org/EventScheduled',
+        'location' => [
+            '@type' => 'Place',
+            'name' => $event->location ?: 'Kampala, Uganda',
+            'address' => $event->location ?: 'Kampala, Uganda',
+        ],
+        'description' => $event->description,
+        'organizer' => [
+            '@type' => 'Organization',
+            'name' => 'FEHSU',
+            'url' => url('/'),
+        ],
+    ])->all();
+@endphp
+@foreach ($eventsLd as $eventLd)
+<script type="application/ld+json">{!! json_encode($eventLd, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}</script>
 @endforeach
 @endpush
 

@@ -4,31 +4,18 @@
 @section('description', 'Meet the National Executive Committee currently running ' . $organization->name . '.')
 
 @push('structured_data')
-<script type="application/ld+json">
-    {
-        "@@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "{{ url('/') }}"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Associations",
-                "item": "{{ url('/associations') }}"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": @json($organization - > name),
-                "item": "{{ url()->current() }}"
-            }
-        ]
-    }
-</script>
+@php
+    $breadcrumbLd = [
+        '@context' => 'https://schema.org',
+        '@type' => 'BreadcrumbList',
+        'itemListElement' => [
+            ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+            ['@type' => 'ListItem', 'position' => 2, 'name' => 'Associations', 'item' => url('/associations')],
+            ['@type' => 'ListItem', 'position' => 3, 'name' => $organization->name, 'item' => url()->current()],
+        ],
+    ];
+@endphp
+<script type="application/ld+json">{!! json_encode($breadcrumbLd, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}</script>
 @endpush
 
 @section('content')

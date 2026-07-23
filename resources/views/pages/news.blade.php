@@ -4,37 +4,23 @@
 @section('description', 'News and updates from FEHSU, Uganda\'s national occupational health and safety association.')
 
 @push('structured_data')
-<script type="application/ld+json">
-    {
-        "@@context": "https://schema.org",
-        "@type": "CollectionPage",
-        "name": "FEHSU News",
-        "url": "{{ url()->current() }}",
-        "mainEntity": {
-            "@type": "ItemList",
-            "itemListElement": [
-                @foreach($posts as $i => $post) {
-                    "@type": "ListItem",
-                    "position": {
-                        {
-                            $i + 1
-                        }
-                    },
-                    "name": @json($post - > title) {
-                        {
-                            $loop - > last ? '' : ','
-                        }
-                    }
-                } {
-                    {
-                        $loop - > last ? '' : ','
-                    }
-                }
-                @endforeach
-            ]
-        }
-    }
-</script>
+@php
+    $ld = [
+        '@context' => 'https://schema.org',
+        '@type' => 'CollectionPage',
+        'name' => 'FEHSU News',
+        'url' => url()->current(),
+        'mainEntity' => [
+            '@type' => 'ItemList',
+            'itemListElement' => $posts->values()->map(fn ($post, $i) => [
+                '@type' => 'ListItem',
+                'position' => $i + 1,
+                'name' => $post->title,
+            ])->all(),
+        ],
+    ];
+@endphp
+<script type="application/ld+json">{!! json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}</script>
 @endpush
 
 @section('content')
