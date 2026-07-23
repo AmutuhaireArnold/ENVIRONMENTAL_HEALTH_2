@@ -34,7 +34,7 @@
 <div class="hero-stats">
 <div>
 <div class="num mono">2022</div>
-<div class="lbl condensed">Founded by 13 H&amp;S professionals</div>
+<div class="lbl condensed">Founded by 11 H&amp;S professionals</div>
 </div>
 <div>
 <div class="num mono">11+</div>
@@ -53,11 +53,29 @@
 </div>
 </section>
 
+<section class="home-search-wrap">
+<div class="wrap">
+<div class="home-search-shell reveal-left">
+<div class="home-search-copy">
+<span class="tag mono">DISCOVER</span>
+<h2 class="display">Search the homepage</h2>
+<p>Jump quickly to membership, events, leadership, updates, and partner moments.</p>
+</div>
+<form class="home-search-form" id="homeSearchForm">
+<label class="sr-only" for="homeSearch">Search website</label>
+<input id="homeSearch" type="search" placeholder="Search the website: membership, events, resources, leadership..." aria-label="Search the website">
+<button type="submit" class="cta-btn">Search</button>
+</form>
+<div class="home-search-results" id="homeSearchResults" aria-live="polite"></div>
+</div>
+</div>
+</section>
+
 <section class="quick-access on-home">
 <div class="wrap">
 <div class="quick-access-grid">
 
-<a class="quick-item reveal-left" href="/member-options">
+<a class="quick-item reveal-left search-card" data-search="membership join now five tiers one federation" href="/member-options">
 <div class="quick-photo">
 <img class="qslide show" src="/images/07.jpg" alt="">
 <img class="qslide" src="/images/09.jpg" alt="">
@@ -69,7 +87,7 @@
 </div>
 </a>
 
-<a class="quick-item reveal-left" href="/upcoming-events" style="transition-delay:.08s">
+<a class="quick-item reveal-left search-card" data-search="events conferences workshops see events upcoming" href="/upcoming-events" style="transition-delay:.08s">
 <div class="quick-photo">
 <img class="qslide show" src="/images/23.jpg" alt="">
 <img class="qslide" src="/images/24.jpg" alt="">
@@ -81,7 +99,7 @@
 </div>
 </a>
 
-<a class="quick-item reveal-left" href="/resources" style="transition-delay:.16s">
+<a class="quick-item reveal-left search-card" data-search="resources standards news articles explore" href="/resources" style="transition-delay:.16s">
 <div class="quick-photo">
 <img class="qslide show" src="/images/12.jpg" alt="">
 <img class="qslide" src="/images/15.jpg" alt="">
@@ -93,7 +111,7 @@
 </div>
 </a>
 
-<a class="quick-item reveal-left" href="/corporate" style="transition-delay:.24s">
+<a class="quick-item reveal-left search-card" data-search="directory corporate committee members view directory" href="/corporate" style="transition-delay:.24s">
 <div class="quick-photo">
 <img class="qslide show" src="/images/01.jpg" alt="">
 <img class="qslide" src="/images/27.jpg" alt="">
@@ -138,12 +156,12 @@
 <h2 class="display">What guides our work</h2>
 </div>
 <div class="values-grid">
-<div class="value-card"><div class="vphoto"><img alt="FEHSU members conducting a safety inspection" src="/images/13.jpg"></div><div class="vbody"><span class="vn mono">V.01</span><h3>Integrity</h3><p>A culture of performance and responsibility in everything we do.</p></div></div>
-<div class="value-card"><div class="vphoto"><img alt="FEHSU members at a legacy building event" src="/images/16.jpg"></div><div class="vbody"><span class="vn mono">V.02</span><h3>Legacy</h3><p>Actively promoting and creating a safety culture that lasts.</p></div></div>
-<div class="value-card"><div class="vphoto"><img alt="Diverse group of FEHSU members" src="/images/19.jpg"></div><div class="vbody"><span class="vn mono">V.03</span><h3>Diversity</h3><p>Respecting each other's diverse perspectives across industries.</p></div></div>
-<div class="value-card"><div class="vphoto"><img alt="FEHSU leadership at a committee meeting" src="/images/21.jpg"></div><div class="vbody"><span class="vn mono">V.04</span><h3>Leadership</h3><p>Leading by serving — driving positive change within industries, organizations, and our community.</p></div></div>
-<div class="value-card"><div class="vphoto"><img alt="FEHSU members community outreach" src="/images/22.jpg"></div><div class="vbody"><span class="vn mono">V.05</span><h3>Humanity</h3><p>Committed to health and safety because we care about people and community.</p></div></div>
-<div class="value-card"><div class="vphoto"><img alt="FEHSU members reviewing innovative safety practices" src="/images/25.jpg"></div><div class="vbody"><span class="vn mono">V.06</span><h3>Innovation</h3><p>Staying ahead in a culture of innovation to improve health and safety.</p></div></div>
+<div class="value-card search-card" data-search="integrity performance responsibility"><div class="vphoto"><img alt="FEHSU members conducting a safety inspection" src="/images/13.jpg"></div><div class="vbody"><span class="vn mono">V.01</span><h3>Integrity</h3><p>A culture of performance and responsibility in everything we do.</p></div></div>
+<div class="value-card search-card" data-search="legacy safety culture lasts"><div class="vphoto"><img alt="FEHSU members at a legacy building event" src="/images/16.jpg"></div><div class="vbody"><span class="vn mono">V.02</span><h3>Legacy</h3><p>Actively promoting and creating a safety culture that lasts.</p></div></div>
+<div class="value-card search-card" data-search="diversity perspectives across industries"><div class="vphoto"><img alt="Diverse group of FEHSU members" src="/images/19.jpg"></div><div class="vbody"><span class="vn mono">V.03</span><h3>Diversity</h3><p>Respecting each other's diverse perspectives across industries.</p></div></div>
+<div class="value-card search-card" data-search="leadership serving change industries community"><div class="vphoto"><img alt="FEHSU leadership at a committee meeting" src="/images/21.jpg"></div><div class="vbody"><span class="vn mono">V.04</span><h3>Leadership</h3><p>Leading by serving — driving positive change within industries, organizations, and our community.</p></div></div>
+<div class="value-card search-card" data-search="humanity care people community"><div class="vphoto"><img alt="FEHSU members community outreach" src="/images/22.jpg"></div><div class="vbody"><span class="vn mono">V.05</span><h3>Humanity</h3><p>Committed to health and safety because we care about people and community.</p></div></div>
+<div class="value-card search-card" data-search="innovation ahead culture safety practices"><div class="vphoto"><img alt="FEHSU members reviewing innovative safety practices" src="/images/25.jpg"></div><div class="vbody"><span class="vn mono">V.06</span><h3>Innovation</h3><p>Staying ahead in a culture of innovation to improve health and safety.</p></div></div>
 </div>
 </div>
 </section>
@@ -179,29 +197,35 @@
 <p>Projects Minister</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/4.jpeg" data-name="Treasurer" data-role="Executive Committee" data-bio="Manages FEHSU's finances, budgets and financial reporting.">
-<div class="photo"><img alt="Treasurer" src="/images/4.jpeg"/></div>
-<h4>Treasurer</h4>
-<p>Executive Committee</p>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/Abdul.jpg" data-name="Minister For External Affairs" data-role="Executive Committee" data-bio="14th Deputy Guild Speaker SOH-MBALE,Internal Minister MSOHESHA,A rotaractor,A youth Leader under the NRM Secretariat in the District Level.">
+<div class="photo"><img alt="Vice Chairperson" src="/images/CEC/Abdul.jpg"/></div>
+<h4>Alafi Abdul Rahuman</h4>
+<p> Internal Minister - MSOHESHA</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/5.jpeg" data-name="Publicity Secretary" data-role="Executive Committee" data-bio="Leads FEHSU's communications, media and public outreach.">
-<div class="photo"><img alt="Publicity Secretary" src="/images/5.jpeg"/></div>
-<h4>Publicity Secretary</h4>
-<p>Executive Committee</p>
-</button>
-
-<button type="button" class="member-chip tappable" data-photo="/images/CEC/joan.jpg" data-name="Executive Member" data-role="Executive Committee" data-bio="From Uganda Instituet of Allied Health Science Mulago,passionate about accountable leadership,financial stewardship and student empowerment.">
-<div class="photo"><img alt="Executive Member" src="/images/CEC/joan.jpg"/></div>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/Joan.jpg" data-name="Executive Member" data-role="Executive Committee" data-bio="From Uganda Instituet of Allied Health Science Mulago,passionate about accountable leadership,financial stewardship and student empowerment.">
+<div class="photo"><img alt="Executive Member" src="/images/CEC/Joan.jpg"/></div>
 <h4>Auma Joan Angel</h4>
 <p>Finance Minister</p>
 </button>
 
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/Edgar.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Representative BEHSA, Is a dedicated Environmemtal Health Student witha apassion for Team work.">
+<div class="photo"><img alt="Projects Minister" src="/images/CEC/Edgar.jpg"/></div>
+<h4>Muhindo Edgar</h4>
+<p>Internal Minister - BEHSA </p>
+</button>
+
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/nampwera.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Representative BEHSA, Is a dedicated Environmemtal Health Student witha apassion for Team work.">
+<div class="photo"><img alt="Projects Minister" src="/images/CEC/nampwera.jpg"/></div>
+<h4>Nampwera Rebecca</h4>
+<p>Internal Affairs Minister - UIAHMS MULAGO </p>
+</button>
+
 <!-- Track repeats once more so the slow left-slide loops seamlessly -->
-<button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="Chairperson" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
 <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg"/></div>
 <h4>Agumenawe Nicodemus</h4>
-<p>President/p>
+<p>President</p>
 </button>
 
 <button type="button" class="member-chip tappable" data-photo="/images/CEC/denise.jpg" data-name="Minister For External Affairs" data-role="Executive Committee" data-bio="Supports the President and steps in on their behalf when needed on external affairs Replace this placeholder with the Vice Chairperson's real biography.">
@@ -216,22 +240,28 @@
 <p>Projects Minister</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/4.jpeg" data-name="Treasurer" data-role="Executive Committee" data-bio="Manages FEHSU's finances, budgets and financial reporting">
-<div class="photo"><img alt="Treasurer" src="/images/4.jpeg"/></div>
-<h4>Treasurer</h4>
-<p>Executive Committee</p>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/Abdul.jpg" data-name="Minister For External Affairs" data-role="Executive Committee" data-bio="14th Deputy Guild Speaker SOH-MBALE,Internal Minister MSOHESHA,A rotaractor,A youth Leader under the NRM Secretariat in the District Level.">
+<div class="photo"><img alt="Vice Chairperson" src="/images/CEC/Abdul.jpg"/></div>
+<h4>Alafi Abdul Rahuman</h4>
+<p> Internal Minister - MSOHESHA</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/5.jpeg" data-name="Publicity Secretary" data-role="Executive Committee" data-bio="Leads FEHSU's communications, media and public outreach">
-<div class="photo"><img alt="Publicity Secretary" src="/images/5.jpeg"/></div>
-<h4>Publicity Secretary</h4>
-<p>Executive Committee</p>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/Joan.jpg" data-name="Executive Member" data-role="Executive Committee" data-bio="From Uganda Instituet of Allied Health Science Mulago,passionate about accountable leadership,financial stewardship and student empowerment.">
+<div class="photo"><img alt="Executive Member" src="/images/CEC/Joan.jpg"/></div>
+<h4>Auma Joan Angel</h4>
+<p>Finance Minister</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Executive Committee" data-bio="Contributes to committee decisions and represents member interests">
-<div class="photo"><img alt="Executive Member" src="/images/6.jpeg"/></div>
-<h4>Executive Member</h4>
-<p>Executive Committee</p>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/Edgar.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Representative BEHSA, Is a dedicated Environmemtal Health Student witha apassion for Team work.">
+<div class="photo"><img alt="Projects Minister" src="/images/CEC/Edgar.jpg"/></div>
+<h4>Muhindo Edgar</h4>
+<p>Internal Minister - BEHSA </p>
+</button>
+
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/nampwera.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Representative BEHSA, Is a dedicated Environmemtal Health Student witha apassion for Team work.">
+<div class="photo"><img alt="Projects Minister" src="/images/CEC/nampwera.jpg"/></div>
+<h4>Nampwera Rebecca</h4>
+<p>Internal Affairs Minister - UIAHMS MULAGO </p>
 </button>
 
 </div>
@@ -255,6 +285,53 @@
 <div class="g-item"><img alt="FEHSU workshop participants" src="/images/29.jpg"><span class="g-cap">some of FEHSU Members</span></div>
 <div class="g-item"><img alt="FEHSU conference session" src="/images/4.jpeg"><span class="g-cap">Annual conference</span></div>
 <div class="g-item"><img alt="FEHSU members networking" src="/images/5.jpeg"><span class="g-cap">Networking evening</span></div>
+</div>
+</div>
+</section>
+
+<section class="sec home-art-section" id="artpiece">
+<div class="wrap">
+<div class="sec-head-row">
+<div class="sec-head" style="margin-bottom:0;">
+<span class="tag mono">04 — ARTPIECE HIGHLIGHTS</span>
+<h2 class="display">A softer rhythm below the fold</h2>
+<p>Small motion-led story cards that echo the same visual language while keeping the homepage feeling clear and calm.</p>
+</div>
+</div>
+<div class="home-art-grid">
+<div class="home-art-card reveal-left search-card" data-search="safety in action training moves people field">
+<div class="home-art-media">
+<img src="/images/21.jpg" alt="FEHSU leadership meeting" loading="lazy">
+<span class="home-art-badge">FIELD</span>
+</div>
+<div class="home-art-copy">
+<span class="tag mono">SAFETY IN ACTION</span>
+<h3>Training that moves people</h3>
+<p>From site visits to workshops, FEHSU keeps environmental health learning visible, practical, and community-led.</p>
+</div>
+</div>
+<div class="home-art-card reveal-left search-card" data-search="community leadership people partners" style="transition-delay:.08s">
+<div class="home-art-media">
+<img src="/images/27.jpg" alt="FEHSU members networking" loading="lazy">
+<span class="home-art-badge">COMMUNITY</span>
+</div>
+<div class="home-art-copy">
+<span class="tag mono">PEOPLE &amp; PARTNERS</span>
+<h3>Leadership with a shared purpose</h3>
+<p>We connect students, professionals, and institutions through a common commitment to environmental health.</p>
+</div>
+</div>
+<div class="home-art-card reveal-left search-card" data-search="insight shaping tomorrow standards research" style="transition-delay:.16s">
+<div class="home-art-media">
+<img src="/images/25.jpg" alt="FEHSU members in a training exercise" loading="lazy">
+<span class="home-art-badge">INSIGHT</span>
+</div>
+<div class="home-art-copy">
+<span class="tag mono">SHAPING TOMORROW</span>
+<h3>Ideas that turn into standards</h3>
+<p>Research, services, and movement-building all meet here — a quieter, motion-led extension of the homepage story.</p>
+</div>
+</div>
 </div>
 </div>
 </section>
@@ -295,7 +372,7 @@
 </div>
 <div class="event-teaser-grid">
 @foreach ($upcoming as $event)
-<div class="event-teaser">
+<div class="event-teaser search-card" data-search="events calendar workshops conferences">
 <div class="event-date-block"><span class="day mono">{{ $event->starts_at?->format('d') ?? '—' }}</span><span class="mon">{{ strtoupper($event->starts_at?->format('M') ?? '') }}</span></div>
 <div class="event-teaser-body">
 <h3>{{ $event->title }}</h3>
@@ -318,7 +395,7 @@
 <div class="updates-grid">
 @php($badges = ['news' => ['news', 'News', '/news'], 'press_release' => ['press', 'Press release', '/press-release'], 'article' => ['news', 'Article', '/articles-journals']])
 @foreach ($updates as $post)
-<div class="update-card">
+<div class="update-card search-card" data-search="updates notices news press release articles">
 <span class="badge {{ $badges[$post->type][0] }}">{{ $badges[$post->type][1] }}</span>
 <h3>{{ $post->title }}</h3>
 <p class="date mono">{{ $post->published_at ? strtoupper($post->published_at->format('j M Y')) : '' }}</p>
@@ -430,6 +507,87 @@
 
 </div>
 </section>
+
+@push('scripts')
+<script>
+(function(){
+  var form = document.getElementById('homeSearchForm');
+  var input = document.getElementById('homeSearch');
+  var resultsEl = document.getElementById('homeSearchResults');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.search-card'));
+  if(!form || !input || !resultsEl || !cards.length) return;
+
+  var sitePages = [
+    { title: 'Home', href: '/', keywords: 'homepage home landing membership events resources leadership updates partners network' },
+    { title: 'History', href: '/history', keywords: 'history mission story founder background' },
+    { title: 'Objectives', href: '/objectives', keywords: 'objectives goals mission vision aims' },
+    { title: 'Member Value & Benefits', href: '/member-value-benefits', keywords: 'member value benefits membership tiers join' },
+    { title: 'Member Options', href: '/member-options', keywords: 'membership options join member apply register' },
+    { title: 'Corporate', href: '/corporate', keywords: 'corporate leadership central executive committee officers committee' },
+    { title: 'Committees', href: '/committees', keywords: 'committees associations member associations national executive committee' },
+    { title: 'Partners', href: '/partners', keywords: 'partners sectors industries sponsor collaborating organizations' },
+    { title: 'Associations', href: '/associations', keywords: 'associations member associations directory' },
+    { title: 'Events', href: '/events', keywords: 'events calendar workshops conference trainings gatherings' },
+    { title: 'Programs', href: '/programs', keywords: 'programs activities initiatives education outreach' },
+    { title: 'Standard', href: '/standard', keywords: 'standard guidelines standards health and safety requirements' },
+    { title: 'Resources', href: '/resources', keywords: 'resources article journals papers standards library knowledge' },
+    { title: 'Contact', href: '/contact', keywords: 'contact reach us email phone inquiry support' },
+    { title: 'News', href: '/news', keywords: 'news updates press announcements announcements' },
+    { title: 'Press Release', href: '/press-release', keywords: 'press release statement communication updates' },
+    { title: 'Articles & Journals', href: '/articles-journals', keywords: 'articles journals publications research papers' },
+    { title: 'Upcoming Events', href: '/upcoming-events', keywords: 'upcoming events calendar exhibition workshops schedule' },
+    { title: 'Media', href: '/media', keywords: 'media gallery photos videos download' }
+  ];
+
+  function normalize(text){
+    return (text || '').toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
+  }
+
+  function renderResults(query){
+    var q = normalize(query);
+    var matches = [];
+
+    if(!q){
+      resultsEl.innerHTML = '<p class="home-search-hint">Type a keyword to search the site.</p>';
+      return;
+    }
+
+    sitePages.forEach(function(page){
+      if(normalize(page.title + ' ' + page.keywords).indexOf(q) !== -1){
+        matches.push(page);
+      }
+    });
+
+    cards.forEach(function(card){
+      var hay = normalize(card.dataset.search || card.textContent);
+      var match = hay.indexOf(q) !== -1;
+      card.classList.toggle('is-hidden', !match && q.length > 0);
+    });
+
+    if(!matches.length){
+      resultsEl.innerHTML = '<p class="home-search-hint">No matching pages found. Try “events”, “resources”, “leadership”, or “membership”.</p>';
+      return;
+    }
+
+    resultsEl.innerHTML = '<div class="home-search-results-list">' + matches.map(function(page){
+      return '<a class="home-search-result" href="' + page.href + '">' + page.title + '</a>';
+    }).join('') + '</div>';
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    renderResults(input.value);
+    input.blur();
+  });
+
+  input.addEventListener('input', function(){
+    renderResults(input.value);
+  });
+
+  renderResults('');
+})();
+</script>
+@endpush
 
 <section class="cta-band" id="membership">
 <div class="cta-band-inner">

@@ -302,8 +302,9 @@ document.addEventListener('DOMContentLoaded', function(){
     }
     function playZoom(){
       modal.classList.remove('zoom-in','zoom-out');
+      if(!modal.dataset.effect || modal.dataset.effect === 'none') return;
       void modal.offsetWidth;
-      modal.classList.add(modal.dataset.effect||'zoom-in');
+      modal.classList.add(modal.dataset.effect);
     }
     function renderCurrent(){
       var chip=currentGroup[currentIndex];
