@@ -8,9 +8,9 @@
 <div class="hero-photo" style="background-image:url('/images/5.jpeg')"></div>
 <div class="hero-overlay"></div>
 <div class="wrap">
-<span class="eyebrow mono" style="margin-bottom:8px;"><span class="dot"></span>MEMBER DIRECTORY · ADVISORY &amp; PARTNER BODIES</span>
+<span class="eyebrow mono" style="margin-bottom:8px;"><span class="dot"></span>MEMBER ASSOCIATIONS &amp; PARTNER BODIES</span>
 <h1 class="display">Associations</h1>
-<p class="sub">The Advisory Board and partner associations that guide FEHSU's strategy and connect the federation to the wider environmental health profession. Tap any photo for a closer look.</p>
+<p class="sub">Member associations that guide FEHSU's strategy and connect the federation to the wider environmental health profession. Tap any photo for a closer look.</p>
 </div>
 </section>
 <section class="sec">
@@ -21,78 +21,77 @@
 </div>
 
 <div style="max-width:760px; margin-bottom:48px;">
-<h2 class="display" style="margin-bottom:14px;">What is the Advisory Board?</h2>
-<p>The Advisory Board brings together senior, experienced professionals from across Uganda's environmental health and occupational safety sector. Members are not part of the day-to-day Central Executive Committee; instead, they sit alongside it, offering strategic guidance, industry connections and institutional memory that help FEHSU make sound long-term decisions.</p>
-<p>Advisory Board members are drawn from FEHSU's founding professionals and other respected figures in the field. They represent the federation externally at industry forums, government engagements and partner events, and act as a bridge between FEHSU and established associations, regulators and employers across the six sectors FEHSU serves — telecommunication, manufacturing, oil &amp; gas, financial services, construction and mining.</p>
-<p>This page brings the Advisory Board together with information on FEHSU's wider network of partner associations, so members and the public can see, in one place, the people and organisations that support the federation's mission.</p>
+<h2 class="display" style="margin-bottom:14px;">Our Partner Associations</h2>
+<p>FEHSU works alongside established associations, regulatorS and Partners across the six sectors it serves, telecommunication, manufacturing, oil &amp; gas, financial services, construction and mining.</p>
+<p>This page brings together FEHSU's network of partner associations, so members and the public can see, in one place, the organisations that support the federation's mission.</p>
 </div>
 
 <div class="member-level">
 <div class="member-level-head">
-<div><span class="tag mono">RECOGNITION</span><h2 class="display">Advisory Board</h2></div>
+<div><span class="tag mono">RECOGNITION</span><h2 class="display">Associations</h2></div>
 <p>Experienced professionals who guide FEHSU's strategy and represent the federation externally.</p>
 </div>
 <div class="marquee">
 <div class="marquee-track" style="animation-duration:165s;">
 <button type="button" class="member-chip tappable" data-photo="/images/4.jpeg" data-name="Advisory Member" data-role="Advisory Board" data-bio="Guides FEHSU's strategy and represents the federation externally as part of the Advisory Board. Replace this placeholder with their real biography.">
-<div class="photo"><img alt="Advisory Member" src="/images/4.jpeg"/></div>
-<h4>Advisory Member</h4>
-<p>Advisory Board</p>
+<div class="photo"><img alt="Advisory Member" src="/images/PHOTO.jpeg"/></div>
+<h4>Associations Member</h4>
+<p>Associations Member</p>
 </button>
 <button type="button" class="member-chip tappable" data-photo="/images/5.jpeg" data-name="Advisory Member" data-role="Advisory Board" data-bio="Guides FEHSU's strategy and represents the federation externally as part of the Advisory Board. Replace this placeholder with their real biography.">
-<div class="photo"><img alt="Advisory Member" src="/images/5.jpeg"/></div>
-<h4>Advisory Member</h4>
-<p>Advisory Board</p>
+<div class="photo"><img alt="Advisory Member" src="/images/PHOTO.jpeg"/></div>
+<h4>Associations Member</h4>
+<p>Associations Member</p>
 </button>
 <button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Advisory Member" data-role="Advisory Board" data-bio="Guides FEHSU's strategy and represents the federation externally as part of the Advisory Board. Replace this placeholder with their real biography.">
-<div class="photo"><img alt="Advisory Member" src="/images/6.jpeg"/></div>
-<h4>Advisory Member</h4>
-<p>Advisory Board</p>
+<div class="photo"><img alt="Advisory Member" src="/images/PHOTO.jpeg"/></div>
+<h4>Associations Member</h4>
+<p>Associations Member</p>
 </button>
 <button type="button" class="member-chip tappable" data-photo="/images/7.jpeg" data-name="Advisory Member" data-role="Advisory Board" data-bio="Guides FEHSU's strategy and represents the federation externally as part of the Advisory Board. Replace this placeholder with their real biography.">
-<div class="photo"><img alt="Advisory Member" src="/images/7.jpeg"/></div>
-<h4>Advisory Member</h4>
-<p>Advisory Board</p>
+<div class="photo"><img alt="Advisory Member" src="/images/PHOTO.jpeg"/></div>
+<h4>Associations Member</h4>
+<p>Associations Member</p>
 </button>
 <button type="button" class="member-chip tappable" data-photo="/images/8.jpeg" data-name="Advisory Member" data-role="Advisory Board" data-bio="Guides FEHSU's strategy and represents the federation externally as part of the Advisory Board. Replace this placeholder with their real biography.">
-<div class="photo"><img alt="Advisory Member" src="/images/8.jpeg"/></div>
-<h4>Advisory Member</h4>
-<p>Advisory Board</p>
+<div class="photo"><img alt="Advisory Member" src="/images/PHOTO.jpeg"/></div>
+<h4>Associations Member</h4>
+<p>Associations Member</p>
 </button>
 <button type="button" class="member-chip tappable" data-photo="/images/1.jpeg" data-name="Advisory Member" data-role="Advisory Board" data-bio="Guides FEHSU's strategy and represents the federation externally as part of the Advisory Board. Replace this placeholder with their real biography.">
-<div class="photo"><img alt="Advisory Member" src="/images/1.jpeg"/></div>
-<h4>Advisory Member</h4>
-<p>Advisory Board</p>
+<div class="photo"><img alt="Advisory Member" src="/images/PHOTO.jpeg"/></div>
+<h4>Associations Member</h4>
+<p>Associations Member</p>
 </button>
 <button type="button" class="member-chip tappable" data-photo="/images/4.jpeg" data-name="Advisory Member" data-role="Advisory Board" data-bio="Guides FEHSU's strategy and represents the federation externally as part of the Advisory Board. Replace this placeholder with their real biography.">
-<div class="photo"><img alt="Advisory Member" src="/images/4.jpeg"/></div>
-<h4>Advisory Member</h4>
-<p>Advisory Board</p>
+<div class="photo"><img alt="Advisory Member" src="/images/PHOTO.jpeg"/></div>
+<h4>Associations Member</h4>
+<p>Associations Member</p>
 </button>
 <button type="button" class="member-chip tappable" data-photo="/images/5.jpeg" data-name="Advisory Member" data-role="Advisory Board" data-bio="Guides FEHSU's strategy and represents the federation externally as part of the Advisory Board. Replace this placeholder with their real biography.">
-<div class="photo"><img alt="Advisory Member" src="/images/5.jpeg"/></div>
-<h4>Advisory Member</h4>
-<p>Advisory Board</p>
+<div class="photo"><img alt="Advisory Member" src="/images/PHOTO.jpeg"/></div>
+<h4>Associations Member</h4>
+<p>Associations Member</p>
 </button>
 <button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Advisory Member" data-role="Advisory Board" data-bio="Guides FEHSU's strategy and represents the federation externally as part of the Advisory Board. Replace this placeholder with their real biography.">
-<div class="photo"><img alt="Advisory Member" src="/images/6.jpeg"/></div>
-<h4>Advisory Member</h4>
-<p>Advisory Board</p>
+<div class="photo"><img alt="Advisory Member" src="/images/PHOTO.jpeg"/></div>
+<h4>Associations Member</h4>
+<p>Associations Member</p>
 </button>
 <button type="button" class="member-chip tappable" data-photo="/images/7.jpeg" data-name="Advisory Member" data-role="Advisory Board" data-bio="Guides FEHSU's strategy and represents the federation externally as part of the Advisory Board. Replace this placeholder with their real biography.">
-<div class="photo"><img alt="Advisory Member" src="/images/7.jpeg"/></div>
-<h4>Advisory Member</h4>
-<p>Advisory Board</p>
+<div class="photo"><img alt="Advisory Member" src="/images/PHOTO.jpeg"/></div>
+<h4>Associations Member</h4>
+<p>Associations Member</p>
 </button>
 <button type="button" class="member-chip tappable" data-photo="/images/8.jpeg" data-name="Advisory Member" data-role="Advisory Board" data-bio="Guides FEHSU's strategy and represents the federation externally as part of the Advisory Board. Replace this placeholder with their real biography.">
-<div class="photo"><img alt="Advisory Member" src="/images/8.jpeg"/></div>
-<h4>Advisory Member</h4>
-<p>Advisory Board</p>
+<div class="photo"><img alt="Advisory Member" src="/images/PHOTO.jpeg"/></div>
+<h4>Associations Member</h4>
+<p>Associations Member</p>
 </button>
 <button type="button" class="member-chip tappable" data-photo="/images/1.jpeg" data-name="Advisory Member" data-role="Advisory Board" data-bio="Guides FEHSU's strategy and represents the federation externally as part of the Advisory Board. Replace this placeholder with their real biography.">
-<div class="photo"><img alt="Advisory Member" src="/images/1.jpeg"/></div>
-<h4>Advisory Member</h4>
-<p>Advisory Board</p>
+<div class="photo"><img alt="Advisory Member" src="/images/PHOTO.jpeg"/></div>
+<h4>Associations Member</h4>
+<p>Associations Member</p>
 </button>
 </div>
 </div>
@@ -102,7 +101,7 @@
 <div class="committee-archive-head">
 <span class="tag mono">CONNECTED BODIES</span>
 <h2 class="display">Related pages</h2>
-<p>Explore the other parts of FEHSU's member directory that work alongside the Advisory Board.</p>
+<p>Explore the other parts of FEHSU's member directory that work alongside the Member Associations.</p>
 </div>
 <div class="committee-archive-grid">
 <a class="committee-arrow-card" href="/corporate">

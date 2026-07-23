@@ -16,15 +16,12 @@
 <section class="sec">
 <div class="wrap" style="max-width:820px;">
 <div class="numbered-list">
-<div class="numbered-item"><span class="n mono">01</span><p>To promote and foster the impact and recognition of the Association's involvement in health and safety.</p></div>
-<div class="numbered-item"><span class="n mono">02</span><p>To promote, coordinate and protect the profession of its members.</p></div>
-<div class="numbered-item"><span class="n mono">03</span><p>To develop, maintain and enforce a Code of Ethics and Standards of Professional Conduct for its members.</p></div>
-<div class="numbered-item"><span class="n mono">04</span><p>To advance the science and practice of health and safety to its members.</p></div>
-<div class="numbered-item"><span class="n mono">05</span><p>To encourage research and develop evidence-based health and safety procedures and practices.</p></div>
-<div class="numbered-item"><span class="n mono">06</span><p>To provide a network for practitioners of health and safety, both at national and regional level.</p></div>
-<div class="numbered-item"><span class="n mono">07</span><p>To collaborate and cooperate with regulatory authorities and other stakeholders to promote observance of occupational health and safety practices that meet national and international standards.</p></div>
-<div class="numbered-item"><span class="n mono">08</span><p>To facilitate exchange of specialized information and discussion of matters of common interest among its members and stakeholders.</p></div>
-<div class="numbered-item"><span class="n mono">09</span><p>To do such other things that will enhance the above aims and objectives and the development of other related areas.</p></div>
+<div class="numbered-item"><span class="n mono">01</span><p>To Merge the interests of all Environmental Health students, practitioners and stakeholders, nationally and internationally</p></div>
+<div class="numbered-item"><span class="n mono">02</span><p>To Sensitise the public on Environmental Health issues through seminars,debates and any other feasible ways</p></div>
+<div class="numbered-item"><span class="n mono">03</span><p>To Emmphasizee the famous theme "Prevention is better than cure", hereby highlighting the fact that Environmental Health plays a key role in health, education and socioeconomic development of any community.</p></div>
+<div class="numbered-item"><span class="n mono">04</span><p>To Act as channel through which suggestions and querries or complaints of Environmental Health Students and Environmental Health Science are communictaed to the responsible authorities or bodeis..</p></div>
+<div class="numbered-item"><span class="n mono">05</span><p>To promote diginity and uphold Health Professional Ethics.</p></div>
+<div class="numbered-item"><span class="n mono">06</span><p>To carry out projects and doing research on Environmemtal Health related issues</p></div>
 </div>
 </div>
 </section>

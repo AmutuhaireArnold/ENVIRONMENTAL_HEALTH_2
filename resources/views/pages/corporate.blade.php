@@ -17,7 +17,7 @@
 <div class="wrap">
 
 <div class="callout" style="margin-bottom:40px;">
-<span class="icon">i</span>
+<span class="icon"></span>
 <p>Tap or click a photo to zoom in and read a short bio.</code></p>
 </div>
 
@@ -29,85 +29,89 @@
 <div class="marquee">
 <div class="marquee-track" style="animation-duration:160s;">
 
-<button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Central Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
-<div class="photo"><img alt="President" src="/images/CEC/nico.jpg"/></div>
-<h4>Agumenawe Nicodemus<h4>
-<p>PRESIDENT</p>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
+<div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg"/></div>
+<h4>Agumenawe Nicodemus</h4>
+<p>President</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/CEC/denise.jpg" data-name="Minister For External Affairs" data-role="Central Executive Committee" data-bio="Supports the President and steps in on their behalf when needed.">
-<div class="photo"><img alt="Secretary General" src="/images/CEC/denise.jpg"/></div>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/denise.jpg" data-name="Minister For External Affairs" data-role="Executive Committee" data-bio="Supports the President and steps in on their behalf when needed on external affairs Replace this placeholder with the Vice Chairperson's real biography.">
+<div class="photo"><img alt="Vice Chairperson" src="/images/CEC/denise.jpg"/></div>
 <h4>Kainomugisha Denise</h4>
 <p>Minister For External Affairs</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/CEC/JONA.jpg" data-name="Projects Minister" data-role="Central Executive Committee" data-bio="Oversees FEHSU's Projects Minister, records and correspondence.">
-<div class="photo"><img alt="finance Minister" src="/images/CEC/JONA.jpg"/></div>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/JONA.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Oversees FEHSU's Projects records and correspondence.">
+<div class="photo"><img alt="Projects Minister" src="/images/CEC/JONA.jpg"/></div>
 <h4>Magomu Jonah Cornelinus</h4>
 <p>Projects Minister</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/4.jpeg" data-name="Treasurer" data-role="Central Executive Committee" data-bio="Manages FEHSU's finances, budgets and financial reporting. Replace this placeholder with the Treasurer's real biography.">
-<div class="photo"><img alt="Minister of Internal Affairs" src="/images/4.jpeg"/></div>
-<h4>Minister of Internal Affairs</h4>
-<p>Executive Committee</p>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/Abdul.jpg" data-name="Minister For External Affairs" data-role="Executive Committee" data-bio="14th Deputy Guild Speaker SOH-MBALE,Internal Minister MSOHESHA,A rotaractor,A youth Leader under the NRM Secretariat in the District Level.">
+<div class="photo"><img alt="Vice Chairperson" src="/images/CEC/Abdul.jpg"/></div>
+<h4>Alafi Abdul Rahuman</h4>
+<p> Internal Minister - MSOHESHA</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/5.jpeg" data-name="Publicity Secretary" data-role="Central Executive Committee" data-bio="Leads FEHSU's communications, media and public outreach. Replace this placeholder with the Publicity Secretary's real biography.">
-<div class="photo"><img alt="Minister of External Affairs" src="/images/5.jpeg"/></div>
-<h4>Minister of External Affairs</h4>
-<p>Executive Committee</p>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/Joan.jpg" data-name="Executive Member" data-role="Executive Committee" data-bio="From Uganda Instituet of Allied Health Science Mulago,passionate about accountable leadership,financial stewardship and student empowerment.">
+<div class="photo"><img alt="Executive Member" src="/images/CEC/Joan.jpg"/></div>
+<h4>Auma Joan Angel</h4>
+<p>Finance Minister</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Central Executive Committee" data-bio="Contributes to committee decisions and represents member interests. Replace this placeholder with this Executive Member's real biography.">
-<div class="photo"><img alt="Executive Member" src="/images/6.jpeg"/></div>
-<h4>Publicity Minister</h4>
-<p>Executive Committee</p>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/Edgar.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Representative BEHSA, Is a dedicated Environmemtal Health Student witha apassion for Team work.">
+<div class="photo"><img alt="Projects Minister" src="/images/CEC/Edgar.jpg"/></div>
+<h4>Muhindo Edgar</h4>
+<p>Internal Minister - BEHSA </p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Central Executive Committee" data-bio="Contributes to committee decisions and represents member interests. Replace this placeholder with this Executive Member's real biography.">
-<div class="photo"><img alt="Executive Member" src="/images/6.jpeg"/></div>
-<h4>Projects Minister</h4>
-<p>Executive Committee</p>
-
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/nampwera.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Representative BEHSA, Is a dedicated Environmemtal Health Student witha apassion for Team work.">
+<div class="photo"><img alt="Projects Minister" src="/images/CEC/nampwera.jpg"/></div>
+<h4>Nampwera Rebecca</h4>
+<p>Internal Affairs Minister - UIAHMS MULAGO </p>
+</button>
 <!-- Track repeats once more so the slow left-slide loops seamlessly -->
-<button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Central Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
-<div class="photo"><img alt="President" src="/images/CEC/nico.jpg"/></div>
-<h4>Agumenawe Nicodemus<h4>
-<p>PRESIDENT</p>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
+<div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg"/></div>
+<h4>Agumenawe Nicodemus</h4>
+<p>President</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/CEC/denise.jpg" data-name="Minister For External Affairs" data-role="Central Executive Committee" data-bio="Supports the President and steps in on their behalf when needed.">
-<div class="photo"><img alt="Secretary General" src="/images/CEC/denise.jpg"/></div>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/denise.jpg" data-name="Minister For External Affairs" data-role="Executive Committee" data-bio="Supports the President and steps in on their behalf when needed on external affairs Replace this placeholder with the Vice Chairperson's real biography.">
+<div class="photo"><img alt="Vice Chairperson" src="/images/CEC/denise.jpg"/></div>
 <h4>Kainomugisha Denise</h4>
 <p>Minister For External Affairs</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/CEC/JONA.jpg" data-name="Projects Minister" data-role="Central Executive Committee" data-bio="Oversees FEHSU's Projects Minister, records and correspondence.">
-<div class="photo"><img alt="finance Minister" src="/images/CEC/JONA.jpg"/></div>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/JONA.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Oversees FEHSU's Projects records and correspondence.">
+<div class="photo"><img alt="Projects Minister" src="/images/CEC/JONA.jpg"/></div>
 <h4>Magomu Jonah Cornelinus</h4>
 <p>Projects Minister</p>
 </button>
 
-
-<button type="button" class="member-chip tappable" data-photo="/images/4.jpeg" data-name="Treasurer" data-role="Central Executive Committee" data-bio="Manages FEHSU's finances, budgets and financial reporting. Replace this placeholder with the Treasurer's real biography.">
-<div class="photo"><img alt="Treasurer" src="/images/4.jpeg"/></div>
-<h4>Treasurer</h4>
-<p>Executive Committee</p>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/Abdul.jpg" data-name="Minister For External Affairs" data-role="Executive Committee" data-bio="14th Deputy Guild Speaker SOH-MBALE,Internal Minister MSOHESHA,A rotaractor,A youth Leader under the NRM Secretariat in the District Level.">
+<div class="photo"><img alt="Vice Chairperson" src="/images/CEC/Abdul.jpg"/></div>
+<h4>Alafi Abdul Rahuman</h4>
+<p> Internal Minister - MSOHESHA</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/5.jpeg" data-name="Publicity Secretary" data-role="Central Executive Committee" data-bio="Leads FEHSU's communications, media and public outreach. Replace this placeholder with the Publicity Secretary's real biography.">
-<div class="photo"><img alt="Publicity Secretary" src="/images/5.jpeg"/></div>
-<h4>Publicity Secretary</h4>
-<p>Executive Committee</p>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/Joan.jpg" data-name="Executive Member" data-role="Executive Committee" data-bio="From Uganda Instituet of Allied Health Science Mulago,passionate about accountable leadership,financial stewardship and student empowerment.">
+<div class="photo"><img alt="Executive Member" src="/images/CEC/Joan.jpg"/></div>
+<h4>Auma Joan Angel</h4>
+<p>Finance Minister</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Central Executive Committee" data-bio="Contributes to committee decisions and represents member interests. Replace this placeholder with this Executive Member's real biography.">
-<div class="photo"><img alt="Executive Member" src="/images/6.jpeg"/></div>
-<h4>Executive Member</h4>
-<p>Executive Committee</p>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/Edgar.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Representative BEHSA, Is a dedicated Environmemtal Health Student witha apassion for Team work.">
+<div class="photo"><img alt="Projects Minister" src="/images/CEC/Edgar.jpg"/></div>
+<h4>Muhindo Edgar</h4>
+<p>Internal Minister - BEHSA </p>
 </button>
 
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/nampwera.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Representative BEHSA, Is a dedicated Environmemtal Health Student witha apassion for Team work.">
+<div class="photo"><img alt="Projects Minister" src="/images/CEC/nampwera.jpg"/></div>
+<h4>Nampwera Rebecca</h4>
+<p>Internal Affairs Minister - UIAHMS MULAGO </p>
+</button>
 </div>
 </div>
 </div>
@@ -208,7 +212,7 @@
 <section class="cta-band">
 <div class="cta-band-inner">
 <h2 class="display">Bring your organization into the fold.</h2>
-<a class="btn-dark" href="/member-options">Become a corporate member</a>
+<a class="btn-dark" href="/member-options">Become a member</a>
 </div>
 </section>
 
