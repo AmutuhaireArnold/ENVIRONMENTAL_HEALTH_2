@@ -39,36 +39,36 @@
 
   {{-- Sitewide structured data: Organization + WebSite --}}
   <script type="application/ld+json">
-  {
-    "@@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Federation of Environmental Health Students' of Uganda",
-    "alternateName": "FEHSU",
-    "url": "{{ url('/') }}",
-    "logo": "{{ url('/images/PHOTO.jpeg') }}",
-    "email": "fehsuganda@gmail.com",
-    "telephone": "+256777828818",
-    "foundingDate": "2022",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Kampala",
-      "addressCountry": "UG"
-    },
-    "sameAs": [
-      "https://twitter.com/fehsu256",
-      "https://www.linkedin.com/company/fehsu/",
-      "https://www.instagram.com/fehsu_ug/",
-      "https://www.youtube.com/@fehsu"
-    ]
-  }
+    {
+      "@@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Federation of Environmental Health Students' of Uganda",
+      "alternateName": "FEHSU",
+      "url": "{{ url('/') }}",
+      "logo": "{{ url('/images/PHOTO.jpeg') }}",
+      "email": "fehsuganda@gmail.com",
+      "telephone": "+256777828818",
+      "foundingDate": "2022",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kampala",
+        "addressCountry": "UG"
+      },
+      "sameAs": [
+        "https://twitter.com/fehsu256",
+        "https://www.linkedin.com/company/fehsu/",
+        "https://www.instagram.com/fehsu_ug/",
+        "https://www.youtube.com/@fehsu"
+      ]
+    }
   </script>
   <script type="application/ld+json">
-  {
-    "@@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "FEHSU",
-    "url": "{{ url('/') }}"
-  }
+    {
+      "@@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "FEHSU",
+      "url": "{{ url('/') }}"
+    }
   </script>
   @stack('structured_data')
 </head>

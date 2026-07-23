@@ -5,15 +5,29 @@
 
 @push('structured_data')
 <script type="application/ld+json">
-{
-  "@@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ url('/') }}" },
-    { "@type": "ListItem", "position": 2, "name": "Associations", "item": "{{ url('/associations') }}" },
-    { "@type": "ListItem", "position": 3, "name": @json($organization->name), "item": "{{ url()->current() }}" }
-  ]
-}
+    {
+        "@@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "{{ url('/') }}"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Associations",
+                "item": "{{ url('/associations') }}"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": @json($organization - > name),
+                "item": "{{ url()->current() }}"
+            }
+        ]
+    }
 </script>
 @endpush
 

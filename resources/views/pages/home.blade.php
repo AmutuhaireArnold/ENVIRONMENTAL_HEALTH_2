@@ -175,56 +175,6 @@
             <h2 class="display">What guides our work</h2>
         </div>
         <div class="values-grid">
-            <div class="value-card">
-                <div class="vphoto"><img alt="FEHSU members conducting a safety inspection" src="/images/13.jpg"></div>
-                <div class="vbody"><span class="vn mono">V.01</span>
-                    <h3>Integrity</h3>
-                    <p>A culture of performance and responsibility in everything we do.</p>
-                </div>
-            </div>
-            <div class="value-card">
-                <div class="vphoto"><img alt="FEHSU members at a legacy building event" src="/images/16.jpg"></div>
-                <div class="vbody"><span class="vn mono">V.02</span>
-                    <h3>Legacy</h3>
-                    <p>Actively promoting and creating a safety culture that lasts.</p>
-                </div>
-            </div>
-            <div class="value-card">
-                <div class="vphoto"><img alt="Diverse group of FEHSU members" src="/images/19.jpg"></div>
-                <div class="vbody"><span class="vn mono">V.03</span>
-                    <h3>Diversity</h3>
-                    <p>Respecting each other's diverse perspectives across industries.</p>
-                </div>
-            </div>
-            <div class="value-card">
-                <div class="vphoto"><img alt="FEHSU leadership at a committee meeting" src="/images/21.jpg"></div>
-                <div class="vbody"><span class="vn mono">V.04</span>
-                    <h3>Leadership</h3>
-                    <p>Leading by serving — driving positive change within industries, organizations, and our community.</p>
-                </div>
-            </div>
-            <div class="value-card">
-                <div class="vphoto"><img alt="FEHSU members community outreach" src="/images/22.jpg"></div>
-                <div class="vbody"><span class="vn mono">V.05</span>
-                    <h3>Humanity</h3>
-                    <p>Committed to health and safety because we care about people and community.</p>
-                </div>
-            </div>
-            <div class="value-card">
-                <div class="vphoto"><img alt="FEHSU members reviewing innovative safety practices" src="/images/25.jpg"></div>
-                <div class="vbody"><span class="vn mono">V.06</span>
-                    <h3>Innovation</h3>
-                    <p>Staying ahead in a culture of innovation to improve health and safety.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="wrap">
-        <div class="sec-head">
-            <span class="tag mono">02 — CORE VALUES</span>
-            <h2 class="display">What guides our work</h2>
-        </div>
-        <div class="values-grid">
             <div class="value-card search-card" data-search="integrity performance responsibility">
                 <div class="vphoto"><img alt="FEHSU members conducting a safety inspection" src="/images/13.jpg"></div>
                 <div class="vbody"><span class="vn mono">V.01</span>
@@ -428,23 +378,6 @@
             <div class="g-item"><img alt="FEHSU members networking" src="/images/5.jpeg"><span class="g-cap">Networking evening</span></div>
         </div>
     </div>
-    <div class="wrap">
-        <div class="sec-head-row">
-            <div class="sec-head" style="margin-bottom:0;">
-                <span class="tag mono">04 — GALLERY</span>
-                <h2 class="display">Moments from the field</h2>
-                <p>Training sessions, site visits, and gatherings from across Uganda's health and safety community.</p>
-            </div>
-            <a class="sec-link" href="/media">View full gallery →</a>
-        </div>
-        <div class="gallery-grid">
-            <div class="g-item"><img alt="FEHSU members moments after training session" src="/images/11.jpg"><span class="g-cap">FEHSU members moments after training session</span></div>
-            <div class="g-item"><img alt="FEHSU field visit to an industrial site" src="/images/30.jpg"><span class="g-cap">FESHU Members in Training</span></div>
-            <div class="g-item"><img alt="FEHSU workshop participants" src="/images/29.jpg"><span class="g-cap">some of FEHSU Members</span></div>
-            <div class="g-item"><img alt="FEHSU conference session" src="/images/4.jpeg"><span class="g-cap">Annual conference</span></div>
-            <div class="g-item"><img alt="FEHSU members networking" src="/images/5.jpeg"><span class="g-cap">Networking evening</span></div>
-        </div>
-    </div>
 </section>
 
 <section class="sec home-art-section" id="artpiece">
@@ -532,28 +465,6 @@
         </div>
         <div class="event-teaser-grid">
             @foreach ($upcoming as $event)
-            <div class="event-teaser">
-                <div class="event-date-block"><span class="day mono">{{ $event->starts_at?->format('d') ?? '—' }}</span><span class="mon">{{ strtoupper($event->starts_at?->format('M') ?? '') }}</span></div>
-                <div class="event-teaser-body">
-                    <h3>{{ $event->title }}</h3>
-                    <span class="loc">{{ strtoupper($event->location ?? '') }}</span>
-                    <p>{{ $event->description }}</p>
-                </div>
-            </div>
-            @endforeach
-        </div>
-    </div>
-    <div class="wrap">
-        <div class="sec-head-row">
-            <div class="sec-head" style="margin-bottom:0;">
-                <span class="tag mono">06 — EVENTS COMING UP</span>
-                <h2 class="display">What's next on the calendar</h2>
-                <p>Conferences, workshops, and networking evenings happening across the federation.</p>
-            </div>
-            <a class="sec-link" href="/upcoming-events">View all events →</a>
-        </div>
-        <div class="event-teaser-grid">
-            @foreach ($upcoming as $event)
             <div class="event-teaser search-card" data-search="events calendar workshops conferences">
                 <div class="event-date-block"><span class="day mono">{{ $event->starts_at?->format('d') ?? '—' }}</span><span class="mon">{{ strtoupper($event->starts_at?->format('M') ?? '') }}</span></div>
                 <div class="event-teaser-body">
@@ -568,25 +479,6 @@
 </section>
 
 <section class="sec" id="updates">
-    <div class="wrap">
-        <div class="sec-head">
-            <span class="tag mono">07 — NOTICES &amp; UPDATES</span>
-            <h2 class="display">Latest from FEHSU</h2>
-            <p>Live announcements, news, and events — the same feed scrolling in the bar at the top of every page.</p>
-        </div>
-        <div class="updates-grid">
-            @php($badges = ['news' => ['news', 'News', '/news'], 'press_release' => ['press', 'Press release', '/press-release'], 'article' => ['news', 'Article', '/articles-journals']])
-            @foreach ($updates as $post)
-            <div class="update-card">
-                <span class="badge {{ $badges[$post->type][0] }}">{{ $badges[$post->type][1] }}</span>
-                <h3>{{ $post->title }}</h3>
-                <p class="date mono">{{ $post->published_at ? strtoupper($post->published_at->format('j M Y')) : '' }}</p>
-                <p>{{ $post->excerpt }}</p>
-                <a class="readmore" href="{{ $badges[$post->type][2] }}">Read more →</a>
-            </div>
-            @endforeach
-        </div>
-    </div>
     <div class="wrap">
         <div class="sec-head">
             <span class="tag mono">07 — NOTICES &amp; UPDATES</span>
