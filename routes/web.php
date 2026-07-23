@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\SitemapController;
 use Illuminate\Support\Facades\Route;
 
 // CHANGED: replaced the default welcome route with the full FEHSU site routes.
@@ -9,6 +10,9 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', [PageController::class, 'home'])->name('home');
+
+// SEO: XML sitemap for search engines
+Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
 
 // Static content pages
 Route::view('/history', 'pages.history')->name('history');

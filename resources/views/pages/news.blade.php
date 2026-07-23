@@ -3,6 +3,40 @@
 @section('title', 'News — FEHSU')
 @section('description', 'News and updates from FEHSU, Uganda\'s national occupational health and safety association.')
 
+@push('structured_data')
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "FEHSU News",
+        "url": "{{ url()->current() }}",
+        "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+                @foreach($posts as $i => $post) {
+                    "@type": "ListItem",
+                    "position": {
+                        {
+                            $i + 1
+                        }
+                    },
+                    "name": @json($post - > title) {
+                        {
+                            $loop - > last ? '' : ','
+                        }
+                    }
+                } {
+                    {
+                        $loop - > last ? '' : ','
+                    }
+                }
+                @endforeach
+            ]
+        }
+    }
+</script>
+@endpush
+
 @section('content')
 <section class="page-hero has-photo">
     <div class="hero-photo" style="background-image:url('/images/5.jpeg')"></div>

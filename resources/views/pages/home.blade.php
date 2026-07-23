@@ -94,17 +94,6 @@
     <div class="wrap">
         <div class="quick-access-grid">
 
-            <a class="quick-item reveal-left" href="/member-options">
-                <div class="quick-photo">
-                    <img class="qslide show" src="/images/07.jpg" alt="">
-                    <img class="qslide" src="/images/09.jpg" alt="">
-                </div>
-                <div class="quick-body">
-                    <h3>Membership</h3>
-                    <p>Five tiers, one federation</p>
-                    <span class="btn-outline">Join now</span>
-                </div>
-            </a>
             <a class="quick-item reveal-left search-card" data-search="membership join now five tiers one federation" href="/member-options">
                 <div class="quick-photo">
                     <img class="qslide show" src="/images/07.jpg" alt="">
@@ -117,17 +106,6 @@
                 </div>
             </a>
 
-            <a class="quick-item reveal-left" href="/upcoming-events" style="transition-delay:.08s">
-                <div class="quick-photo">
-                    <img class="qslide show" src="/images/23.jpg" alt="">
-                    <img class="qslide" src="/images/24.jpg" alt="">
-                </div>
-                <div class="quick-body">
-                    <h3>Events</h3>
-                    <p>Conferences &amp; workshops</p>
-                    <span class="btn-outline">See events</span>
-                </div>
-            </a>
             <a class="quick-item reveal-left search-card" data-search="events conferences workshops see events upcoming" href="/upcoming-events" style="transition-delay:.08s">
                 <div class="quick-photo">
                     <img class="qslide show" src="/images/23.jpg" alt="">
@@ -140,17 +118,6 @@
                 </div>
             </a>
 
-            <a class="quick-item reveal-left" href="/resources" style="transition-delay:.16s">
-                <div class="quick-photo">
-                    <img class="qslide show" src="/images/12.jpg" alt="">
-                    <img class="qslide" src="/images/15.jpg" alt="">
-                </div>
-                <div class="quick-body">
-                    <h3>Resources</h3>
-                    <p>Standards, news &amp; articles</p>
-                    <span class="btn-outline">Explore</span>
-                </div>
-            </a>
             <a class="quick-item reveal-left search-card" data-search="resources standards news articles explore" href="/resources" style="transition-delay:.16s">
                 <div class="quick-photo">
                     <img class="qslide show" src="/images/12.jpg" alt="">
@@ -163,17 +130,6 @@
                 </div>
             </a>
 
-            <a class="quick-item reveal-left" href="/corporate" style="transition-delay:.24s">
-                <div class="quick-photo">
-                    <img class="qslide show" src="/images/01.jpg" alt="">
-                    <img class="qslide" src="/images/27.jpg" alt="">
-                </div>
-                <div class="quick-body">
-                    <h3>Directory</h3>
-                    <p>Corporate &amp; committee members</p>
-                    <span class="btn-outline">View directory</span>
-                </div>
-            </a>
             <a class="quick-item reveal-left search-card" data-search="directory corporate committee members view directory" href="/corporate" style="transition-delay:.24s">
                 <div class="quick-photo">
                     <img class="qslide show" src="/images/01.jpg" alt="">

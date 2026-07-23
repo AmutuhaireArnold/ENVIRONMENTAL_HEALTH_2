@@ -3,6 +3,32 @@
 @section('title', 'Upcoming events — FEHSU')
 @section('description', 'FEHSU\'s calendar of upcoming conferences, workshops, and networking events.')
 
+@push('structured_data')
+@foreach ($events as $event)
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": @json($event - > title),
+        "startDate": "{{ optional($event->starts_at)->toIso8601String() }}",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+            "@type": "Place",
+            "name": @json($event - > location ? : 'Kampala, Uganda'),
+            "address": @json($event - > location ? : 'Kampala, Uganda')
+        },
+        "description": @json($event - > description),
+        "organizer": {
+            "@type": "Organization",
+            "name": "FEHSU",
+            "url": "{{ url('/') }}"
+        }
+    }
+</script>
+@endforeach
+@endpush
+
 @section('content')
 <section class="page-hero has-photo">
     <div class="hero-photo" style="background-image:url('/images/5.jpeg')"></div>

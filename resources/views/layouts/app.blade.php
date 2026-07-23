@@ -4,10 +4,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>@yield('title', 'FEHSU')</title>
-  <meta name="description" content="@yield('description', 'FEHSU is the national association for the occupational health and safety profession in Uganda.')">
+
+  {{-- Primary SEO meta --}}
+  <title>@yield('title', 'FEHSU — Federation of Environmental Health Students\' of Uganda')</title>
+  <meta name="description" content="@yield('description', 'FEHSU is the national association for the occupational health and safety profession in Uganda — advancing environmental health, workplace safety, training, and professional standards.')">
+  <meta name="keywords" content="@yield('keywords', 'FEHSU, occupational health and safety Uganda, environmental health Uganda, OHS, workplace safety, health and safety association, Kampala')">
+  <meta name="author" content="FEHSU">
+  <meta name="robots" content="@yield('robots', 'index, follow, max-image-preview:large, max-snippet:-1')">
+  <link rel="canonical" href="@yield('canonical', url()->current())">
+  <meta name="theme-color" content="#2f7a3d">
+
+  {{-- Open Graph (Facebook, LinkedIn, WhatsApp) --}}
+  <meta property="og:site_name" content="FEHSU">
+  <meta property="og:locale" content="en_UG">
+  <meta property="og:type" content="@yield('og_type', 'website')">
+  <meta property="og:title" content="@yield('title', 'FEHSU — Federation of Environmental Health Students\' of Uganda')">
+  <meta property="og:description" content="@yield('description', 'FEHSU is the national association for the occupational health and safety profession in Uganda.')">
+  <meta property="og:url" content="@yield('canonical', url()->current())">
+  <meta property="og:image" content="@yield('og_image', url('/images/PHOTO.jpeg'))">
+  <meta property="og:image:alt" content="FEHSU logo">
+
+  {{-- Twitter Card --}}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@fehsu256">
+  <meta name="twitter:title" content="@yield('title', 'FEHSU')">
+  <meta name="twitter:description" content="@yield('description', 'FEHSU is the national association for the occupational health and safety profession in Uganda.')">
+  <meta name="twitter:image" content="@yield('og_image', url('/images/PHOTO.jpeg'))">
+
   <link rel="icon" href="/images/PHOTO.jpeg">
+  <link rel="apple-touch-icon" href="/images/PHOTO.jpeg">
+  <link rel="preconnect" href="https://img.youtube.com" crossorigin>
+  <link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin>
   <link rel="stylesheet" href="/assets/style.css">
+
+  {{-- Sitewide structured data: Organization + WebSite --}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Federation of Environmental Health Students' of Uganda",
+    "alternateName": "FEHSU",
+    "url": "{{ url('/') }}",
+    "logo": "{{ url('/images/PHOTO.jpeg') }}",
+    "email": "fehsuganda@gmail.com",
+    "telephone": "+256777828818",
+    "foundingDate": "2022",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kampala",
+      "addressCountry": "UG"
+    },
+    "sameAs": [
+      "https://twitter.com/fehsu256",
+      "https://www.linkedin.com/company/fehsu/",
+      "https://www.instagram.com/fehsu_ug/",
+      "https://www.youtube.com/@fehsu"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "FEHSU",
+    "url": "{{ url('/') }}"
+  }
+  </script>
+  @stack('structured_data')
 </head>
 
 <body>

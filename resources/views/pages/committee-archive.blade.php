@@ -3,6 +3,20 @@
 @section('title', $committee->name . ' — FEHSU')
 @section('description', 'Archive listing for ' . $committee->name . ' (' . $committee->term_label . ').')
 
+@push('structured_data')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ url('/') }}" },
+    { "@type": "ListItem", "position": 2, "name": "Committees", "item": "{{ url('/committees') }}" },
+    { "@type": "ListItem", "position": 3, "name": @json($committee->name), "item": "{{ url()->current() }}" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 @php($hero = $committee->hero_image ? (str_starts_with($committee->hero_image, '/') ? $committee->hero_image : '/storage/' . $committee->hero_image) : '/images/5.jpeg')
 <section class="page-hero has-photo">

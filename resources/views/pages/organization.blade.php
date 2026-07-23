@@ -3,6 +3,20 @@
 @section('title', $organization->name . ' — National Executive Committee — FEHSU')
 @section('description', 'Meet the National Executive Committee currently running ' . $organization->name . '.')
 
+@push('structured_data')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ url('/') }}" },
+    { "@type": "ListItem", "position": 2, "name": "Associations", "item": "{{ url('/associations') }}" },
+    { "@type": "ListItem", "position": 3, "name": @json($organization->name), "item": "{{ url()->current() }}" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 @php($hero = $organization->hero_image ? (str_starts_with($organization->hero_image, '/') ? $organization->hero_image : '/storage/' . $organization->hero_image) : '/images/5.jpeg')
 <section class="page-hero has-photo">
