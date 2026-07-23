@@ -18,8 +18,8 @@
 <div class="card-grid">
 <div class="info-card">
 <div class="avatar mono">01</div>
-<h3>Health and Safety Profession Certification</h3>
-<p>A structured certification pathway for practitioners advancing through Technical, Graduate, and Chartered levels.</p>
+<h3>Health and Safety Profession Programs</h3>
+<p>A structured program pathway for practitioners advancing through Full Membership, Associate Membership, and Honorary Membership levels.</p>
 </div>
 <div class="info-card">
 <div class="avatar mono">02</div>
@@ -28,8 +28,8 @@
 </div>
 <div class="info-card">
 <div class="avatar mono">03</div>
-<h3>Short Courses &amp; Micro-credentials</h3>
-<p>Focused, practical training on specific OHS topics — from industrial hygiene to incident investigation.</p>
+<h3>Seminars &amp; Workshops</h3>
+<p>Focused, practical training on specific OHS topics- From Environmental Health to Occupational Safety.</p>
 </div>
 </div>
 </div>

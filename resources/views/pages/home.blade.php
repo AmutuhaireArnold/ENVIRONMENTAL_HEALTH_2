@@ -7,14 +7,14 @@
 <section class="hero" id="home">
 <div class="hero-photo-band">
 <div class="slideshow-container">
-<div class="slide" data-caption="Hands-on training for the next generation of safety professionals."><img alt="FEHSU members at a workplace safety training session" src="/images/11.jpg"/></div>
-<div class="slide" data-caption="On site with our members, inspecting real workplace hazards."><img alt="FEHSU field visit to an industrial site" src="/images/17.jpg"/></div>
-<div class="slide" data-caption="Building skills together at our national workshops."><img alt="FEHSU workshop participants" src="/images/23.jpg"/></div>
-<div class="slide" data-caption="Bringing the profession together at our annual conference."><img alt="FEHSU conference session" src="/images/24.jpg"/></div>
-<div class="slide" data-caption="Growing our network, one connection at a time."><img alt="FEHSU members networking" src="/images/27.jpg" style="width:100%; height:100%; object-fit:cover; object-position:center 10%; transform:none;"/></div>
-<div class="slide" data-caption="Inspecting workplaces to keep Uganda's workforce safe."><img alt="FEHSU safety inspection activity" src="/images/5.jpeg" style="width:100%; height:100%; object-fit:cover; object-position:center 30%; transform:none;"/></div>
-<div class="slide" data-caption="United as the national voice for health and safety."><img alt="FEHSU group photo" src="/images/01.jpg"/></div>
-<div class="slide" data-caption="Taking safety awareness out into local communities."><img alt="FEHSU community outreach" src="/images/11.jpg"/></div>
+<div class="slide" data-caption="Photo moment With FEHSU President at the Center at School of Public Health Makerere University."><img alt="FEHSU members at a workplace safety training session" src="/images/11.jpg"/></div>
+<div class="slide" data-caption="On site with our members for MPC Community Outreach Cleanup Campaign."><img alt="FEHSU field visit to an industrial site" src="/images/17.jpg"/></div>
+<div class="slide" data-caption="FESHU members led by FEHSU President Launching FEHSU E-Waste Club."><img alt="FEHSU workshop participants" src="/images/23.jpg"/></div>
+<div class="slide" data-caption="FESHU members led by FEHSU President Launching FEHSU E-Waste Club."><img alt="FEHSU conference session" src="/images/24.jpg"/></div>
+<div class="slide" data-caption="FEHSU President at extreme left with FEHSU members."><img alt="FEHSU members networking" src="/images/27.jpg" style="width:100%; height:100%; object-fit:cover; object-position:center 10%; transform:none;"/></div>
+<div class="slide" data-caption="Members of FEHSU having a group Photo with the 92nd Guild President Makerere University."><img alt="FEHSU safety inspection activity" src="/images/5.jpeg" style="width:100%; height:100%; object-fit:cover; object-position:center 30%; transform:none;"/></div>
+<div class="slide" data-caption="FEHSU Preojects Minister leading a discussion at the FEHSU workshop."><img alt="FEHSU group photo" src="/images/01.jpg"/></div>
+<div class="slide" data-caption="Photo moment With FEHSU President at the Center at School of Public Health Makerere University."><img alt="FEHSU community outreach" src="/images/11.jpg"/></div>
 </div>
 <button type="button" class="hero-slide-nav prev" data-dir="-1" aria-label="Previous photo">‹</button>
 <button type="button" class="hero-slide-nav next" data-dir="1" aria-label="Next photo">›</button>
@@ -191,10 +191,10 @@
 <p>Executive Committee</p>
 </button>
 
-<button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Executive Committee" data-bio="Contributes to committee decisions and represents member interests.">
-<div class="photo"><img alt="Executive Member" src="/images/6.jpeg"/></div>
-<h4>Executive Member</h4>
-<p>Executive Committee</p>
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/joan.jpg" data-name="Executive Member" data-role="Executive Committee" data-bio="From Uganda Instituet of Allied Health Science Mulago,passionate about accountable leadership,financial stewardship and student empowerment.">
+<div class="photo"><img alt="Executive Member" src="/images/CEC/joan.jpg"/></div>
+<h4>Auma Joan Angel</h4>
+<p>Finance Minister</p>
 </button>
 
 <!-- Track repeats once more so the slow left-slide loops seamlessly -->

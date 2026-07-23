@@ -16,7 +16,7 @@
 <section class="sec">
 <div class="wrap">
 <div class="sec-head">
-<span class="tag mono">// GALLERY</span>
+<span class="tag mono"> GALLERY</span>
 <h2 class="display" style="font-size:1.6rem;">Moments from the field</h2>
 <p>A look at FEHSU's training sessions, site visits, conferences, and community engagements across Uganda.</p>
 </div>
@@ -34,7 +34,7 @@
 <div class="sec-head">
 <span class="tag mono"> VIDEOS</span>
 <h2 class="display" style="font-size:1.6rem;">Watch highlights</h2>
-<p>Tap any thumbnail to play. <strong>Sample placeholder videos shown</strong> — swap these for FEHSU's own event footage once it's recorded.</p>
+<p>Tap any thumbnail to play.</p>
 </div>
 <div class="video-grid">
 @forelse ($videos as $video)

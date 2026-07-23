@@ -17,7 +17,7 @@
 <div class="wrap">
 <div class="callout" style="margin-bottom:40px;">
 <span class="icon">i</span>
-<p>Looking for the current leadership? Visit the <a href="/corporate">Central Executive Committee</a> page to meet this term's officers. Looking for the Advisory Board? It now has its own <a href="/associations">Associations</a> page.</p>
+<p>Looking for the current leadership? Visit the <a href="/corporate">Central Executive Committee</a> page to meet this term's officers.</p>
 </div>
 
 <div class="assoc-section balanced" id="member-associations">

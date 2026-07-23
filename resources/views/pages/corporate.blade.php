@@ -17,7 +17,7 @@
 <div class="wrap">
 
 <div class="callout" style="margin-bottom:40px;">
-<span class="icon">i</span>
+<span class="icon"></span>
 <p>Tap or click a photo to zoom in and read a short bio.</code></p>
 </div>
 
@@ -47,6 +47,11 @@
 <p>Projects Minister</p>
 </button>
 
+<button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Central Executive Committee" data-bio="Contributes to committee decisions and represents member interests. Replace this placeholder with this Executive Member's real biography.">
+<div class="photo"><img alt="Executive Member" src="/images/6.jpeg"/></div>
+<h4>Secretary General</h4>
+<p>Executive Committee</p>
+
 <button type="button" class="member-chip tappable" data-photo="/images/4.jpeg" data-name="Treasurer" data-role="Central Executive Committee" data-bio="Manages FEHSU's finances, budgets and financial reporting. Replace this placeholder with the Treasurer's real biography.">
 <div class="photo"><img alt="Minister of Internal Affairs" src="/images/4.jpeg"/></div>
 <h4>Minister of Internal Affairs</h4>
@@ -61,15 +66,19 @@
 
 <button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Central Executive Committee" data-bio="Contributes to committee decisions and represents member interests. Replace this placeholder with this Executive Member's real biography.">
 <div class="photo"><img alt="Executive Member" src="/images/6.jpeg"/></div>
-<h4>Publicity Minister</h4>
+<h4>Finance Minister</h4>
 <p>Executive Committee</p>
 </button>
 
 <button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Central Executive Committee" data-bio="Contributes to committee decisions and represents member interests. Replace this placeholder with this Executive Member's real biography.">
 <div class="photo"><img alt="Executive Member" src="/images/6.jpeg"/></div>
-<h4>Projects Minister</h4>
+<h4>Minister of Internal Affairs</h4>
 <p>Executive Committee</p>
 
+<button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Central Executive Committee" data-bio="Contributes to committee decisions and represents member interests. Replace this placeholder with this Executive Member's real biography.">
+<div class="photo"><img alt="Executive Member" src="/images/6.jpeg"/></div>
+<h4>Publicity Minister</h4>
+<p>Executive Committee</p>
 <!-- Track repeats once more so the slow left-slide loops seamlessly -->
 <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Central Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
 <div class="photo"><img alt="President" src="/images/CEC/nico.jpg"/></div>
@@ -89,24 +98,38 @@
 <p>Projects Minister</p>
 </button>
 
+<button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Central Executive Committee" data-bio="Contributes to committee decisions and represents member interests. Replace this placeholder with this Executive Member's real biography.">
+<div class="photo"><img alt="Executive Member" src="/images/6.jpeg"/></div>
+<h4>Secretary General</h4>
+<p>Executive Committee</p>
 
 <button type="button" class="member-chip tappable" data-photo="/images/4.jpeg" data-name="Treasurer" data-role="Central Executive Committee" data-bio="Manages FEHSU's finances, budgets and financial reporting. Replace this placeholder with the Treasurer's real biography.">
-<div class="photo"><img alt="Treasurer" src="/images/4.jpeg"/></div>
-<h4>Treasurer</h4>
+<div class="photo"><img alt="Minister of Internal Affairs" src="/images/4.jpeg"/></div>
+<h4>Minister of Internal Affairs</h4>
 <p>Executive Committee</p>
 </button>
 
 <button type="button" class="member-chip tappable" data-photo="/images/5.jpeg" data-name="Publicity Secretary" data-role="Central Executive Committee" data-bio="Leads FEHSU's communications, media and public outreach. Replace this placeholder with the Publicity Secretary's real biography.">
-<div class="photo"><img alt="Publicity Secretary" src="/images/5.jpeg"/></div>
-<h4>Publicity Secretary</h4>
+<div class="photo"><img alt="Minister of External Affairs" src="/images/5.jpeg"/></div>
+<h4>Minister of External Affairs</h4>
 <p>Executive Committee</p>
 </button>
 
 <button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Central Executive Committee" data-bio="Contributes to committee decisions and represents member interests. Replace this placeholder with this Executive Member's real biography.">
 <div class="photo"><img alt="Executive Member" src="/images/6.jpeg"/></div>
-<h4>Executive Member</h4>
+<h4>Finance Minister</h4>
 <p>Executive Committee</p>
 </button>
+
+<button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Central Executive Committee" data-bio="Contributes to committee decisions and represents member interests. Replace this placeholder with this Executive Member's real biography.">
+<div class="photo"><img alt="Executive Member" src="/images/6.jpeg"/></div>
+<h4>Minister of Internal Affairs</h4>
+<p>Executive Committee</p>
+
+<button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Central Executive Committee" data-bio="Contributes to committee decisions and represents member interests. Replace this placeholder with this Executive Member's real biography.">
+<div class="photo"><img alt="Executive Member" src="/images/6.jpeg"/></div>
+<h4>Publicity Minister</h4>
+<p>Executive Committee</p>
 
 </div>
 </div>
@@ -208,7 +231,7 @@
 <section class="cta-band">
 <div class="cta-band-inner">
 <h2 class="display">Bring your organization into the fold.</h2>
-<a class="btn-dark" href="/member-options">Become a corporate member</a>
+<a class="btn-dark" href="/member-options">Become a member</a>
 </div>
 </section>
 
