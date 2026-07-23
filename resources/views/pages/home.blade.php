@@ -87,7 +87,8 @@
             <div class="home-search-results" id="homeSearchResults" aria-live="polite"></div>
         </div>
     </div>
-</section> -->
+</section> 
+-->
 
 <section class="quick-access on-home">
     <div class="wrap">
@@ -911,7 +912,7 @@
 <section class="cta-band" id="membership">
     <div class="cta-band-inner">
         <h2 class="display">Join the Environmental Health Students' voice in Uganda.</h2>
-        <p>Registration takes a few minutes , choose your membership tier and become part of Environmental Health Students' Association of Uganda</p>
+        <p>Registration takes a few minutes , choose your membership tier and become part of the Federation of Environmental Health Students' of Uganda</p>
         <a class="btn-dark" href="https://docs.google.com/forms/d/e/1FAIpQLScKxVos78HSmTmZiKxrgiQEYihKOeeTUKB9n-se3fgzOFSJmg/viewform?usp=header">Register as a Member</a>
     </div>
 </section>
