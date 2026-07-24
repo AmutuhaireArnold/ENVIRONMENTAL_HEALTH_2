@@ -548,11 +548,11 @@
                 <button type="button" class="org-slider-nav prev" aria-label="Scroll Member Associations left">&#8249;</button>
                 <div class="org-slider-track">
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA1'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA2'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA2'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA3'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA4'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA4'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA5'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA6'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.pnpushag" alt="" loading="lazy" onerror="this.parentElement.textContent='MA6'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA7'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA8'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA9'"></div>
