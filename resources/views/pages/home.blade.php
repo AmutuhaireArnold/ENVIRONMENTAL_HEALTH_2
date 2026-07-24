@@ -578,7 +578,7 @@
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA8'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA9'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHS.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA10'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUHSA.JPG" alt="" loading="lazy" onerror="this.parentElement.textContent='MA11'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MEHSA.JPG" alt="" loading="lazy" onerror="this.parentElement.textContent='MA11'"></div>
                     <!-- duplicate set so the auto-slide loop is seamless -->
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA1'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA2'"></div>

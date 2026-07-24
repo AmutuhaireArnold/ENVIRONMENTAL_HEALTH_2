@@ -127,23 +127,23 @@
 <div class="sister-orgs-track" id="sisterOrgsTrack">
 
 <a class="sister-org-logo" href="/associations/sister-org-1">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 1 logo" onerror="this.parentElement.textContent='MA1'"></span>
-<span class="sister-org-name">Member Association 1</span>
+<span class="sister-org-logo-box"><img src="/images/PHS.jpg" alt="Member Association 1 logo" onerror="this.parentElement.textContent='MA1'"></span>
+<span class="sister-org-name">MMUPHSA</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-2">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 2 logo" onerror="this.parentElement.textContent='MA2'"></span>
-<span class="sister-org-name">Member Association 2</span>
+<span class="sister-org-logo-box"><img src="/images/MUEHSA.png" alt="Member Association 2 logo" onerror="this.parentElement.textContent='MA2'"></span>
+<span class="sister-org-name">MUEHSA</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-3">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 3 logo" onerror="this.parentElement.textContent='MA3'"></span>
-<span class="sister-org-name">Member Association 3</span>
+<span class="sister-org-logo-box"><img src="/images/MEHSA.JPG" alt="Member Association 3 logo" onerror="this.parentElement.textContent='MA3'"></span>
+<span class="sister-org-name">MUHSA</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-4">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 4 logo" onerror="this.parentElement.textContent='MA4'"></span>
-<span class="sister-org-name">Member Association 4</span>
+<span class="sister-org-logo-box"><img src="/images/PHOTO.jpeg" alt="Member Association 4 logo" onerror="this.parentElement.textContent='MA4'"></span>
+<span class="sister-org-name">FEHSU</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-5">
