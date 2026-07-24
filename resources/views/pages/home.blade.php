@@ -149,20 +149,20 @@
 <section class="sec" id="mission">
     <div class="wrap">
         <div class="sec-head">
-            <span class="tag mono"> 01 — MISSION &amp; VISION</span>
-            <h2 class="display">Why we exist</h2>
-            <p>Two commitments sit at the heart of everything FEHSU does one describing the future we're working toward, the other the work itself.</p>
+            <span class="tag mono"> 01 — MISSION, MOTO &amp; VISION</span>
+            <h2 class="display">OUR MOTO</h2>
+            <p>Promoting Preventive Health.</p>
         </div>
         <div class="mv-grid">
             <div class="mv-card">
-                <span class="idx mono">VISION</span>
-                <h3>Safety, built into every sector</h3>
-                <p>To make occupational safety and health management an integral part of every sector in Uganda.</p>
+                <span class="idx mono">Vision</span>
+            
+                <p>Health Environment,Health Communities,Empowered Professionals</p>
             </div>
             <div class="mv-card">
-                <span class="idx mono">MISSION</span>
-                <h3>A mindset, not a memo</h3>
-                <p>To create a positive mindset towards the implementation of health and safety across all industries, and to promote occupational health and safety knowledge nationwide.</p>
+                <span class="idx mono">Mission</span>
+               
+                <p>A leading force in environmental health, inspring a movement of knowledgeable and proactive students who drive change and foster a sustaianble futre for Uganda.</p>
             </div>
         </div>
     </div>
@@ -236,7 +236,7 @@
 
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
                     <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg" /></div>
-                    <h4>Agumenawe Nicodemus</h4>
+                    <h4>Agumenawe Nichodemus</h4>
                     <p>President</p>
                 </button>
 
@@ -582,17 +582,18 @@
                 <div class="org-slider-track">
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Construction'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/ACCM.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Mining'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/mak.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Telecommunication'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/ACCM.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Manufacturing'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUK.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Telecommunication'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/INNO.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Manufacturing'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Oil &amp; Gas'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/mak.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Financial Services'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUK.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Financial Services'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/INNO.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Financial Services'"></div>
                     <!-- duplicate set so the auto-slide loop is seamless -->
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Construction'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Mining'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Telecommunication'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Manufacturing'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/ACCM.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Mining'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUK.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Telecommunication'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/INNO.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Manufacturing'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Oil &amp; Gas'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Financial Services'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/ACCM.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Financial Services'"></div>
                 </div>
                 <button type="button" class="org-slider-nav next" aria-label="Scroll partners right">&#8250;</button>
             </div>
