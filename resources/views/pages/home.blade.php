@@ -145,24 +145,33 @@
     </div>
 </section>
 
-<section class="sec" id="mission">
-    <div class="wrap">
-        <div class="sec-head">
-            <span class="tag mono"> 01 — MISSION, MOTO &amp; VISION</span>
-            <h2 class="display">OUR MOTO</h2>
-            <p>Promoting Preventive Health.</p>
+<section class="sec" id="mission" style="position:relative; padding:100px 0 140px; background:#ffffff; font-family: Arial, Helvetica, sans-serif; overflow:hidden;">
+    <div class="wrap" style="max-width:1200px; margin:0 auto; padding:0 40px;">
+
+        <div class="sec-head" style="margin-bottom:60px;">
+            <span class="tag mono" style="display:inline-block; font-family:'Courier New', monospace; font-size:12px; letter-spacing:2px; color:#16a085; font-weight:700; margin-bottom:16px;">01 — MISSION, MOTO &amp; VISION</span>
+            <h2 class="display" style="font-size:56px; line-height:1.05; font-weight:800; color:#111111; margin:0 0 12px;">OUR MOTO</h2>
+            <p style="font-size:16px; color:#555555; margin:0;">Promoting Preventive Health.</p>
         </div>
-        <div class="mv-grid">
-            <div class="mv-card">
-                <span class="idx mono">Vision</span>
-            
-                <p>Healthy Environment,Healthy Communities,Empowered Professionals</p>
+
+        <div class="mv-grid" style="position:relative; display:grid; grid-template-columns:1fr 1fr; align-items:center; min-height:280px;">
+
+            <!-- VISION: light card, left, like "We Do" block -->
+            <div class="mv-card" style="background:#f2f2f2; padding:56px 48px; position:relative; z-index:1;">
+                <span class="idx mono" style="display:block; font-family:'Courier New', monospace; font-size:12px; letter-spacing:2px; color:#16a085; font-weight:700; margin-bottom:18px;">VISION</span>
+                <p style="font-size:26px; line-height:1.35; font-weight:800; color:#111111; margin:0;">Healthy Environment, Healthy Communities, Empowered Professionals</p>
             </div>
-            <div class="mv-card">
-                <span class="idx mono">Mission</span>
-               
-                <p>A leading force in environmental health, insipring a movement of knowledgeable and proactive students who drive change and foster a sustaianble futre for Uganda.</p>
+
+            <!-- MISSION: dark overlapping card, like "What's Your Story?" block -->
+            <div class="mv-card" style="background:#4b5240; padding:48px 44px; position:relative; z-index:2; margin-left:-90px; margin-top:-40px; box-shadow:0 25px 50px rgba(0,0,0,0.25);">
+                <div style="width:44px; height:44px; border-radius:50%; background:#5c6350; display:flex; align-items:center; justify-content:center; margin-bottom:24px;">
+                    <span style="color:#16a085; font-size:18px;">&#9877;</span>
+                </div>
+                <span class="idx mono" style="display:block; font-family:'Courier New', monospace; font-size:12px; letter-spacing:2px; color:#16a085; font-weight:700; margin-bottom:14px;">MISSION</span>
+                <p style="font-size:15px; line-height:1.7; color:#cfcfcf; margin:0 0 28px;">A leading force in environmental health, inspiring a movement of knowledgeable and proactive students who drive change and foster a sustainable future for Uganda.</p>
+                <a href="#" style="display:inline-flex; align-items:center; gap:8px; background:#16a085; color:#ffffff; font-size:13px; font-weight:700; letter-spacing:1px; text-decoration:none; padding:14px 26px;">GET INVOLVED &#8594;</a>
             </div>
+
         </div>
     </div>
 </section>
