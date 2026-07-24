@@ -247,7 +247,7 @@
         <div class="sec-head-row">
             <div class="sec-head" style="margin-bottom:0;">
                 <span class="tag mono">03 — LEADERSHIP</span>
-                <h2 class="display">Central Executive Committee</h2>
+                <h2 class="display">FOUTH Central Executive Committee</h2>
                 <p>The elected officers currently running FEHSU's day-to-day affairs. Tap any photo for a short bio.</p>
             </div>
             <a class="sec-link" href="/corporate">View full Central Executive Committee →</a>
@@ -258,19 +258,19 @@
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
                     <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg" /></div>
                     <h4>Agumenawe Nichodemus</h4>
-                    <p>President</p>
+                    <p>President -MakSPH</p>
                 </button>
 
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/denise.jpg" data-name="Minister For External Affairs" data-role="Executive Committee" data-bio="Supports the President and steps in on their behalf when needed on external affairs Replace this placeholder with the Vice Chairperson's real biography.">
                     <div class="photo"><img alt="Vice Chairperson" src="/images/CEC/denise.jpg" /></div>
                     <h4>Kainomugisha Denise</h4>
-                    <p>Minister For External Affairs</p>
+                    <p>Minister For External Affairs -MakSPH</p>
                 </button>
 
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/JONA.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Oversees FEHSU's Projects records and correspondence.">
                     <div class="photo"><img alt="Projects Minister" src="/images/CEC/JONA.jpg" /></div>
                     <h4>Magomu Jonah Cornelinus</h4>
-                    <p>Projects Minister</p>
+                    <p>Projects Minister -MakSPH</p>
                 </button>
 
                 <button type="button" class="member-chip tappable" data-photo="/images/4.jpeg" data-name="Treasurer" data-role="Executive Committee" data-bio="Manages FEHSU's finances, budgets and financial reporting.">
@@ -316,25 +316,25 @@
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="Chairperson" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
                     <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg" /></div>
                     <h4>Agumenawe Nicodemus</h4>
-                    <p>President/p>
+                    <p>President- MakSPH</p>
                 </button>
                 <!-- Track repeats once more so the slow left-slide loops seamlessly -->
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
                     <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg" /></div>
                     <h4>Agumenawe Nicodemus</h4>
-                    <p>President</p>
+                    <p>President - MakSPH</p>
                 </button>
 
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/denise.jpg" data-name="Minister For External Affairs" data-role="Executive Committee" data-bio="Supports the President and steps in on their behalf when needed on external affairs Replace this placeholder with the Vice Chairperson's real biography.">
                     <div class="photo"><img alt="Vice Chairperson" src="/images/CEC/denise.jpg" /></div>
                     <h4>Kainomugisha Denise</h4>
-                    <p>Minister For External Affairs</p>
+                    <p>Minister For External Affairs -MakSPH</p>
                 </button>
 
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/JONA.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Oversees FEHSU's Projects records and correspondence.">
                     <div class="photo"><img alt="Projects Minister" src="/images/CEC/JONA.jpg" /></div>
                     <h4>Magomu Jonah Cornelinus</h4>
-                    <p>Projects Minister</p>
+                    <p>Projects Minister -MakSPH</p>
                 </button>
 
                 <button type="button" class="member-chip tappable" data-photo="/images/4.jpeg" data-name="Treasurer" data-role="Executive Committee" data-bio="Manages FEHSU's finances, budgets and financial reporting">
@@ -441,7 +441,7 @@
                 <div class="home-art-copy">
                     <span class="tag mono">SHAPING TOMORROW</span>
                     <h3>Ideas that turn into standards</h3>
-                    <p>Research, services, and movement-building all meet here — a quieter, motion-led extension of the homepage story.</p>
+                    <p>Research, services, and movement-building all meet here , a quieter, motion-led extension of the homepage story.</p>
                 </div>
             </div>
         </div>
