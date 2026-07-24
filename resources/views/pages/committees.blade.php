@@ -346,7 +346,8 @@
       function renderChartPhoto(){
         var person = photoGroup[photoIndex];
         if(!person) return;
-        chartPhotoImg.src = person.photo;
+        var photoSrc = person.photo && person.photo.indexOf('/images/') === 0 ? person.photo : '/images/' + person.photo;
+        chartPhotoImg.src = photoSrc;
         chartPhotoImg.alt = person.name;
         chartPhotoName.textContent = person.name;
         chartPhotoPost.textContent = person.post + ' — ' + person.school;
