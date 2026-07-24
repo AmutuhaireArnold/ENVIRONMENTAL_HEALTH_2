@@ -210,7 +210,7 @@
                 </div>
             </div>
             <div class="value-card search-card" data-search="innovation ahead culture safety practices">
-                <div class="vphoto"><img alt="FEHSU members reviewing innovative safety practices" src="/images/CEC/JONA.jpg"></div>
+                <div class="vphoto"><img alt="FEHSU members reviewing innovative safety practices" src="/images/11.jpg"></div>
                 <div class="vbody"><span class="vn mono">V.06</span>
                     <h3>Innovation</h3>
                     <p>Staying ahead in a culture of innovation to improve health and safety.</p>
