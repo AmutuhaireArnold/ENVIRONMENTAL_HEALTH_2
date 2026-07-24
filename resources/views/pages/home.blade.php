@@ -783,4 +783,48 @@
         </div>
     </div>
 </div>
-@endsection
+@endsectionYour branch is up to date with 'origin/backend'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   ../resources/views/pages/home.blade.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../.bash_history
+        ../.bash_logout
+        ../.bashrc
+        ../.cache/
+        ../.composer/
+        ../.lesshst
+        ../.profile
+        ../.ssh/
+        ../google6e093bcd54997d3f.html
+        ./
+
+remote: Enumerating objects: 107, done.
+remote: Counting objects: 100% (107/107), done.
+remote: Compressing objects: 100% (38/38), done.
+remote: Total 85 (delta 59), reused 68 (delta 42), pack-reused 0 (from 0)
+Unpacking objects: 100% (85/85), 40.14 KiB | 913.00 KiB/s, done.
+From https://github.com/AmutuhaireArnold/ENVIRONMENTAL_HEALTH_2
+   25a32a1..2281a83  backend    -> origin/backend
+   506c3ed..d67a526  main       -> origin/main
+ * [new branch]      release2.0 -> origin/release2.0
+ * [new branch]      release3   -> origin/release3
+error: Your local changes to the following files would be overwritten by checkout:
+        resources/views/pages/home.blade.php
+Please commit your changes or stash them before you switch branches.
+Aborting
+From https://github.com/AmutuhaireArnold/ENVIRONMENTAL_HEALTH_2
+ * branch            main       -> FETCH_HEAD
+Updating 25a32a1..d67a526
+error: Your local changes to the following files would be overwritten by merge:
+        resources/views/pages/home.blade.php
+Please commit your changes or stash them before you merge.
+error: The following untracked working tree files would be overwritten by merge:
+        google6e093bcd54997d3f.html
+Please move or remove them before you merge.
+Aborting
+Could not open input file: artisan
+fehsug@panel:~/web$ 
