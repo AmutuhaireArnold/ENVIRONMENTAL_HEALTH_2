@@ -581,11 +581,11 @@
                 <button type="button" class="org-slider-nav prev" aria-label="Scroll partners left">&#8249;</button>
                 <div class="org-slider-track">
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Construction'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Mining'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Telecommunication'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Manufacturing'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/ACCM.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Mining'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/mak.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Telecommunication'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/ACCM.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Manufacturing'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Oil &amp; Gas'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Financial Services'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/mak.png" alt="" loading="lazy" onerror="this.parentElement.textContent='Financial Services'"></div>
                     <!-- duplicate set so the auto-slide loop is seamless -->
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Construction'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/ncosha.jpg" alt="" loading="lazy" onerror="this.parentElement.textContent='Mining'"></div>
