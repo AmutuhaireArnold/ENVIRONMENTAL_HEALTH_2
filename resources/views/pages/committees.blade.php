@@ -99,7 +99,7 @@
       // ---------------------------------------------------------------
       var ASSOCIATIONS = [
         {
-          id: "assoc1", short: "FEHSU", name: "Member Association", logo: "PHOTO.jpeg",
+          id: "assoc1", short: "FEHSU", name: "Member Association", logo: "PHS.jpg",
           president: { photo: "CEC/nico.jpg", name: "Agumenawe Nicodemus", post: "PRESIDENT", school: "Makerere University - School of Public Health" },
           officers: [
             { photo: "CEC/denise.jpg", name: "Kainomugisha Denis", post: "Minister for External Affairs", school: "Makerere University - School of Public Health" },
@@ -113,7 +113,7 @@
           ]
         },
         {
-          { id: "assoc2", short: "MUEHSA", name: " Member Association", logo: "/images/MUEHSA.png" }
+          id: "assoc2", short: "MUEHSA", name: "Member Association ", logo: "MUEHSA.png",
           president: { photo: "CEC/nico.jpg", name: "Agumenawe Nicodemus", post: "PRESIDENT", school: "Institution / School" },
           officers: [
             { photo: "CEC/denise.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
