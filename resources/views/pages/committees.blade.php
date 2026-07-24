@@ -113,7 +113,7 @@
           ]
         },
         {
-          id: "assoc2", short: "MEHSA", name: "Member Association ", logo: "MEHSA.jpg",
+          id: "assoc2", short: "MEHSA", name: "Member Association ", logo: "images/MEHSA.JPG",
           president: { photo: "CEC/nico.jpg", name: "Agumenawe Nicodemus", post: "PRESIDENT", school: "Institution / School" },
           officers: [
             { photo: "CEC/denise.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
@@ -127,7 +127,7 @@
           ]
         },
         {
-          id: "assoc3", short: "MA3", name: "Member Association 3", logo: "assoc-logo-3.png",
+          id: "assoc3", short: "MMUPHSA", name: "Member Association ", logo: " images/PHSA.JPG",
           president: { photo: "CEC/nico.jpg", name: "Agumenawe Nicodemus", post: "PRESIDENT", school: "Institution / School" },
           officers: [
             { photo: "CEC/denise.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
