@@ -48,30 +48,29 @@
 
 <div class="partner-card">
 <div class="partner-logo-slot">
-<img src="/images/ncosha.jp" alt="Partner logo placeholder — replace with organization logo" onerror="this.parentElement.classList.add('empty')">
+<img src="/images/ACCM.png" alt="Partner logo placeholder — replace with organization logo" onerror="this.parentElement.classList.add('empty')">
 <span class="slot-label">Logo goes here</span>
 </div>
-<h3>Partner name</h3>
+<h3>InnoVet</h3>
 <p>Short description of the partnership — what this organization supports and how they work with FEHSU.</p>
 <a class="btn-outline" href="#" style="margin-top:14px;">Visit website</a>
 </div>
 
 <div class="partner-card">
 <div class="partner-logo-slot">
-<img src="/images/partner-logo-placeholder.png" alt="Partner logo placeholder — replace with organization logo" onerror="this.parentElement.classList.add('empty')">
+<img src="/images/INNO.png" alt="Partner logo placeholder — replace with organization logo" onerror="this.parentElement.classList.add('empty')">
 <span class="slot-label">Logo goes here</span>
 </div>
 <h3>Partner name</h3>
 <p>Short description of the partnership — what this organization supports and how they work with FEHSU.</p>
 <a class="btn-outline" href="#" style="margin-top:14px;">Visit website</a>
 </div>
-
 <div class="partner-card">
 <div class="partner-logo-slot">
-<img src="/images/partner-logo-placeholder.png" alt="Partner logo placeholder — replace with organization logo" onerror="this.parentElement.classList.add('empty')">
+<img src="/images/MUK.png" alt="Partner logo placeholder — replace with organization logo" onerror="this.parentElement.classList.add('empty')">
 <span class="slot-label">Logo goes here</span>
 </div>
-<h3>Partner name</h3>
+<h3>Makerere University School of Public Health</h3>
 <p>Short description of the partnership — what this organization supports and how they work with FEHSU.</p>
 <a class="btn-outline" href="#" style="margin-top:14px;">Visit website</a>
 </div>
