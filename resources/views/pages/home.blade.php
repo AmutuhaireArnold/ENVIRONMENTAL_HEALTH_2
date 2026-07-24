@@ -147,47 +147,25 @@
 
 <section class="sec" id="mission">
     <div class="wrap">
-
-        <!-- Split layout wrapper: not in style.css, so styled inline -->
-        <div style="display:flex; align-items:stretch; flex-wrap:wrap; min-height:300px;">
-
-            <!-- Left image panel: not in style.css, so styled inline -->
-            <div style="flex:1 1 42%; min-width:280px; position:relative; background:#e9e9e9 url('images/mission-photo.jpg') center/cover no-repeat; display:flex; align-items:center; padding:30px 44px;">
-                <div style="position:absolute; inset:0; background:rgba(14,34,51,.35);"></div>
-                <div style="position:relative; z-index:1;">
-                    <h2 class="display" style="color:#fff; font-size:clamp(1.6rem,3vw,2.1rem); margin-bottom:8px;">Our Moto</h2>
-                    <p style="color:#f0f0f0; font-size:.94rem; margin:0;">Promoting Preventive Health.</p>
-                </div>
-            </div>
-
-            <!-- Right overlapping card: position/overlap/background not in style.css, so styled inline -->
-            <div style="flex:1 1 58%; min-width:280px; position:relative;">
-                <div style="position:relative; margin:24px -40px 24px 0; background:var(--navy-deep); border-radius:var(--radius); box-shadow:var(--shadow-lg); padding:30px 40px 30px 64px;">
-
-                    <span class="tag step-tag mono">
-                        <span class="step-num" style="background:var(--clay);">01</span>
-                        <span class="step-bar" style="background:var(--clay);">MISSION, MOTO &amp; VISION</span>
-                    </span>
-
-                    <div class="mv-grid" style="grid-template-columns:1fr; gap:18px; margin-top:16px;">
-                        <div class="mv-card" style="background:transparent; border:none; padding:0; box-shadow:none;">
-                            <span class="idx" style="color:var(--gold); font-size:1.15rem;">Vision</span>
-                            <p style="color:#e6e6e6;">Healthy Environment,Healthy Communities,Empowered Professionals</p>
-                        </div>
-                        <div class="mv-card" style="background:transparent; border:none; padding:0; box-shadow:none;">
-                            <span class="idx" style="color:var(--gold); font-size:1.15rem;">Mission</span>
-                            <p style="color:#e6e6e6;">A leading force in environmental health, insipring a movement of knowledgeable and proactive students who drive change and foster a sustaianble futre for Uganda.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
+        <div class="sec-head">
+            <span class="tag mono"> 01 — MISSION, MOTO &amp; VISION</span>
+            <h2 class="display">OUR MOTO</h2>
+            <p>Promoting Preventive Health.</p>
         </div>
-
+        <div class="mv-grid">
+            <div class="mv-card">
+                <span class="idx mono">Vision</span>
+            
+                <p>Healthy Environment,Healthy Communities,Empowered Professionals</p>
+            </div>
+            <div class="mv-card">
+                <span class="idx mono">Mission</span>
+               
+                <p>A leading force in environmental health, insipring a movement of knowledgeable and proactive students who drive change and foster a sustaianble futre for Uganda.</p>
+            </div>
+        </div>
     </div>
 </section>
-
 
 <section class="sec alt" id="values">
     <div class="wrap">
