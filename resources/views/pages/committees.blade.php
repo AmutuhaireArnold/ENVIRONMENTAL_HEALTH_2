@@ -113,7 +113,7 @@
           ]
         },
         {
-          id: "assoc2", short: "MEHSA", name: "Member Association ", logo: "images/MEHSA.JPG",
+          { id: "assoc2", short: "MUEHSA", name: " Member Association", logo: "/images/MUEHSA.png" }
           president: { photo: "CEC/nico.jpg", name: "Agumenawe Nicodemus", post: "PRESIDENT", school: "Institution / School" },
           officers: [
             { photo: "CEC/denise.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
