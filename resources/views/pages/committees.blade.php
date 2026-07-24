@@ -258,6 +258,14 @@
         return (str||'').replace(/[^A-Za-z0-9]/g,'').slice(0,4).toUpperCase();
       }
 
+      function normalizeImagePath(path){
+        if(!path) return '';
+        if(path.indexOf('http://') === 0 || path.indexOf('https://') === 0 || path.indexOf('/images/') === 0){
+          return path;
+        }
+        return '/images/' + path;
+      }
+
       // ---- Render the 11 circular logo buttons ----
       var assocGrid = document.getElementById('assocGrid');
       if(assocGrid){
@@ -268,7 +276,7 @@
           btn.setAttribute('data-assoc-id', a.id);
           btn.innerHTML =
             '<span class="assoc-logo-circle">' +
-              '<img src="/images/'+a.logo+'" alt="'+a.name+' logo" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'fallback-initials\',textContent:\''+initials(a.short)+'\'}))">' +
+              '<img src="'+normalizeImagePath(a.logo)+'" alt="'+a.name+' logo" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'fallback-initials\',textContent:\''+initials(a.short)+'\'}))">' +
             '</span>' +
             '<span class="assoc-full-name">'+a.name+'</span>' +
             '<span class="assoc-shortname-btn">'+a.short+'</span>';
@@ -283,7 +291,7 @@
         card.className = 'chart-card';
         card.innerHTML =
           '<div class="post-bar">'+person.post+'</div>' +
-          '<div class="photo-wrap"><img src="/images/'+person.photo+'" alt="'+person.name+'"></div>' +
+          '<div class="photo-wrap"><img src="'+normalizeImagePath(person.photo)+'" alt="'+person.name+'"></div>' +
           '<div class="card-text"><h4>'+person.name+'</h4><p>'+person.school+'</p></div>';
         card.querySelector('.photo-wrap').addEventListener('click', function(){
           openChartPhoto(person, isPresident ? 'president' : 'officers');
@@ -306,7 +314,7 @@
         if(!a) return;
         currentAssoc = a;
 
-        chartHeaderLogo.innerHTML = '<img src="/images/'+a.logo+'" alt="'+a.name+' logo" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'fallback-initials\',textContent:\''+initials(a.short)+'\'}))">';
+        chartHeaderLogo.innerHTML = '<img src="'+normalizeImagePath(a.logo)+'" alt="'+a.name+' logo" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'fallback-initials\',textContent:\''+initials(a.short)+'\'}))">';
         chartHeaderShort.textContent = a.short + ' · NATIONAL EXECUTIVE COMMITTEE';
         chartHeaderName.textContent = a.name;
 
@@ -346,8 +354,7 @@
       function renderChartPhoto(){
         var person = photoGroup[photoIndex];
         if(!person) return;
-        var photoSrc = person.photo && person.photo.indexOf('/images/') === 0 ? person.photo : '/images/' + person.photo;
-        chartPhotoImg.src = photoSrc;
+        chartPhotoImg.src = normalizeImagePath(person.photo);
         chartPhotoImg.alt = person.name;
         chartPhotoName.textContent = person.name;
         chartPhotoPost.textContent = person.post + ' — ' + person.school;
