@@ -182,14 +182,14 @@
                 </div>
             </div>
             <div class="value-card search-card" data-search="legacy safety culture lasts">
-                <div class="vphoto"><img alt="FEHSU members at a legacy building event" src="/images/16.jpg"></div>
+                <div class="vphoto"><img alt="FEHSU members at a legacy building event" src="/images/29.jpg"></div>
                 <div class="vbody"><span class="vn mono">V.02</span>
                     <h3>Legacy</h3>
                     <p>Actively promoting and creating a safety culture that lasts.</p>
                 </div>
             </div>
             <div class="value-card search-card" data-search="diversity perspectives across industries">
-                <div class="vphoto"><img alt="Diverse group of FEHSU members" src="/images/19.jpg"></div>
+                <div class="vphoto"><img alt="Diverse group of FEHSU members" src="/images/27.jpg"></div>
                 <div class="vbody"><span class="vn mono">V.03</span>
                     <h3>Diversity</h3>
                     <p>Respecting each other's diverse perspectives across industries.</p>
@@ -391,7 +391,7 @@
         <div class="home-art-grid">
             <div class="home-art-card reveal-left search-card" data-search="safety in action training moves people field">
                 <div class="home-art-media">
-                    <img src="/images/CEC/JONA.jpg" alt="FEHSU leadership meeting" loading="lazy">
+                    <img src="/images/24.jpg" alt="FEHSU leadership meeting" loading="lazy">
                     <span class="home-art-badge">FIELD</span>
                 </div>
                 <div class="home-art-copy">
@@ -413,7 +413,7 @@
             </div>
             <div class="home-art-card reveal-left search-card" data-search="insight shaping tomorrow standards research" style="transition-delay:.16s">
                 <div class="home-art-media">
-                    <img src="/images/25.jpg" alt="FEHSU members in a training exercise" loading="lazy">
+                    <img src="/images/15.jpg" alt="FEHSU members in a training exercise" loading="lazy">
                     <span class="home-art-badge">INSIGHT</span>
                 </div>
                 <div class="home-art-copy">
