@@ -12,7 +12,7 @@
             <div class="slide" data-caption="FESHU members led by FEHSU President Launching FEHSU E-Waste Club."><img alt="FEHSU conference session" src="/images/24.jpg" /></div>
             <div class="slide" data-caption="FEHSU President at extreme left with FEHSU members."><img alt="FEHSU members networking" src="/images/27.jpg" style="width:100%; height:100%; object-fit:cover; object-position:center 10%; transform:none;" /></div>
             <div class="slide" data-caption="Members of FEHSU having a group Photo with the 92nd Guild President Makerere University."><img alt="FEHSU safety inspection activity" src="/images/5.jpeg" style="width:100%; height:100%; object-fit:cover; object-position:center 30%; transform:none;" /></div>
-            <div class="slide" data-caption="FEHSU Projects Minister signs on the FEHSU E-Club commitment Board."><img alt="FEHSU group photo" src="/images/01.jpg" /></div>
+            <div class="slide" data-caption="FEHSU Projects Minister signs on the FEHSU E- Waste Club commitment Board."><img alt="FEHSU group photo" src="/images/01.jpg" /></div>
             <div class="slide" data-caption="Photo moment With FEHSU President in the at School of Public Health Makerere University."><img alt="FEHSU community outreach" src="/images/11.jpg" /></div>
         </div>
         <button type="button" class="hero-slide-nav prev" data-dir="-1" aria-label="Previous photo">‹</button>
@@ -33,7 +33,7 @@
             <div class="hero-stats">
                 <div>
                     <div class="num mono">2022</div>
-                    <div class="lbl condensed">Founded by 11 E&amp;H Associations</div>
+                    <div class="lbl condensed">Founded by 11 EH Professionals</div>
                 </div>
                 <div>
                     <div class="num mono">11+</div>
@@ -210,7 +210,7 @@
                 </div>
             </div>
             <div class="value-card search-card" data-search="innovation ahead culture safety practices">
-                <div class="vphoto"><img alt="FEHSU members reviewing innovative safety practices" src="/images/25.jpg"></div>
+                <div class="vphoto"><img alt="FEHSU members reviewing innovative safety practices" src="/images/CEC/JONA.jpg"></div>
                 <div class="vbody"><span class="vn mono">V.06</span>
                     <h3>Innovation</h3>
                     <p>Staying ahead in a culture of innovation to improve health and safety.</p>
@@ -391,11 +391,11 @@
         <div class="home-art-grid">
             <div class="home-art-card reveal-left search-card" data-search="safety in action training moves people field">
                 <div class="home-art-media">
-                    <img src="/images/21.jpg" alt="FEHSU leadership meeting" loading="lazy">
+                    <img src="/images/CEC/JONA.jpg" alt="FEHSU leadership meeting" loading="lazy">
                     <span class="home-art-badge">FIELD</span>
                 </div>
                 <div class="home-art-copy">
-                    <span class="tag mono">SAFETY IN ACTION</span>
+                    <span class="tag mono">HEALTH IN ACTION</span>
                     <h3>Training that moves people</h3>
                     <p>From site visits to workshops, FEHSU keeps environmental health learning visible, practical, and community-led.</p>
                 </div>
