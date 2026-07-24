@@ -38,7 +38,7 @@
                 </div>
                 <div>
                     <div class="num mono">11+</div>
-                    <div class="lbl condensed">Industries represented</div>
+                    <div class="lbl condensed">EH Associations representedd</div>
                 </div>
                 <div>
                     <div class="num mono">5</div>
@@ -157,12 +157,12 @@
             <div class="mv-card">
                 <span class="idx mono">Vision</span>
             
-                <p>Health Environment,Health Communities,Empowered Professionals</p>
+                <p>Healthy Environment,Healthy Communities,Empowered Professionals</p>
             </div>
             <div class="mv-card">
                 <span class="idx mono">Mission</span>
                
-                <p>A leading force in environmental health, inspring a movement of knowledgeable and proactive students who drive change and foster a sustaianble futre for Uganda.</p>
+                <p>A leading force in environmental health, insipring a movement of knowledgeable and proactive students who drive change and foster a sustaianble futre for Uganda.</p>
             </div>
         </div>
     </div>
