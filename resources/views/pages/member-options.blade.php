@@ -18,7 +18,7 @@
 <div class="pricing-grid">
 <div class="price-card">
 <h3>Full Member</h3>
-<p class="price-line">Registration Fee <b>UGX 10,0000</b></p>
+<p class="price-line">Registration Fee <b>UGX 20,0000</b></p>
 <div class="feature-rows">
 <div class="frow"><span>Any Environmental Health student from any institution </span><span class="fcheck">✓</span></div>
 <div class="frow"><span>Institutions that have well established leadership structure such as associations</span><span class="fcheck">✓</span></div>
