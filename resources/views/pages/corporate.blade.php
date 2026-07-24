@@ -127,7 +127,7 @@
 <div class="sister-orgs-track" id="sisterOrgsTrack">
 
 <a class="sister-org-logo" href="/associations/sister-org-1">
-<span class="sister-org-logo-box"><img src="/images/PHS.jpg" alt="Member Association 1 logo" onerror="this.parentElement.textContent='MA1'"></span>
+<span class="sister-org-logo-box"><img src="/images/PHS.png" alt="Member Association 1 logo" onerror="this.parentElement.textContent='MA1'"></span>
 <span class="sister-org-name">MMUPHSA</span>
 </a>
 
