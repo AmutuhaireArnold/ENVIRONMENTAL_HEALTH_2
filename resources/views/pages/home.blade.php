@@ -174,50 +174,72 @@
             <h2 class="display">What guides our work</h2>
         </div>
         <div class="values-grid">
-            <div class="value-card search-card" data-search="integrity performance responsibility">
-                <div class="vphoto"><img alt="FEHSU members conducting a safety inspection" src="/images/13.jpg"></div>
-                <div class="vbody"><span class="vn mono">V.01</span>
-                    <h3>Integrity</h3>
-                    <p>A culture of performance and responsibility in everything we do.</p>
-                </div>
+    <div class="value-card search-card" data-search="integrity performance responsibility">
+        <div class="vphoto"><img alt="FEHSU members conducting a safety inspection" src="/images/13.jpg"></div>
+        <div class="vbody" style="padding: 1.25rem 1.5rem;">
+            <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
+                <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 50%; background: #1a1a1a; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #e30613;">V.01</span>
+                <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">Integrity</h3>
             </div>
-            <div class="value-card search-card" data-search="legacy safety culture lasts">
-                <div class="vphoto"><img alt="FEHSU members at a legacy building event" src="/images/29.jpg"></div>
-                <div class="vbody"><span class="vn mono">V.02</span>
-                    <h3>Legacy</h3>
-                    <p>Actively promoting and creating a safety culture that lasts.</p>
-                </div>
-            </div>
-            <div class="value-card search-card" data-search="diversity perspectives across industries">
-                <div class="vphoto"><img alt="Diverse group of FEHSU members" src="/images/27.jpg"></div>
-                <div class="vbody"><span class="vn mono">V.03</span>
-                    <h3>Diversity</h3>
-                    <p>Respecting each other's diverse perspectives across industries.</p>
-                </div>
-            </div>
-            <div class="value-card search-card" data-search="leadership serving change industries community">
-                <div class="vphoto"><img alt="FEHSU leadership at a committee meeting" src="/images/23.jpg"></div>
-                <div class="vbody"><span class="vn mono">V.04</span>
-                    <h3>Leadership</h3>
-                    <p>Leading by serving — driving positive change within industries, organizations, and our community.</p>
-                </div>
-            </div>
-            <div class="value-card search-card" data-search="humanity care people community">
-                <div class="vphoto"><img alt="FEHSU members community outreach" src="/images/22.jpg"></div>
-                <div class="vbody"><span class="vn mono">V.05</span>
-                    <h3>Humanity</h3>
-                    <p>Committed to health and safety because we care about people and community.</p>
-                </div>
-            </div>
-            <div class="value-card search-card" data-search="innovation ahead culture safety practices">
-                <div class="vphoto"><img alt="FEHSU members reviewing innovative safety practices" src="/images/11.jpg"></div>
-                <div class="vbody"><span class="vn mono">V.06</span>
-                    <h3>Innovation</h3>
-                    <p>Staying ahead in a culture of innovation to improve health and safety.</p>
-                </div>
-            </div>
+            <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">A culture of performance and responsibility in everything we do.</p>
         </div>
     </div>
+
+    <div class="value-card search-card" data-search="legacy safety culture lasts">
+        <div class="vphoto"><img alt="FEHSU members at a legacy building event" src="/images/29.jpg"></div>
+        <div class="vbody" style="padding: 1.25rem 1.5rem;">
+            <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
+                <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 50%; background: #1a1a1a; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #e30613;">V.02</span>
+                <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">Legacy</h3>
+            </div>
+            <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">Actively promoting and creating a safety culture that lasts.</p>
+        </div>
+    </div>
+
+    <div class="value-card search-card" data-search="diversity perspectives across industries">
+        <div class="vphoto"><img alt="Diverse group of FEHSU members" src="/images/27.jpg"></div>
+        <div class="vbody" style="padding: 1.25rem 1.5rem;">
+            <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
+                <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 50%; background: #1a1a1a; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #e30613;">V.03</span>
+                <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">Diversity</h3>
+            </div>
+            <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">Respecting each other's diverse perspectives across industries.</p>
+        </div>
+    </div>
+
+    <div class="value-card search-card" data-search="leadership serving change industries community">
+        <div class="vphoto"><img alt="FEHSU leadership at a committee meeting" src="/images/23.jpg"></div>
+        <div class="vbody" style="padding: 1.25rem 1.5rem;">
+            <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
+                <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 50%; background: #1a1a1a; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #e30613;">V.04</span>
+                <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">Leadership</h3>
+            </div>
+            <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">Leading by serving — driving positive change within industries, organizations, and our community.</p>
+        </div>
+    </div>
+
+    <div class="value-card search-card" data-search="humanity care people community">
+        <div class="vphoto"><img alt="FEHSU members community outreach" src="/images/22.jpg"></div>
+        <div class="vbody" style="padding: 1.25rem 1.5rem;">
+            <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
+                <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 50%; background: #1a1a1a; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #e30613;">V.05</span>
+                <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">Humanity</h3>
+            </div>
+            <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">Committed to health and safety because we care about people and community.</p>
+        </div>
+    </div>
+
+    <div class="value-card search-card" data-search="innovation ahead culture safety practices">
+        <div class="vphoto"><img alt="FEHSU members reviewing innovative safety practices" src="/images/11.jpg"></div>
+        <div class="vbody" style="padding: 1.25rem 1.5rem;">
+            <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
+                <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 50%; background: #1a1a1a; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #e30613;">V.06</span>
+                <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">Innovation</h3>
+            </div>
+            <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">Staying ahead in a culture of innovation to improve health and safety.</p>
+        </div>
+    </div>
+</div>
 </section>
 
 <section class="sec" id="leadership">
