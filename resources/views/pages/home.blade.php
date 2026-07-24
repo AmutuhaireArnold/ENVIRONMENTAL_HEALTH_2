@@ -34,11 +34,11 @@
             <div class="hero-stats">
                 <div>
                     <div class="num mono">2022</div>
-                    <div class="lbl condensed">Founded by 11 H&amp;S professionals</div>
+                    <div class="lbl condensed">Founded by 11 Environmental Health Students Associations</div>
                 </div>
                 <div>
                     <div class="num mono">11+</div>
-                    <div class="lbl condensed">Industries represented</div>
+                    <div class="lbl condensed">Environmental Health Students Associations Represented</div>
                 </div>
                 <div>
                     <div class="num mono">5</div>
@@ -236,7 +236,7 @@
 
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
                     <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg" /></div>
-                    <h4>Agumenawe Nicodemus</h4>
+                    <h4>Agumenawe Nichodemus</h4>
                     <p>President</p>
                 </button>
 
@@ -294,13 +294,13 @@
                 <!-- Track repeats once more so the slow left-slide loops seamlessly -->
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="Chairperson" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
                     <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg" /></div>
-                    <h4>Agumenawe Nicodemus</h4>
+                    <h4>Agumenawe Nichodemus</h4>
                     <p>President/p>
                 </button>
                 <!-- Track repeats once more so the slow left-slide loops seamlessly -->
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
                     <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg" /></div>
-                    <h4>Agumenawe Nicodemus</h4>
+                    <h4>Agumenawe Nichodemus</h4>
                     <p>President</p>
                 </button>
 
@@ -549,27 +549,27 @@
                 <div class="org-slider-track">
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA1'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA2'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA3'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA3'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA4'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA5'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA5'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA6'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA7'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA7'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA8'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA9'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA9'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA10'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA11'"></div>
                     <!-- duplicate set so the auto-slide loop is seamless -->
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA1'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA2'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA3'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA2'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA3'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA4'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA5'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA5'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA6'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA7'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA8'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA7'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA8'"></div>
                     <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA9'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA10'"></div>
-                    <div class="org-logo-box" aria-hidden="true"><img src="/images/PHOTO.jpeg" alt="" loading="lazy" onerror="this.parentElement.textContent='MA11'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA10'"></div>
+                    <div class="org-logo-box" aria-hidden="true"><img src="/images/MUEHSA.png" alt="" loading="lazy" onerror="this.parentElement.textContent='MA11'"></div>
                 </div>
                 <button type="button" class="org-slider-nav next" aria-label="Scroll Member Associations right">&#8250;</button>
             </div>

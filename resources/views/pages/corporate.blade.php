@@ -31,7 +31,7 @@
 
 <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
 <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg"/></div>
-<h4>Agumenawe Nicodemus</h4>
+<h4>Agumenawe Nichodemus</h4>
 <p>President</p>
 </button>
 
@@ -73,7 +73,7 @@
 <!-- Track repeats once more so the slow left-slide loops seamlessly -->
 <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
 <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg"/></div>
-<h4>Agumenawe Nicodemus</h4>
+<h4>Agumenawe Nichodemus</h4>
 <p>President</p>
 </button>
 
@@ -127,57 +127,57 @@
 <div class="sister-orgs-track" id="sisterOrgsTrack">
 
 <a class="sister-org-logo" href="/associations/sister-org-1">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 1 logo" onerror="this.parentElement.textContent='MA1'"></span>
-<span class="sister-org-name">Member Association 1</span>
+<span class="sister-org-logo-box"><img src="/images/MUEHSA.png" alt="Member Association 1 logo" onerror="this.parentElement.textContent='MA1'"></span>
+<span class="sister-org-name">MUEHSA</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-2">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 2 logo" onerror="this.parentElement.textContent='MA2'"></span>
+<span class="sister-org-logo-box"><img src="/images/MUEHSA.png" alt="Member Association 2 logo" onerror="this.parentElement.textContent='MA2'"></span>
 <span class="sister-org-name">Member Association 2</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-3">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 3 logo" onerror="this.parentElement.textContent='MA3'"></span>
+<span class="sister-org-logo-box"><img src="/images/MUEHSA.png" alt="Member Association 3 logo" onerror="this.parentElement.textContent='MA3'"></span>
 <span class="sister-org-name">Member Association 3</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-4">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 4 logo" onerror="this.parentElement.textContent='MA4'"></span>
+<span class="sister-org-logo-box"><img src="/images/MUEHSA.png" alt="Member Association 4 logo" onerror="this.parentElement.textContent='MA4'"></span>
 <span class="sister-org-name">Member Association 4</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-5">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 5 logo" onerror="this.parentElement.textContent='MA5'"></span>
+<span class="sister-org-logo-box"><img src="/images/MUEHSA.png" alt="Member Association 5 logo" onerror="this.parentElement.textContent='MA5'"></span>
 <span class="sister-org-name">Member Association 5</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-6">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 6 logo" onerror="this.parentElement.textContent='MA6'"></span>
+<span class="sister-org-logo-box"><img src="/images/MUEHSA.png" alt="Member Association 6 logo" onerror="this.parentElement.textContent='MA6'"></span>
 <span class="sister-org-name">Member Association 6</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-7">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 7 logo" onerror="this.parentElement.textContent='MA7'"></span>
+<span class="sister-org-logo-box"><img src="/images/MUEHSA.png" alt="Member Association 7 logo" onerror="this.parentElement.textContent='MA7'"></span>
 <span class="sister-org-name">Member Association 7</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-8">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 8 logo" onerror="this.parentElement.textContent='MA8'"></span>
+<span class="sister-org-logo-box"><img src="/images/MUEHSA.png" alt="Member Association 8 logo" onerror="this.parentElement.textContent='MA8'"></span>
 <span class="sister-org-name">Member Association 8</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-9">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 9 logo" onerror="this.parentElement.textContent='MA9'"></span>
+<span class="sister-org-logo-box"><img src="/images/MUEHSA.png" alt="Member Association 9 logo" onerror="this.parentElement.textContent='MA9'"></span>
 <span class="sister-org-name">Member Association 9</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-10">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 10 logo" onerror="this.parentElement.textContent='MA10'"></span>
+<span class="sister-org-logo-box"><img src="/images/MUEHSA.png" alt="Member Association 10 logo" onerror="this.parentElement.textContent='MA10'"></span>
 <span class="sister-org-name">Member Association 10</span>
 </a>
 
 <a class="sister-org-logo" href="/associations/sister-org-11">
-<span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 11 logo" onerror="this.parentElement.textContent='MA11'"></span>
+<span class="sister-org-logo-box"><img src="/images/MUEHSA.png" alt="Member Association 11 logo" onerror="this.parentElement.textContent='MA11'"></span>
 <span class="sister-org-name">Member Association 11</span>
 </a>
 </div>
