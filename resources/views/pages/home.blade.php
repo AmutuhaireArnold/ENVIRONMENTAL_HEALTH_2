@@ -196,7 +196,7 @@
                 </div>
             </div>
             <div class="value-card search-card" data-search="leadership serving change industries community">
-                <div class="vphoto"><img alt="FEHSU leadership at a committee meeting" src="/images/21.jpg"></div>
+                <div class="vphoto"><img alt="FEHSU leadership at a committee meeting" src="/images/23.jpg"></div>
                 <div class="vbody"><span class="vn mono">V.04</span>
                     <h3>Leadership</h3>
                     <p>Leading by serving — driving positive change within industries, organizations, and our community.</p>
