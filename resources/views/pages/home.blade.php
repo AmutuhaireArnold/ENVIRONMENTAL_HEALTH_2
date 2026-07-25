@@ -255,8 +255,8 @@
         <div class="marquee home-exec-marquee">
             <div class="marquee-track" style="animation-duration:95s;">
 
-                <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
-                    <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg" /></div>
+                <button type="button" class="member-chip tappable" data-photo="/images/CEC/demus.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
+                    <div class="photo"><img alt="Chairperson" src="/images/CEC/demus.jpg" /></div>
                     <h4>Agumenawe Nichodemus</h4>
                     <p>President -MakSPH</p>
                 </button>
@@ -300,14 +300,14 @@
                 </button>
 
                 <!-- Track repeats once more so the slow left-slide loops seamlessly -->
-                <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="Chairperson" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
-                    <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg" /></div>
+                <button type="button" class="member-chip tappable" data-photo="/images/CEC/demus.jpg" data-name="Chairperson" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
+                    <div class="photo"><img alt="Chairperson" src="/images/CEC/demus.jpg" /></div>
                     <h4>Agumenawe Nicodemus</h4>
                     <p>President- MakSPH</p>
                 </button>
                 <!-- Track repeats once more so the slow left-slide loops seamlessly -->
-                <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
-                    <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg" /></div>
+                <button type="button" class="member-chip tappable" data-photo="/images/CEC/demus.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
+                    <div class="photo"><img alt="Chairperson" src="/images/CEC/demus.jpg" /></div>
                     <h4>Agumenawe Nicodemus</h4>
                     <p>President - MakSPH</p>
                 </button>
@@ -324,7 +324,7 @@
                     <p>Projects Minister -MakSPH</p>
                 </button>
 
-                <button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Executive Committee" data-bio="Contributes to committee decisions and represents member interests">
+                <button type="button" class="member-chip tappable" data-photo="/images/assumpita.jpg" data-name="Executive Member" data-role="Executive Committee" data-bio="Contributes to committee decisions and represents member interests">
                     <div class="photo"><img alt="Executive Member" src="/images/assumpita.jpg" /></div>
                     <h4>Namwanga Maria Assumpta</h4>
                     <p>Internal Minister FEHSU -MakSPH</p>
@@ -350,7 +350,7 @@
                     <p>Internal Minister - BEHSA </p>
                 </button>
 
-                <button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Executive Committee" data-bio="Contributes to committee decisions and represents member interests">
+                <button type="button" class="member-chip tappable" data-photo="/images/assumpita.jpg" data-name="Executive Member" data-role="Executive Committee" data-bio="Contributes to committee decisions and represents member interests">
                     <div class="photo"><img alt="Executive Member" src="/images/assumpita.jpg" /></div>
                     <h4>Namwanga Maria Assumpta</h4>
                     <p>Internal Minister -MakSPH</p>
