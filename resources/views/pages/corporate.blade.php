@@ -43,8 +43,8 @@
 
 <button type="button" class="member-chip tappable" data-photo="/images/CEC/JONA.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Oversees FEHSU's Projects records and correspondence.">
 <div class="photo"><img alt="Projects Minister" src="/images/CEC/JONA.jpg"/></div>
-<h4>Magomu Jonah Cornelinus -MakSPH</h4>
-<p>Projects Minister</p>
+<h4>Magomu Jonah Cornelinus </h4>
+<p>Projects Minister - MakSPH </p>
 </button>
 
 <button type="button" class="member-chip tappable" data-photo="/images/CEC/Abdul.jpg" data-name="Minister For External Affairs" data-role="Executive Committee" data-bio="14th Deputy Guild Speaker SOH-MBALE,Internal Minister MSOHESHA,A rotaractor,A youth Leader under the NRM Secretariat in the District Level.">
@@ -69,12 +69,17 @@
 <div class="photo"><img alt="Projects Minister" src="/images/CEC/nampwera.jpg"/></div>
 <h4>Nampwera Rebecca</h4>
 <p>Internal Affairs Minister - UIAHMS MULAGO </p>
+
+<button type="button" class="member-chip tappable" data-photo="/images/CEC/nampwera.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Representative BEHSA, Is a dedicated Environmemtal Health Student witha apassion for Team work.">
+<div class="photo"><img alt="Projects Minister" src="/images/CEC/assumpita.jpg"/></div>
+<h4>Nampwera Rebecca</h4>
+<p>Internal Minister -MakSPH </p>
 </button>
 <!-- Track repeats once more so the slow left-slide loops seamlessly -->
 <button type="button" class="member-chip tappable" data-photo="/images/CEC/nico.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
 <div class="photo"><img alt="Chairperson" src="/images/CEC/nico.jpg"/></div>
-<h4>Agumenawe Nichodemus -MakSPH</h4>
-<p>President</p>
+<h4>Agumenawe Nichodemus</h4>
+<p>President - MakSPH</p>
 </button>
 
 <button type="button" class="member-chip tappable" data-photo="/images/CEC/denise.jpg" data-name="Minister For External Affairs" data-role="Executive Committee" data-bio="Supports the President and steps in on their behalf when needed on external affairs Replace this placeholder with the Vice Chairperson's real biography.">
@@ -85,8 +90,8 @@
 
 <button type="button" class="member-chip tappable" data-photo="/images/CEC/JONA.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Oversees FEHSU's Projects records and correspondence.">
 <div class="photo"><img alt="Projects Minister" src="/images/CEC/JONA.jpg"/></div>
-<h4>Magomu Jonah Cornelinus -MakSPH</h4>
-<p>Projects Minister</p>
+<h4>Magomu Jonah Cornelinus</h4>
+<p>Projects Minister - MakSPH</p>
 </button>
 
 <button type="button" class="member-chip tappable" data-photo="/images/CEC/Abdul.jpg" data-name="Minister For External Affairs" data-role="Executive Committee" data-bio="14th Deputy Guild Speaker SOH-MBALE,Internal Minister MSOHESHA,A rotaractor,A youth Leader under the NRM Secretariat in the District Level.">
@@ -98,7 +103,7 @@
 <button type="button" class="member-chip tappable" data-photo="/images/CEC/Joan.jpg" data-name="Executive Member" data-role="Executive Committee" data-bio="From Uganda Instituet of Allied Health Science Mulago,passionate about accountable leadership,financial stewardship and student empowerment.">
 <div class="photo"><img alt="Executive Member" src="/images/CEC/Joan.jpg"/></div>
 <h4>Auma Joan Angel</h4>
-<p>Finance Minister</p>
+<p>Finance Minister - UIAHMSM</p>
 </button>
 
 <button type="button" class="member-chip tappable" data-photo="/images/CEC/Edgar.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Representative BEHSA, Is a dedicated Environmemtal Health Student witha apassion for Team work.">
@@ -193,15 +198,15 @@
 </div>
 <div class="committee-archive-grid">
 <a class="committee-arrow-card" href="/committees/committee-1st">
-<div><span class="label">ARCHIVE</span><h4>1st previous committee</h4></div>
+<div><span class="label">ARCHIVE</span><h4>1st Central Executive Committee</h4></div>
 <span class="arrow">→</span>
 </a>
 <a class="committee-arrow-card" href="/committees/committee-2nd">
-<div><span class="label">ARCHIVE</span><h4>2nd previous committee</h4></div>
+<div><span class="label">ARCHIVE</span><h4>2nd Central Executive Committee</h4></div>
 <span class="arrow">→</span>
 </a>
 <a class="committee-arrow-card" href="/committees/committee-3rd">
-<div><span class="label">ARCHIVE</span><h4>3rd previous committee</h4></div>
+<div><span class="label">ARCHIVE</span><h4>3rd Central Executive Committee</h4></div>
 <span class="arrow">→</span>
 </a>
 </div>
