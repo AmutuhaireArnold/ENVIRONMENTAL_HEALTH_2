@@ -116,15 +116,16 @@
         },
         {
           id: "assoc2", short: "MUEHSA", name: "Member Association ", logo: "MUEHSA.png",
-          president: { photo: "CEC/dam.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
+          president: { photo: "CEC/dama.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
           officers: [
-            { photo: "CEC/denis.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
-            { photo: "CEC/Joa.jpg", name: "Auma Joan Angel", post: "FINANCE MINISTER", school: "Institution / School" },
+            { photo: "CEC/denise.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
+            { photo: "CEC/Joan.jpg", name: "Auma Joan Angel", post: "FINANCE MINISTER", school: "Institution / School" },
             { photo: "CEC/Abdu.jpg", name: "Alafi Abdul Rahuman", post: "MINISTER FOR EXTERNAL AFFAIRS", school: "Institution / School" },
             { photo: "CEC/Edga.jpg", name: "Muhindo Edgar", post: "PUBLICITY MINISTER", school: "Institution / School" },
-            { photo: "CEC/JON.jpg", name: "Magomu Jonah Cornelinus", post: "PROJECTS MINISTER", school: "Institution / School" },
+            { photo: "CEC/JONA.jpg", name: "Magomu Jonah Cornelinus", post: "PROJECTS MINISTER", school: "Institution / School" },
             { photo: "CEC/nampwer.jpg", name: "Nampwera Rebecca", post: "INTERNAL MINISTER", school: "Institution / School" },
-            { photo: "CEC/nic.jpg", name: "Agumenawe Nicodemus", post: "INTERNAL MINISTER", school: "Institution / School" },
+            { photo: "CEC/dema.jpg", name: "Agumenawe Nicodemus", post: "INTERNAL MINISTER", school: "Institution / School" },
+            { photo: "CEC/assumpita.jpg", name: "Namwanga Maria Assumpta", post: "INTERNAL MINISTER", school: "FEHSU -Makerere University" },
             { photo: "CEC/Joa.jpg", name: "Auma Joan Angel", post: "INTERNAL MINISTER", school: "Institution / School" },
           ]
         },
