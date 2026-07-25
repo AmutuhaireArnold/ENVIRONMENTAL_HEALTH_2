@@ -300,14 +300,14 @@
                 </button>
 
                 <!-- Track repeats once more so the slow left-slide loops seamlessly -->
-                <button type="button" class="member-chip tappable" data-photo="/images/CEC/dema.jpg" data-name="Chairperson" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
-                    <div class="photo"><img alt="Chairperson" src="/images/CEC/dema.jpg" /></div>
+                <button type="button" class="member-chip tappable" data-photo="/images/CEC/dem.jpg" data-name="Chairperson" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
+                    <div class="photo"><img alt="Chairperson" src="/images/CEC/dem.jpg" /></div>
                     <h4>Agumenawe Nicodemus</h4>
                     <p>President- MakSPH</p>
                 </button>
                 <!-- Track repeats once more so the slow left-slide loops seamlessly -->
-                <button type="button" class="member-chip tappable" data-photo="/images/CEC/dema.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
-                    <div class="photo"><img alt="Chairperson" src="/images/CEC/dema.jpg" /></div>
+                <button type="button" class="member-chip tappable" data-photo="/images/CEC/dem.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
+                    <div class="photo"><img alt="Chairperson" src="/images/CEC/dem.jpg" /></div>
                     <h4>Agumenawe Nicodemus</h4>
                     <p>President - MakSPH</p>
                 </button>
