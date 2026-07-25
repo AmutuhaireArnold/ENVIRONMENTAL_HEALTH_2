@@ -100,7 +100,7 @@
       var ASSOCIATIONS = [
         {
           id: "assoc1", short: "FEHSU", name: "Member Association", logo: "PHOTO.jpeg",
-          president: { photo: "CEC/dem.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "FEHSU -Makerere University" },
+          president: { photo: "CEC/dama.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "FEHSU -Makerere University" },
           officers: [
             { photo: "CEC/denise.jpg", name: "Kainomugisha Denis", post: "Minister for External Affairs", school: "FEHSU -Makerere University" },
             { photo: "CEC/Joan.jpg", name: "Auma Joan Angel", post: "FINANCE MINISTER", school: "UIAHMS-MULAGO" },
@@ -116,7 +116,7 @@
         },
         {
           id: "assoc2", short: "MUEHSA", name: "Member Association ", logo: "MUEHSA.png",
-          president: { photo: "CEC/dem.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
+          president: { photo: "CEC/dam.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
           officers: [
             { photo: "CEC/denis.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
             { photo: "CEC/Joa.jpg", name: "Auma Joan Angel", post: "FINANCE MINISTER", school: "Institution / School" },
