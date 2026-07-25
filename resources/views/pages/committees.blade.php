@@ -116,16 +116,16 @@
         },
         {
           id: "assoc2", short: "MUEHSA", name: "Member Association ", logo: "MUEHSA.png",
-          president: { photo: "CEC/dama.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
+          president: { photo: "CEC/dama.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "FEHSU -Makerere University" },
           officers: [
-            { photo: "CEC/denise.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
-            { photo: "CEC/Joan.jpg", name: "Auma Joan Angel", post: "FINANCE MINISTER", school: "Institution / School" },
-            { photo: "CEC/Abdu.jpg", name: "Alafi Abdul Rahuman", post: "MINISTER FOR EXTERNAL AFFAIRS", school: "Institution / School" },
-            { photo: "CEC/Edga.jpg", name: "Muhindo Edgar", post: "PUBLICITY MINISTER", school: "Institution / School" },
-            { photo: "CEC/JONA.jpg", name: "Magomu Jonah Cornelinus", post: "PROJECTS MINISTER", school: "Institution / School" },
-            { photo: "CEC/nampwer.jpg", name: "Nampwera Rebecca", post: "INTERNAL MINISTER", school: "Institution / School" },
+            { photo: "CEC/denise.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "FEHSU -Makerere University" },
+            { photo: "CEC/Joan.jpg", name: "Auma Joan Angel", post: "FINANCE MINISTER", school: "FEHSU -Makerere University" },
+            { photo: "CEC/Abdu.jpg", name: "Alafi Abdul Rahuman", post: "MINISTER FOR EXTERNAL AFFAIRS", school: "FEHSU -Makerere University" },
+            { photo: "CEC/Edga.jpg", name: "Muhindo Edgar", post: "PUBLICITY MINISTER", school: "FEHSU -Makerere University" },
+            { photo: "CEC/JONA.jpg", name: "Magomu Jonah Cornelinus", post: "PROJECTS MINISTER", school: "FEHSU -Makerere University" },
+            { photo: "CEC/nampwer.jpg", name: "Nampwera Rebecca", post: "INTERNAL MINISTER", school: "FEHSU -Makerere University" },
             { photo: "CEC/assumpita.jpg", name: "Namwanga Maria Assumpta", post: "INTERNAL MINISTER", school: "FEHSU -Makerere University" },
-            { photo: "CEC/Joa.jpg", name: "Auma Joan Angel", post: "INTERNAL MINISTER", school: "Institution / School" },
+            { photo: "CEC/Joa.jpg", name: "Auma Joan Angel", post: "INTERNAL MINISTER", school: "FEHSU -Makerere University" },
           ]
         },
         {
@@ -146,19 +146,19 @@
           id: "assoc4", short: "MMUPHSA", name: "Member Association ", logo: "PHS.png",
           president: { photo: "CEC/edgar-moon.jpg", name: "Ahimbisibwe Edgar", post: "PRESIDENT", school: "SPH-MMU" },
           officers: [
-            { photo: "CEC/nakigozi-moon.jpg", name: "Nakigozi Ester", post: "VICE PRESIDENT", school: "SPH-MMU" },
-            { photo: "CEC/bright-moon.jpg", name: "Ochela Bright", post: "Academic Secretary", school: "SPH-MMU" },
-            { photo: "CEC/latif-moon.jpg", name: "Lubuulwa Latifu", post: "Justice and Constitutional Affairs", school: "SPH-MMU" },
-            { photo: "CEC/just-moon.jpg", name: "Uwimana Justine", post: "Finance Secretary", school: "SPH-MMU" },
-            { photo: "CEC/nalubega-moon.jpg", name: "Nalubega Kauthara", post: "Events Cordinator", school: "SPH-MMU" },
-            { photo: "CEC/raymond-moon.jpg", name: "Akandwanaho Raymond", post: "General Secretary", school: "SPS-MMU" },
-            { photo: "CEC/keneth-moon.jpg", name: "Katungi Kenneth", post: "Postgraduate Students' Representative", school: "SPS-MMU" },
+            { photo: "CEC/nakigozi-moons.jpg", name: "Nakigozi Ester", post: "VICE PRESIDENT", school: "SPH-MMU" },
+            { photo: "CEC/bright-moons.jpg", name: "Ochela Bright", post: "Academic Secretary", school: "SPH-MMU" },
+            { photo: "CEC/latif-moons.jpg", name: "Lubuulwa Latifu", post: "Justice and Constitutional Affairs", school: "SPH-MMU" },
+            { photo: "CEC/just-moons.jpg", name: "Uwimana Justine", post: "Finance Secretary", school: "SPH-MMU" },
+            { photo: "CEC/nalubega-moons.jpg", name: "Nalubega Kauthara", post: "Events Cordinator", school: "SPH-MMU" },
+            { photo: "CEC/raymond-moons.jpg", name: "Akandwanaho Raymond", post: "General Secretary", school: "SPS-MMU" },
+            { photo: "CEC/keneth-moons.jpg", name: "Katungi Kenneth", post: "Postgraduate Students' Representative", school: "SPS-MMU" },
             { photo: "CEC/.jpg", name: "Bukenya John", post: "Publicity Secretary", school: "SPH-MMU" },
           ]
         },
         {
           id: "assoc5", short: "BWERA", name: "Member Association ", logo: "bwer.jpg",
-          president: { photo: "CEC/demus.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
+          president: { photo: "CEC/dem.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
           officers: [
             { photo: "CEC/denis.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
             { photo: "CEC/Joa.jpg", name: "Auma Joan Angel", post: "FINANCE MINISTER", school: "Institution / School" },
@@ -186,7 +186,7 @@
         },
         {
           id: "assoc5", short: "BWERA", name: "Member Association ", logo: "bwer.jpg",
-          president: { photo: "CEC/nic.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
+          president: { photo: "CEC/ni.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
           officers: [
             { photo: "CEC/denis.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
             { photo: "CEC/Joa.jpg", name: "Auma Joan Angel", post: "FINANCE MINISTER", school: "Institution / School" },
@@ -200,7 +200,7 @@
         },
         {
           id: "assoc5", short: "BWERA", name: "Member Association ", logo: "bwer.jpg",
-          president: { photo: "CEC/nic.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
+          president: { photo: "CEC/ni.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
           officers: [
             { photo: "CEC/denis.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
             { photo: "CEC/Joa.jpg", name: "Auma Joan Angel", post: "FINANCE MINISTER", school: "Institution / School" },
@@ -214,7 +214,7 @@
         },
         {
           id: "assoc5", short: "BWERA", name: "Member Association ", logo: "bwer.jpg",
-          president: { photo: "CEC/nic.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
+          president: { photo: "CEC/ni.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
           officers: [
             { photo: "CEC/denis.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
             { photo: "CEC/Joa.jpg", name: "Auma Joan Angel", post: "FINANCE MINISTER", school: "Institution / School" },
@@ -228,7 +228,7 @@
         },
         {
           id: "assoc5", short: "BWERA", name: "Member Association ", logo: "bwer.jpg",
-          president: { photo: "CEC/nic.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
+          president: { photo: "CEC/ni.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
           officers: [
             { photo: "CEC/denis.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
             { photo: "CEC/Joa.jpg", name: "Auma Joan Angel", post: "FINANCE MINISTER", school: "Institution / School" },
@@ -242,7 +242,7 @@
         },
         {
           id: "assoc5", short: "BWERA", name: "Member Association ", logo: "bwer.jpg",
-          president: { photo: "CEC/nic.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
+          president: { photo: "CEC/ni.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "Institution / School" },
           officers: [
             { photo: "CEC/denis.jpg", name: "Kainomugisha Denis", post: "GENERAL SECRETARY", school: "Institution / School" },
             { photo: "CEC/Joa.jpg", name: "Auma Joan Angel", post: "FINANCE MINISTER", school: "Institution / School" },
