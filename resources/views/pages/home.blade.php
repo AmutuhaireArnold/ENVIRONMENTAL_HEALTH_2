@@ -255,8 +255,8 @@
         <div class="marquee home-exec-marquee">
             <div class="marquee-track" style="animation-duration:95s;">
 
-                <button type="button" class="member-chip tappable" data-photo="/images/CEC/dema.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
-                    <div class="photo"><img alt="Chairperson" src="/images/CEC/dema.jpg" /></div>
+                <button type="button" class="member-chip tappable" data-photo="/images/CEC/DEMUS.jpg" data-name="President" data-role="Executive Committee" data-bio="President FEHSU and leads FEHSU's overall strategy and represents the federation at national and international forums.">
+                    <div class="photo"><img alt="Chairperson" src="/images/CEC/DEMUS.jpg" style="object-fit: contain; background-color: #fff;" /></div>
                     <h4>Agumenawe Nichodemus</h4>
                     <p>President -MakSPH</p>
                 </button>
