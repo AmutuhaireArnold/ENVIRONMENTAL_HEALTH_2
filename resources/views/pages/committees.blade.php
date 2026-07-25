@@ -144,16 +144,16 @@
         },
         {
           id: "assoc4", short: "MMUPHSA", name: "Member Association ", logo: "PHS.png",
-          president: { photo: "CEC/MOON/edgar-moon.jpg", name: "Ahimbisibwe Edgar", post: "PRESIDENT", school: "SPH-MMU" },
+          president: { photo: "CEC/edgar-moon.jpg", name: "Ahimbisibwe Edgar", post: "PRESIDENT", school: "SPH-MMU" },
           officers: [
-            { photo: "CEC/MOON/nakigozi-moon.jpg", name: "Nakigozi Ester", post: "VICE PRESIDENT", school: "SPH-MMU" },
-            { photo: "CEC/MOON/bright-moon.jpg", name: "Ochela Bright", post: "Academic Secretary", school: "SPH-MMU" },
-            { photo: "CEC/MOON/latif-moon.jpg", name: "Lubuulwa Latifu", post: "Justice and Constitutional Affairs", school: "SPH-MMU" },
-            { photo: "CEC/MOON/just-moon.jpg", name: "Uwimana Justine", post: "Finance Secretary", school: "SPH-MMU" },
-            { photo: "CEC/MOON/nalubega-moon.jpg", name: "Nalubega Kauthara", post: "Events Cordinator", school: "SPH-MMU" },
-            { photo: "CEC/MOON/raymond-moon.jpg", name: "Akandwanaho Raymond", post: "General Secretary", school: "SPS-MMU" },
-            { photo: "CEC/MOON/keneth-moon.jpg", name: "Katungi Kenneth", post: "Postgraduate Students' Representative", school: "SPS-MMU" },
-            { photo: "CEC/MOON/.jpg", name: "Bukenya John", post: "Publicity Secretary", school: "SPH-MMU" },
+            { photo: "CEC/nakigozi-moon.jpg", name: "Nakigozi Ester", post: "VICE PRESIDENT", school: "SPH-MMU" },
+            { photo: "CEC/bright-moon.jpg", name: "Ochela Bright", post: "Academic Secretary", school: "SPH-MMU" },
+            { photo: "CEC/latif-moon.jpg", name: "Lubuulwa Latifu", post: "Justice and Constitutional Affairs", school: "SPH-MMU" },
+            { photo: "CEC/just-moon.jpg", name: "Uwimana Justine", post: "Finance Secretary", school: "SPH-MMU" },
+            { photo: "CEC/nalubega-moon.jpg", name: "Nalubega Kauthara", post: "Events Cordinator", school: "SPH-MMU" },
+            { photo: "CEC/raymond-moon.jpg", name: "Akandwanaho Raymond", post: "General Secretary", school: "SPS-MMU" },
+            { photo: "CEC/keneth-moon.jpg", name: "Katungi Kenneth", post: "Postgraduate Students' Representative", school: "SPS-MMU" },
+            { photo: "CEC/.jpg", name: "Bukenya John", post: "Publicity Secretary", school: "SPH-MMU" },
           ]
         },
         {

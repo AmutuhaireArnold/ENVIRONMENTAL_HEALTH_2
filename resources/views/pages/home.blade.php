@@ -13,7 +13,7 @@
             <div class="slide" data-caption="FEHSU President at extreme left with FEHSU members."><img alt="FEHSU members networking" src="/images/27.jpg" style="width:100%; height:100%; object-fit:cover; object-position:center 10%; transform:none;" /></div>
             <div class="slide" data-caption="Members of FEHSU having a group Photo with the 92nd Guild President Makerere University."><img alt="FEHSU safety inspection activity" src="/images/5.jpeg" style="width:100%; height:100%; object-fit:cover; object-position:center 30%; transform:none;" /></div>
             <div class="slide" data-caption="FEHSU Projects Minister signs on the FEHSU E- Waste Club commitment Board."><img alt="FEHSU group photo" src="/images/01.jpg" /></div>
-            <div class="slide" data-caption="Photo moment With FEHSU President in the at School of Public Health Makerere University."><img alt="FEHSU community outreach" src="/images/11.jpg" /></div>
+            <div class="slide" data-caption="Photo moment With FEHSU President in the middle at School of Public Health Makerere University."><img alt="FEHSU community outreach" src="/images/11.jpg" /></div>
         </div>
         <button type="button" class="hero-slide-nav prev" data-dir="-1" aria-label="Previous photo">‹</button>
         <button type="button" class="hero-slide-nav next" data-dir="1" aria-label="Next photo">›</button>
