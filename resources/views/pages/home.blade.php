@@ -273,10 +273,6 @@
                     <p>Projects Minister -MakSPH</p>
                 </button>
 
-                <button type="button" class="member-chip tappable" data-photo="/images/4.jpeg" data-name="Treasurer" data-role="Executive Committee" data-bio="Manages FEHSU's finances, budgets and financial reporting.">
-                    <div class="photo"><img alt="Treasurer" src="/images/4.jpeg" /></div>
-                    <h4>Treasurer</h4>
-                    <p>Executive Committee</p>
                 </button>
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/Abdul.jpg" data-name="Minister For External Affairs" data-role="Executive Committee" data-bio="14th Deputy Guild Speaker SOH-MBALE,Internal Minister MSOHESHA,A rotaractor,A youth Leader under the NRM Secretariat in the District Level.">
                     <div class="photo"><img alt="Vice Chairperson" src="/images/CEC/Abdul.jpg" /></div>
@@ -290,21 +286,12 @@
                     <p>Finance Minister</p>
                 </button>
 
-                <button type="button" class="member-chip tappable" data-photo="/images/5.jpeg" data-name="Publicity Secretary" data-role="Executive Committee" data-bio="Leads FEHSU's communications, media and public outreach.">
-                    <div class="photo"><img alt="Publicity Secretary" src="/images/5.jpeg" /></div>
-                    <h4>Publicity Secretary</h4>
-                    <p>Executive Committee</p>
-                </button>
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/Edgar.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Representative BEHSA, Is a dedicated Environmemtal Health Student witha apassion for Team work.">
                     <div class="photo"><img alt="Projects Minister" src="/images/CEC/Edgar.jpg" /></div>
                     <h4>Muhindo Edgar</h4>
                     <p>Internal Minister - BEHSA </p>
                 </button>
 
-                <button type="button" class="member-chip tappable" data-photo="/images/6.jpeg" data-name="Executive Member" data-role="Executive Committee" data-bio="Contributes to committee decisions and represents member interests.">
-                    <div class="photo"><img alt="Executive Member" src="/images/6.jpeg" /></div>
-                    <h4>Executive Member</h4>
-                    <p>Executive Committee</p>
                 </button>
                 <button type="button" class="member-chip tappable" data-photo="/images/CEC/nampwera.jpg" data-name="General Secretary" data-role="Executive Committee" data-bio="Representative BEHSA, Is a dedicated Environmemtal Health Student witha apassion for Team work.">
                     <div class="photo"><img alt="Projects Minister" src="/images/CEC/nampwera.jpg" /></div>
