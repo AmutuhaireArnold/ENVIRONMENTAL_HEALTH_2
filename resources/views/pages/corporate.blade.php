@@ -23,7 +23,7 @@
 
 <div class="member-level">
 <div class="member-level-head">
-<div><span class="tag mono"> CURRENT Executive Committee</span><h2 class="display">Central Executive Committee</h2></div>
+<div><span class="tag mono"> CURRENT TERM</span><h2 class="display">Central Executive Committee</h2></div>
 <p>The elected officers who run FEHSU's day-to-day affairs.</p>
 </div>
 <div class="marquee">
@@ -125,65 +125,63 @@
 <div class="sister-orgs-head">
 <span class="tag mono"> MEMBER ASSOCIATIONS</span>
 <h2 class="display">Member associations</h2>
-<p>FEHSU works alongside these Member Associations. Below are thier logos <a href="corporate.blade.php" style="background-color: blue; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">
-    VIEW NEC BUTTON
-</a> to view the Associations' National Executive Committees.</p>
+<p>FEHSU works alongside these Member Associations. Select a logo to view that Association's National Executive Committee.</p>
 </div>
 <div class="sister-orgs-slider">
 <button type="button" class="sister-orgs-nav prev" id="sisterOrgsPrev" aria-label="Scroll Member Associations left">‹</button>
 <div class="sister-orgs-track" id="sisterOrgsTrack">
 
-<a class="sister-org-logo">
+<a class="sister-org-logo" href="/associations/sister-org-1">
 <span class="sister-org-logo-box"><img src="/images/PHS.png" alt="Member Association 1 logo" onerror="this.parentElement.textContent='MA1'"></span>
 <span class="sister-org-name">MMUPHSA</span>
 </a>
 
-<a class="sister-org-logo">
+<a class="sister-org-logo" href="/associations/sister-org-2">
 <span class="sister-org-logo-box"><img src="/images/MUEHSA.png" alt="Member Association 2 logo" onerror="this.parentElement.textContent='MA2'"></span>
 <span class="sister-org-name">MUEHSA</span>
 </a>
 
-<a class="sister-org-logo">
+<a class="sister-org-logo" href="/associations/sister-org-3">
 <span class="sister-org-logo-box"><img src="/images/MEHSA.JPG" alt="Member Association 3 logo" onerror="this.parentElement.textContent='MA3'"></span>
 <span class="sister-org-name">MUHSA</span>
 </a>
 
-<a class="sister-org-logo">
+<a class="sister-org-logo" href="/associations/sister-org-4">
 <span class="sister-org-logo-box"><img src="/images/PHOTO.jpeg" alt="Member Association 4 logo" onerror="this.parentElement.textContent='MA4'"></span>
 <span class="sister-org-name">FEHSU</span>
 </a>
 
-<a class="sister-org-logo">
+<a class="sister-org-logo" href="/associations/sister-org-5">
 <span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 5 logo" onerror="this.parentElement.textContent='MA5'"></span>
 <span class="sister-org-name">Member Association 5</span>
 </a>
 
-<a class="sister-org-logo">
+<a class="sister-org-logo" href="/associations/sister-org-6">
 <span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 6 logo" onerror="this.parentElement.textContent='MA6'"></span>
 <span class="sister-org-name">Member Association 6</span>
 </a>
 
-<a class="sister-org-logo">
+<a class="sister-org-logo" href="/associations/sister-org-7">
 <span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 7 logo" onerror="this.parentElement.textContent='MA7'"></span>
 <span class="sister-org-name">Member Association 7</span>
 </a>
 
-<a class="sister-org-logo">
+<a class="sister-org-logo" href="/associations/sister-org-8">
 <span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 8 logo" onerror="this.parentElement.textContent='MA8'"></span>
 <span class="sister-org-name">Member Association 8</span>
 </a>
 
-<a class="sister-org-logo">
+<a class="sister-org-logo" href="/associations/sister-org-9">
 <span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 9 logo" onerror="this.parentElement.textContent='MA9'"></span>
 <span class="sister-org-name">Member Association 9</span>
 </a>
 
-<a class="sister-org-logo">
+<a class="sister-org-logo" href="/associations/sister-org-10">
 <span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 10 logo" onerror="this.parentElement.textContent='MA10'"></span>
 <span class="sister-org-name">Member Association 10</span>
 </a>
 
-<a class="sister-org-logo">
+<a class="sister-org-logo" href="/associations/sister-org-11">
 <span class="sister-org-logo-box"><img src="/images/partner-logo-placeholder.png" alt="Member Association 11 logo" onerror="this.parentElement.textContent='MA11'"></span>
 <span class="sister-org-name">Member Association 11</span>
 </a>
