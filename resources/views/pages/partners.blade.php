@@ -51,9 +51,9 @@
 <img src="/images/ACCM.png" alt="Partner logo placeholder — replace with organization logo" onerror="this.parentElement.classList.add('empty')">
 <span class="slot-label">Logo goes here</span>
 </div>
-<h3>InnoVet</h3>
-<p>Short description of the partnership — what this organization supports and how they work with FEHSU.</p>
-<a class="btn-outline" href="#" style="margin-top:14px;">Visit website</a>
+<h3>African Centre for Career Mentorship</h3>
+<p>This helps students and professionals across Africa move from uncertainty to a clear growth path through mentorship, skill development, and scholarship strategy</p>
+<a class="btn-outline" href="https://www.africanccm.com/" style="margin-top:14px;">Visit website</a>
 </div>
 
 <div class="partner-card">
@@ -61,18 +61,19 @@
 <img src="/images/INNO.png" alt="Partner logo placeholder — replace with organization logo" onerror="this.parentElement.classList.add('empty')">
 <span class="slot-label">Logo goes here</span>
 </div>
-<h3>Partner name</h3>
+<h3>InnoVet</h3>
 <p>Short description of the partnership — what this organization supports and how they work with FEHSU.</p>
 <a class="btn-outline" href="#" style="margin-top:14px;">Visit website</a>
 </div>
+
 <div class="partner-card">
 <div class="partner-logo-slot">
 <img src="/images/MUK.png" alt="Partner logo placeholder — replace with organization logo" onerror="this.parentElement.classList.add('empty')">
 <span class="slot-label">Logo goes here</span>
 </div>
 <h3>Makerere University School of Public Health</h3>
-<p>Short description of the partnership — what this organization supports and how they work with FEHSU.</p>
-<a class="btn-outline" href="#" style="margin-top:14px;">Visit website</a>
+<p>Makerere University School of Public Health (MakSPH) is a Kampala-based institution focused on improving community health through education, research, and policy, securing roughly half of the university's external research funding. It operates across four departments,Epidemiology, Health Policy, Environmental Health, and Community Health—specializing in areas like disease control and maternal nutrition. For more details</p>
+<a class="btn-outline" href="https://sph.mak.ac.ug/" style="margin-top:14px;">Visit website</a>
 </div>
 
 <!-- Add another <div class="partner-card"> block here for each new partner -->
