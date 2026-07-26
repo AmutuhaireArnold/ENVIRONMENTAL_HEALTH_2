@@ -92,12 +92,14 @@
 <script>
 (function(){
       // ---------------------------------------------------------------
-      // EDIT ME: one entry per member association. Change short/name/logo,
-      // and each person's photo, name, post (title) and school.
-      // photo: any image path in this folder. logo: association logo image
-      // (falls back automatically to circle initials if the file is missing).
+      // CHANGED: association data now comes from the database and is managed
+      // in the admin panel (Organizations + Members). The old hardcoded
+      // "EDIT ME" array was removed — edit people in /admin instead.
+      // Image paths arrive as full URLs (e.g. /images/... or /storage/...).
       // ---------------------------------------------------------------
-      var ASSOCIATIONS = [
+      var ASSOCIATIONS = @json($assocChart);
+      // CHANGED: legacy hardcoded list kept below for reference only (unused).
+      var LEGACY_ASSOCIATIONS_UNUSED = [
         {
           id: "assoc1", short: "FEHSU", name: "Member Association", logo: "PHOTO.jpeg",
           president: { photo: "CEC/dama.jpg", name: "Agumenawe Nichodemus", post: "PRESIDENT", school: "FEHSU -Makerere University" },
@@ -268,7 +270,7 @@
           btn.setAttribute('data-assoc-id', a.id);
           btn.innerHTML =
             '<span class="assoc-logo-circle">' +
-              '<img src="/images/'+a.logo+'" alt="'+a.name+' logo" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'fallback-initials\',textContent:\''+initials(a.short)+'\'}))">' +
+              '<img src="'+a.logo+'" alt="'+a.name+' logo" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'fallback-initials\',textContent:\''+initials(a.short)+'\'}))">' +
             '</span>' +
             '<span class="assoc-full-name">'+a.name+'</span>' +
             '<span class="assoc-shortname-btn">'+a.short+'</span>';
@@ -283,7 +285,7 @@
         card.className = 'chart-card';
         card.innerHTML =
           '<div class="post-bar">'+person.post+'</div>' +
-          '<div class="photo-wrap"><img src="/images/'+person.photo+'" alt="'+person.name+'"></div>' +
+          '<div class="photo-wrap"><img src="'+person.photo+'" alt="'+person.name+'"></div>' +
           '<div class="card-text"><h4>'+person.name+'</h4><p>'+person.school+'</p></div>';
         card.querySelector('.photo-wrap').addEventListener('click', function(){
           openChartPhoto(person, isPresident ? 'president' : 'officers');
@@ -306,7 +308,7 @@
         if(!a) return;
         currentAssoc = a;
 
-        chartHeaderLogo.innerHTML = '<img src="/images/'+a.logo+'" alt="'+a.name+' logo" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'fallback-initials\',textContent:\''+initials(a.short)+'\'}))">';
+        chartHeaderLogo.innerHTML = '<img src="'+a.logo+'" alt="'+a.name+' logo" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'fallback-initials\',textContent:\''+initials(a.short)+'\'}))">';
         chartHeaderShort.textContent = a.short + ' · NATIONAL EXECUTIVE COMMITTEE';
         chartHeaderName.textContent = a.name;
 

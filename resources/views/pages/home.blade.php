@@ -252,6 +252,9 @@
             </div>
             <a class="sec-link" href="/corporate">View full Central Executive Committee →</a>
         </div>
+        {{-- CHANGED: CEC members now come from the database (Admin -> Members -> Central Executive Committee). The old hardcoded chips are preserved below inside @if(false). --}}
+        @include('partials.member-marquee', ['members' => $cecMembers, 'duration' => '95s', 'class' => 'home-exec-marquee'])
+        @if (false)
         <div class="marquee home-exec-marquee">
             <div class="marquee-track" style="animation-duration:95s;">
 
@@ -364,6 +367,7 @@
 
             </div>
         </div>
+        @endif
     </div>
 </section>
 
