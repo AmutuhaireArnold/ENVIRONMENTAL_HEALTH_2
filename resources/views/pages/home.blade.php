@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Home — FEHSU')
-@section('description', 'FEHSU is the national association for the occupational health and safety profession in Uganda.')
+@section('title', 'FEHSUG | Federation of Environmental Health Students of Uganda')
+@section('description', 'The official platform of FEHSUG – Federation of Environmental Health Students of Uganda. Join us in advancing environmental health, public health, and student leadership.')
 
 @section('content')
 <section class="hero" id="home">

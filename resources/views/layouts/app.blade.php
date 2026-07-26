@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   {{-- Primary SEO meta --}}
-  <title>@yield('title', 'FEHSU — Federation of Environmental Health Students\' of Uganda')</title>
-  <meta name="description" content="@yield('description', 'FEHSU is the national association for the occupational health and safety profession in Uganda — advancing environmental health, workplace safety, training, and professional standards.')">
+  <title>@yield('title', 'FEHSUG | Federation of Environmental Health Students of Uganda')</title>
+  <meta name="description" content="@yield('description', 'The official platform of FEHSUG – Federation of Environmental Health Students of Uganda. Join us in advancing environmental health, public health, and student leadership.')">
   <meta name="keywords" content="@yield('keywords', 'FEHSU, occupational health and safety Uganda, environmental health Uganda, OHS, workplace safety, health and safety association, Kampala')">
   <meta name="author" content="FEHSU">
   <meta name="robots" content="@yield('robots', 'index, follow, max-image-preview:large, max-snippet:-1')">
@@ -18,8 +18,8 @@
   <meta property="og:site_name" content="FEHSU">
   <meta property="og:locale" content="en_UG">
   <meta property="og:type" content="@yield('og_type', 'website')">
-  <meta property="og:title" content="@yield('title', 'FEHSU — Federation of Environmental Health Students\' of Uganda')">
-  <meta property="og:description" content="@yield('description', 'FEHSU is the national association for the occupational health and safety profession in Uganda.')">
+  <meta property="og:title" content="@yield('title', 'FEHSUG | Federation of Environmental Health Students of Uganda')">
+  <meta property="og:description" content="@yield('description', 'The official platform of FEHSUG – Federation of Environmental Health Students of Uganda. Join us in advancing environmental health, public health, and student leadership.')">
   <meta property="og:url" content="@yield('canonical', url()->current())">
   <meta property="og:image" content="@yield('og_image', url('/images/PHOTO.jpeg'))">
   <meta property="og:image:alt" content="FEHSU logo">
@@ -27,12 +27,15 @@
   {{-- Twitter Card --}}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@fehsu256">
-  <meta name="twitter:title" content="@yield('title', 'FEHSU')">
-  <meta name="twitter:description" content="@yield('description', 'FEHSU is the national association for the occupational health and safety profession in Uganda.')">
+  <meta name="twitter:title" content="@yield('title', 'FEHSUG')">
+  <meta name="twitter:description" content="@yield('description', 'The official platform of FEHSUG – Federation of Environmental Health Students of Uganda.')">
   <meta name="twitter:image" content="@yield('og_image', url('/images/PHOTO.jpeg'))">
 
-  <link rel="icon" href="/images/PHOTO.jpeg">
-  <link rel="apple-touch-icon" href="/images/PHOTO.jpeg">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="/images/favicon_io/site.webmanifest">
   <link rel="preconnect" href="https://img.youtube.com" crossorigin>
   <link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin>
   <link rel="stylesheet" href="/assets/style.css">

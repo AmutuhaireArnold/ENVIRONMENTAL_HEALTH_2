@@ -29,7 +29,7 @@ class AdminPanelProvider extends PanelProvider
             ->brandName('FEHSU Admin')
             ->brandLogo(asset('images/PHOTO.jpeg'))
             ->brandLogoHeight('2.5rem')
-            ->favicon(asset('images/PHOTO.jpeg'))
+            ->favicon(asset('images/favicon_io/favicon-32x32.png'))
             ->colors([
                 // FEHSU brand palette (matches public site CSS vars)
                 'primary' => '#2f7a3d',   // --clay brand green
