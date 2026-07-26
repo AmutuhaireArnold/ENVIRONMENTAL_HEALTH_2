@@ -5,22 +5,26 @@
 
 @push('structured_data')
 @php
-    $ld = [
-        '@context' => 'https://schema.org',
-        '@type' => 'CollectionPage',
-        'name' => 'FEHSU News',
-        'url' => url()->current(),
-        'mainEntity' => [
-            '@type' => 'ItemList',
-            'itemListElement' => $posts->values()->map(fn ($post, $i) => [
-                '@type' => 'ListItem',
-                'position' => $i + 1,
-                'name' => $post->title,
-            ])->all(),
-        ],
-    ];
+$ld = [
+'@context' => 'https://schema.org',
+'@type' => 'CollectionPage',
+'name' => 'FEHSU News',
+'url' => url()->current(),
+'mainEntity' => [
+'@type' => 'ItemList',
+'itemListElement' => $posts->values()->map(fn ($post, $i) => [
+'@type' => 'ListItem',
+'position' => $i + 1,
+'name' => $post->title,
+])->all(),
+],
+];
 @endphp
-<script type="application/ld+json">{!! json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}</script>
+<script type="application/ld+json">
+    {
+        !!json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!
+    }
+</script>
 @endpush
 
 @section('content')

@@ -33,7 +33,11 @@ class CommitteeForm
                     ->image()
                     ->disk('public')
                     ->directory('committees')
-                    ->maxSize(4096),
+                    ->maxSize(4096)
+                    ->imageResizeMode('contain')
+                    ->imageResizeTargetWidth('1920')
+                    ->imageResizeTargetHeight('1080')
+                    ->imageResizeUpscale(false),
                 TextInput::make('sort_order')
                     ->required()
                     ->numeric()

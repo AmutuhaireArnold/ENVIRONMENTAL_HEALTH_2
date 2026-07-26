@@ -38,6 +38,36 @@ class PageController extends Controller
     {
         return view('pages.press-release', [
             'documents' => Document::where('category', 'press')->orderByDesc('published_at')->get(),
+            'posts' => Post::where('is_published', true)->where('type', 'press_release')->orderByDesc('published_at')->get(),
+        ]);
+    }
+
+    public function events()
+    {
+        return view('pages.events', [
+            'allEvents' => Event::where('is_published', true)->orderByDesc('starts_at')->get(),
+        ]);
+    }
+
+    public function programs()
+    {
+        return view('pages.programs', [
+            'programs' => Event::where('is_published', true)->where('type', 'program')->orderByDesc('starts_at')->get(),
+        ]);
+    }
+
+    public function standard()
+    {
+        return view('pages.standard', [
+            'documents' => Document::where('category', 'standard')->orderByDesc('published_at')->get(),
+        ]);
+    }
+
+    public function resources()
+    {
+        return view('pages.resources', [
+            'latestPosts' => Post::where('is_published', true)->orderByDesc('published_at')->limit(4)->get(),
+            'documents' => Document::where('category', 'resource')->orderByDesc('published_at')->get(),
         ]);
     }
 

@@ -31,6 +31,7 @@ Laravel 13 (framework 13.21.1) + Filament v5.7 admin panel, at the repo root `c:
 
 | Table | Key fields | Notes |
 |---|---|---|
+| content_blocks | key (unique, e.g. `history.hero.title`), page, type enum(text, rich), value | CMS-editable page text. Views: `@content('key', 'hardcoded default')` (escaped) / `@richcontent` (HTML); directives in AppServiceProvider. Blocks auto-register on first render pre-filled with the default; empty/deleted value falls back to the hardcoded default — content can never be lost. Cache 300s + instant flush via model events (bulk queries bypass events, hence TTL). Admin: "Page Content". |
 | posts | type enum(news, press_release, article), slug, excerpt, body, is_published, published_at | RichEditor body |
 | events | type enum(event, program, upcoming), starts_at, location, is_published | upcoming-events + home teasers use type=upcoming |
 | ticker_messages | message, is_active, sort_order | rendered twice in layout for seamless loop |
@@ -45,7 +46,7 @@ Laravel 13 (framework 13.21.1) + Filament v5.7 admin panel, at the repo root `c:
 ## Page inventory
 
 - **DB-driven:** `/` (videos, upcoming teasers, updates), `/news`, `/articles-journals`, `/press-release` (documents), `/upcoming-events`, `/media`, `/committees/{slug}`, `/associations/{slug}`.
-- **Static Blade (hardcoded by design):** history, objectives, member-value-benefits, member-options, corporate, committees (assoc chart JS), partners, associations, events, programs, standard, resources, contact.
+- **Content-block editable text** (via @content): history, objectives, contact, member-value-benefits, member-options, home (moto/vision/mission + value cards). Remaining hardcoded: corporate, committees (assoc chart JS), partners, associations, events, programs, standard, resources.
 - Legacy URLs: any `/{page}.html` 301-redirects to the new route (committee-*/other-committee-* → `/committees/{slug}`, sister-org-N → `/associations/sister-org-N`).
 
 ## Frontend JS hooks (unchanged from legacy)

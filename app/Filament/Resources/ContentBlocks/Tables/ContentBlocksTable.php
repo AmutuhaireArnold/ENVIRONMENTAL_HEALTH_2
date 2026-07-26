@@ -1,33 +1,36 @@
 <?php
 
-namespace App\Filament\Resources\TickerMessages\Tables;
+namespace App\Filament\Resources\ContentBlocks\Tables;
 
 use Filament\Actions\BulkActionGroup;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
 use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Columns\ToggleColumn;
 use Filament\Tables\Table;
 
-class TickerMessagesTable
+class ContentBlocksTable
 {
     public static function configure(Table $table): Table
     {
         return $table
-            ->defaultSort('sort_order')
-            ->reorderable('sort_order')
+            ->defaultGroup('page')
+            ->defaultSort('key')
             ->columns([
-                TextColumn::make('message')
+                TextColumn::make('key')
+                    ->label('Block')
                     ->searchable()
-                    ->wrap(),
-                ToggleColumn::make('is_active')
-                    ->label('Live'),
-                TextColumn::make('sort_order')
-                    ->label('Order')
-                    ->numeric()
-                    ->sortable()
-                    ->toggleable(isToggledHiddenByDefault: true),
+                    ->sortable(),
+                TextColumn::make('page')
+                    ->badge()
+                    ->searchable(),
+                TextColumn::make('value')
+                    ->label('Content')
+                    ->limit(80)
+                    ->searchable()
+                    ->placeholder('— using built-in text —')
+                    ->html(),
                 TextColumn::make('updated_at')
+                    ->label('Last edited')
                     ->dateTime()
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
@@ -40,7 +43,8 @@ class TickerMessagesTable
             ])
             ->toolbarActions([
                 BulkActionGroup::make([
-                    DeleteBulkAction::make(),
+                    DeleteBulkAction::make()
+                        ->label('Reset to built-in text'),
                 ]),
             ]);
     }

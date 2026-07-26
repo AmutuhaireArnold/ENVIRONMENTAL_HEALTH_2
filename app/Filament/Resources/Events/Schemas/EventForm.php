@@ -25,8 +25,13 @@ class EventForm
                     ->required()
                     ->unique(ignoreRecord: true),
                 Select::make('type')
-                    ->options(['event' => 'Event', 'program' => 'Program', 'upcoming' => 'Upcoming'])
-                    ->default('event')
+                    ->options([
+                        'upcoming' => 'Upcoming — shows on Upcoming events page + homepage calendar',
+                        'program' => 'Program — shows on Programs page',
+                        'event' => 'Event — shows on Events page',
+                    ])
+                    ->default('upcoming')
+                    ->helperText('Controls WHERE on the website this event appears.')
                     ->required(),
                 Textarea::make('description')
                     ->columnSpanFull(),
@@ -37,7 +42,11 @@ class EventForm
                     ->image()
                     ->disk('public')
                     ->directory('events')
-                    ->maxSize(4096),
+                    ->maxSize(4096)
+                    ->imageResizeMode('contain')
+                    ->imageResizeTargetWidth('1600')
+                    ->imageResizeTargetHeight('1600')
+                    ->imageResizeUpscale(false),
                 Toggle::make('is_published')
                     ->default(true),
             ]);

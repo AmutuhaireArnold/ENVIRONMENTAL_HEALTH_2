@@ -15,9 +15,16 @@ class MemberForm
         return $schema
             ->components([
                 Select::make('committee_id')
-                    ->relationship('committee', 'name'),
+                    ->label('Committee (archive)')
+                    ->relationship('committee', 'name')
+                    ->searchable()
+                    ->preload()
+                    ->helperText('Pick a committee OR an association below — not both.'),
                 Select::make('organization_id')
-                    ->relationship('organization', 'name'),
+                    ->label('Member association')
+                    ->relationship('organization', 'name')
+                    ->searchable()
+                    ->preload(),
                 TextInput::make('name')
                     ->required(),
                 TextInput::make('role'),
@@ -27,7 +34,11 @@ class MemberForm
                     ->image()
                     ->disk('public')
                     ->directory('members')
-                    ->maxSize(4096),
+                    ->maxSize(4096)
+                    ->imageResizeMode('contain')
+                    ->imageResizeTargetWidth('1000')
+                    ->imageResizeTargetHeight('1000')
+                    ->imageResizeUpscale(false),
                 TextInput::make('sort_order')
                     ->required()
                     ->numeric()

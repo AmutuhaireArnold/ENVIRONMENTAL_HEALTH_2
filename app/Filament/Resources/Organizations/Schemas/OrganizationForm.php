@@ -32,12 +32,20 @@ class OrganizationForm
                     ->image()
                     ->disk('public')
                     ->directory('organizations')
-                    ->maxSize(4096),
+                    ->maxSize(4096)
+                    ->imageResizeMode('contain')
+                    ->imageResizeTargetWidth('800')
+                    ->imageResizeTargetHeight('800')
+                    ->imageResizeUpscale(false),
                 FileUpload::make('hero_image')
                     ->image()
                     ->disk('public')
                     ->directory('organizations')
-                    ->maxSize(4096),
+                    ->maxSize(4096)
+                    ->imageResizeMode('contain')
+                    ->imageResizeTargetWidth('1920')
+                    ->imageResizeTargetHeight('1080')
+                    ->imageResizeUpscale(false),
                 TextInput::make('sort_order')
                     ->required()
                     ->numeric()

@@ -5,17 +5,21 @@
 
 @push('structured_data')
 @php
-    $breadcrumbLd = [
-        '@context' => 'https://schema.org',
-        '@type' => 'BreadcrumbList',
-        'itemListElement' => [
-            ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
-            ['@type' => 'ListItem', 'position' => 2, 'name' => 'Committees', 'item' => url('/committees')],
-            ['@type' => 'ListItem', 'position' => 3, 'name' => $committee->name, 'item' => url()->current()],
-        ],
-    ];
+$breadcrumbLd = [
+'@context' => 'https://schema.org',
+'@type' => 'BreadcrumbList',
+'itemListElement' => [
+['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+['@type' => 'ListItem', 'position' => 2, 'name' => 'Committees', 'item' => url('/committees')],
+['@type' => 'ListItem', 'position' => 3, 'name' => $committee->name, 'item' => url()->current()],
+],
+];
 @endphp
-<script type="application/ld+json">{!! json_encode($breadcrumbLd, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}</script>
+<script type="application/ld+json">
+    {
+        !!json_encode($breadcrumbLd, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!
+    }
+</script>
 @endpush
 
 @section('content')

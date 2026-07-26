@@ -9,9 +9,7 @@ use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Filament\Pages\Dashboard;
 use Filament\Panel;
 use Filament\PanelProvider;
-use Filament\Support\Colors\Color;
 use Filament\Widgets\AccountWidget;
-use Filament\Widgets\FilamentInfoWidget;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
@@ -28,8 +26,17 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+            ->brandName('FEHSU Admin')
+            ->brandLogo(asset('images/PHOTO.jpeg'))
+            ->brandLogoHeight('2.5rem')
+            ->favicon(asset('images/PHOTO.jpeg'))
             ->colors([
-                'primary' => Color::Amber,
+                // FEHSU brand palette (matches public site CSS vars)
+                'primary' => '#2f7a3d',   // --clay brand green
+                'success' => '#1f7a52',   // --leaf
+                'info' => '#2f6690',      // --sky
+                'danger' => '#b91c1c',
+                'warning' => '#b45309',
             ])
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\Filament\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\Filament\Pages')
@@ -39,7 +46,8 @@ class AdminPanelProvider extends PanelProvider
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\Filament\Widgets')
             ->widgets([
                 AccountWidget::class,
-                FilamentInfoWidget::class,
+                // CHANGED: removed generic FilamentInfoWidget; FEHSU stats widget is
+                // auto-discovered from app/Filament/Widgets.
             ])
             ->middleware([
                 EncryptCookies::class,

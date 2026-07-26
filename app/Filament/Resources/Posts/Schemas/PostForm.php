@@ -37,7 +37,11 @@ class PostForm
                     ->image()
                     ->disk('public')
                     ->directory('posts')
-                    ->maxSize(4096),
+                    ->maxSize(4096)
+                    ->imageResizeMode('contain')
+                    ->imageResizeTargetWidth('1600')
+                    ->imageResizeTargetHeight('1600')
+                    ->imageResizeUpscale(false),
                 Toggle::make('is_published')
                     ->default(true),
                 DateTimePicker::make('published_at')

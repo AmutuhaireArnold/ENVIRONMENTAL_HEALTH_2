@@ -23,7 +23,11 @@ class MediaItemForm
                     ->image()
                     ->disk('public')
                     ->directory('media')
-                    ->maxSize(4096),
+                    ->maxSize(4096)
+                    ->imageResizeMode('contain')
+                    ->imageResizeTargetWidth('1600')
+                    ->imageResizeTargetHeight('1600')
+                    ->imageResizeUpscale(false),
                 TextInput::make('youtube_id')
                     ->helperText('The video ID from the YouTube URL, e.g. dQw4w9WgXcQ'),
                 TextInput::make('sort_order')
