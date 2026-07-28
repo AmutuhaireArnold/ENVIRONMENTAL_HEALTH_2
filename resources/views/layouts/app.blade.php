@@ -71,6 +71,7 @@
     }
   </script>
   @stack('structured_data')
+
 </head>
 
 <body>
@@ -201,6 +202,15 @@
         <a href="https://www.youtube.com/@fehsu" aria-label="YouTube"><img src="/images/you.png" alt="YouTube" loading="lazy"></a>
       </div>
     </div>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C5663192TV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C5663192TV');
+</script>
   </footer>
 
   <button id="backToTop" onclick="scrollToTop()" aria-label="Back to top">
