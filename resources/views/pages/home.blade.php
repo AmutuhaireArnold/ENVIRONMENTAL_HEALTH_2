@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Home — FEHSU')
-@section('description', 'FEHSU is the national association for the occupational health and safety profession in Uganda.')
+@section('title', 'FEHSUG | Federation of Environmental Health Students of Uganda')
+@section('description', 'The official platform of FEHSUG – Federation of Environmental Health Students of Uganda. Join us in advancing environmental health, public health, and student leadership.')
 
 @section('content')
 <section class="hero" id="home">
@@ -149,19 +149,19 @@
     <div class="wrap">
         <div class="sec-head">
             <span class="tag mono"> 01 — MISSION, MOTO &amp; VISION</span>
-            <h2 class="display">OUR MOTO</h2>
-            <p>Promoting Preventive Health.</p>
+            <h2 class="display">@content('home.moto.heading', 'OUR MOTO')</h2>
+            <p>@content('home.moto.body', 'Promoting Preventive Health.')</p>
         </div>
         <div class="mv-grid">
             <div class="mv-card">
                 <span class="idx mono">Vision</span>
-            
-                <p>Healthy Environment,Healthy Communities,Empowered Professionals</p>
+
+                <p>@content('home.vision.body', 'Healthy Environment, Healthy Communities, Empowered Professionals')</p>
             </div>
             <div class="mv-card">
                 <span class="idx mono">Mission</span>
-               
-                <p>A leading force in environmental health, insipring a movement of knowledgeable and proactive students who drive change and foster a sustaianble futre for Uganda.</p>
+
+                <p>@content('home.mission.body', 'A leading force in environmental health, inspiring a movement of knowledgeable and proactive students who drive change and foster a sustainable future for Uganda.')</p>
             </div>
         </div>
     </div>
@@ -174,72 +174,72 @@
             <h2 class="display">What guides our work</h2>
         </div>
         <div class="values-grid">
-    <div class="value-card search-card" data-search="integrity performance responsibility">
-        <div class="vphoto"><img alt="FEHSU members conducting a safety inspection" src="/images/13.jpg"></div>
-        <div class="vbody" style="padding: 1.25rem 1.5rem;">
-            <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
-                <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #3bd257ac; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #f7f3f3ec;">V.01</span>
-                <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">Integrity</h3>
+            <div class="value-card search-card" data-search="integrity performance responsibility">
+                <div class="vphoto"><img alt="FEHSU members conducting a safety inspection" src="/images/13.jpg"></div>
+                <div class="vbody" style="padding: 1.25rem 1.5rem;">
+                    <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
+                        <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #3bd257ac; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #f7f3f3ec;">V.01</span>
+                        <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">@content('home.value1.title', 'Integrity')</h3>
+                    </div>
+                    <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">@content('home.value1.body', 'A culture of performance and responsibility in everything we do.')</p>
+                </div>
             </div>
-            <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">A culture of performance and responsibility in everything we do.</p>
-        </div>
-    </div>
 
-    <div class="value-card search-card" data-search="legacy safety culture lasts">
-        <div class="vphoto"><img alt="FEHSU members at a legacy building event" src="/images/29.jpg"></div>
-        <div class="vbody" style="padding: 1.25rem 1.5rem;">
-            <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
-                <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #3bd257ac; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #f7f3f3ec;">V.02</span>
-                <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">Legacy</h3>
+            <div class="value-card search-card" data-search="legacy safety culture lasts">
+                <div class="vphoto"><img alt="FEHSU members at a legacy building event" src="/images/29.jpg"></div>
+                <div class="vbody" style="padding: 1.25rem 1.5rem;">
+                    <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
+                        <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #3bd257ac; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #f7f3f3ec;">V.02</span>
+                        <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">@content('home.value2.title', 'Legacy')</h3>
+                    </div>
+                    <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">@content('home.value2.body', 'Actively promoting and creating a safety culture that lasts.')</p>
+                </div>
             </div>
-            <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">Actively promoting and creating a safety culture that lasts.</p>
-        </div>
-    </div>
 
-    <div class="value-card search-card" data-search="diversity perspectives across industries">
-        <div class="vphoto"><img alt="Diverse group of FEHSU members" src="/images/30.jpg"></div>
-        <div class="vbody" style="padding: 1.25rem 1.5rem;">
-            <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
-                <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #3bd257ac; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #f7f3f3ec;">V.03</span>
-                <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">Diversity</h3>
+            <div class="value-card search-card" data-search="diversity perspectives across industries">
+                <div class="vphoto"><img alt="Diverse group of FEHSU members" src="/images/30.jpg"></div>
+                <div class="vbody" style="padding: 1.25rem 1.5rem;">
+                    <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
+                        <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #3bd257ac; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #f7f3f3ec;">V.03</span>
+                        <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">@content('home.value3.title', 'Diversity')</h3>
+                    </div>
+                    <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">@content('home.value3.body', "Respecting each other's diverse perspectives across industries.")</p>
+                </div>
             </div>
-            <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">Respecting each other's diverse perspectives across industries.</p>
-        </div>
-    </div>
 
-    <div class="value-card search-card" data-search="leadership serving change industries community">
-        <div class="vphoto"><img alt="FEHSU leadership at a committee meeting" src="/images/23.jpg"></div>
-        <div class="vbody" style="padding: 1.25rem 1.5rem;">
-            <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
-                <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #3bd257ac; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #f7f3f3ec;">V.04</span>
-                <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">Leadership</h3>
+            <div class="value-card search-card" data-search="leadership serving change industries community">
+                <div class="vphoto"><img alt="FEHSU leadership at a committee meeting" src="/images/23.jpg"></div>
+                <div class="vbody" style="padding: 1.25rem 1.5rem;">
+                    <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
+                        <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #3bd257ac; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #f7f3f3ec;">V.04</span>
+                        <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">@content('home.value4.title', 'Leadership')</h3>
+                    </div>
+                    <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">@content('home.value4.body', 'Leading by serving — driving positive change within industries, organizations, and our community.')</p>
+                </div>
             </div>
-            <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">Leading by serving — driving positive change within industries, organizations, and our community.</p>
-        </div>
-    </div>
 
-    <div class="value-card search-card" data-search="humanity care people community">
-        <div class="vphoto"><img alt="FEHSU members community outreach" src="/images/22.jpg"></div>
-        <div class="vbody" style="padding: 1.25rem 1.5rem;">
-            <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
-                <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #3bd257ac; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #f7f3f3ec;">V.05</span>
-                <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">Humanity</h3>
+            <div class="value-card search-card" data-search="humanity care people community">
+                <div class="vphoto"><img alt="FEHSU members community outreach" src="/images/22.jpg"></div>
+                <div class="vbody" style="padding: 1.25rem 1.5rem;">
+                    <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
+                        <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #3bd257ac; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #f7f3f3ec;">V.05</span>
+                        <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">@content('home.value5.title', 'Humanity')</h3>
+                    </div>
+                    <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">@content('home.value5.body', 'Committed to health and safety because we care about people and community.')</p>
+                </div>
             </div>
-            <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">Committed to health and safety because we care about people and community.</p>
-        </div>
-    </div>
 
-    <div class="value-card search-card" data-search="innovation ahead culture safety practices">
-        <div class="vphoto"><img alt="FEHSU members reviewing innovative safety practices" src="/images/11.jpg"></div>
-        <div class="vbody" style="padding: 1.25rem 1.5rem;">
-            <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
-                <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #3bd257ac; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #f7f3f3ec;">V.06</span>
-                <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">Innovation</h3>
+            <div class="value-card search-card" data-search="innovation ahead culture safety practices">
+                <div class="vphoto"><img alt="FEHSU members reviewing innovative safety practices" src="/images/11.jpg"></div>
+                <div class="vbody" style="padding: 1.25rem 1.5rem;">
+                    <div class="vheader" style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.6rem;">
+                        <span class="mono" style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #3bd257ac; color: #fff; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em; border: 2px solid #f7f3f3ec;">V.06</span>
+                        <h3 style="margin: 0; font-size: 1.35rem; line-height: 1.2; font-weight: 700;">@content('home.value6.title', 'Innovation')</h3>
+                    </div>
+                    <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">@content('home.value6.body', 'Staying ahead in a culture of innovation to improve health and safety.')</p>
+                </div>
             </div>
-            <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: #4a4a4a;">Staying ahead in a culture of innovation to improve health and safety.</p>
         </div>
-    </div>
-</div>
 </section>
 
 <section class="sec" id="leadership">
@@ -252,6 +252,9 @@
             </div>
             <a class="sec-link" href="/corporate">View full Central Executive Committee →</a>
         </div>
+        {{-- CHANGED: CEC members now come from the database (Admin -> Members -> Central Executive Committee). The old hardcoded chips are preserved below inside @if(false). --}}
+        @include('partials.member-marquee', ['members' => $cecMembers, 'duration' => '95s', 'class' => 'home-exec-marquee'])
+        @if (false)
         <div class="marquee home-exec-marquee">
             <div class="marquee-track" style="animation-duration:95s;">
 
@@ -364,6 +367,7 @@
 
             </div>
         </div>
+        @endif
     </div>
 </section>
 

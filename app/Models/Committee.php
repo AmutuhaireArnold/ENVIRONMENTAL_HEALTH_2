@@ -19,6 +19,7 @@ class Committee extends Model
 
     public function members(): HasMany
     {
-        return $this->hasMany(Member::class)->orderBy('sort_order');
+        // Secondary id sort makes ties in sort_order deterministic (oldest first).
+        return $this->hasMany(Member::class)->orderBy('sort_order')->orderBy('id');
     }
 }

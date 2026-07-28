@@ -32,9 +32,9 @@
     <div class="hero-photo" style="background-image:url('/images/5.jpeg')"></div>
     <div class="hero-overlay"></div>
     <div class="wrap">
-        <span class="eyebrow mono" style="margin-bottom:8px;"><span class="dot"></span>GET IN TOUCH</span>
-        <h1 class="display">Contact us</h1>
-        <p class="sub">Questions about membership, events, or partnering with FEHSU — reach out and we'll respond promptly.</p>
+        <span class="eyebrow mono" style="margin-bottom:8px;"><span class="dot"></span>@content('contact.hero.eyebrow', 'GET IN TOUCH')</span>
+        <h1 class="display">@content('contact.hero.title', 'Contact us')</h1>
+        <p class="sub">@content('contact.hero.subtitle', "Questions about membership, events, or partnering with FEHSU — reach out and we'll respond promptly.")</p>
     </div>
 </section>
 <section class="sec">
@@ -42,28 +42,28 @@
         <div class="form-grid">
             <div class="contact-cta">
                 <div class="icon-badge">✉️</div>
-                <h3>Send us a message</h3>
-                <p>We use a simple Google Form to collect enquiries , it takes less than a minute and reaches our team directly. Tell us about membership, events, partnerships, or anything else on your mind.</p>
-                <a class="cta-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScKQnTTrGLCG2DprQje8NSjxFUcb6styyTLgYD5rFQ4ztcNCQ/viewform?usp=header" target="_blank" rel="noopener">Open the contact form →</a>
-                <p class="form-note">Prefer email or phone? Use the details alongside, we respond just as fast.</p>
+                <h3>@content('contact.form.heading', 'Send us a message')</h3>
+                <p>@content('contact.form.body', 'We use a simple Google Form to collect enquiries , it takes less than a minute and reaches our team directly. Tell us about membership, events, partnerships, or anything else on your mind.')</p>
+                <a class="cta-btn" href="@content('contact.form.url', 'https://docs.google.com/forms/d/e/1FAIpQLScKQnTTrGLCG2DprQje8NSjxFUcb6styyTLgYD5rFQ4ztcNCQ/viewform?usp=header')" target="_blank" rel="noopener">Open the contact form →</a>
+                <p class="form-note">@content('contact.form.note', 'Prefer email or phone? Use the details alongside, we respond just as fast.')</p>
             </div>
             <div>
                 <div class="contact-info-list">
                     <div class="item">
                         <h4>Location</h4>
-                        <p> School of Public Health ,Makerere University, Kampala, Uganda</p>
+                        <p>@content('contact.info.location', 'School of Public Health, Makerere University, Kampala, Uganda')</p>
                     </div>
                     <div class="item">
                         <h4>Phone</h4>
-                        <p><a href="tel:+256777828818">+256 777 828 818</a></p>
+                        <p><a href="tel:@content('contact.info.phone_link', '+256777828818')">@content('contact.info.phone', '+256 777 828 818')</a></p>
                     </div>
                     <div class="item">
                         <h4>Email</h4>
-                        <p><a href="mailto:fehsuganda@gmail.com">fehsuganda@gmail.com</a></p>
+                        <p><a href="mailto:@content('contact.info.email', 'fehsuganda@gmail.com')">@content('contact.info.email', 'fehsuganda@gmail.com')</a></p>
                     </div>
                     <div class="item">
                         <h4>Member registration</h4>
-                        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScKxVos78HSmTmZiKxrgiQEYihKOeeTUKB9n-se3fgzOFSJmg/viewform?usp=header">Google Form registration →</a></p>
+                        <p><a href="@content('contact.register.url', 'https://docs.google.com/forms/d/e/1FAIpQLScKxVos78HSmTmZiKxrgiQEYihKOeeTUKB9n-se3fgzOFSJmg/viewform?usp=header')">Google Form registration →</a></p>
                     </div>
                 </div>
             </div>

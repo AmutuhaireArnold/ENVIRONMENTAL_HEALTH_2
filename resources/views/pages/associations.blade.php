@@ -31,6 +31,9 @@
 <div><span class="tag mono">RECOGNITION</span><h2 class="display">Associations</h2></div>
 <p>Experienced professionals who guide FEHSU's strategy and represent the federation externally.</p>
 </div>
+{{-- CHANGED: Advisory Board members now come from the database (Admin -> Members -> Advisory Board). Old hardcoded chips preserved below inside @if(false). --}}
+@include('partials.member-marquee', ['members' => $advisoryMembers, 'duration' => '165s'])
+@if (false)
 <div class="marquee">
 <div class="marquee-track" style="animation-duration:165s;">
 <button type="button" class="member-chip tappable" data-photo="/images/4.jpeg" data-name="Advisory Member" data-role="Advisory Board" data-bio="Guides FEHSU's strategy and represents the federation externally as part of the Advisory Board. Replace this placeholder with their real biography.">
@@ -95,6 +98,7 @@
 </button>
 </div>
 </div>
+@endif
 </div>
 
 <div class="committee-archive">

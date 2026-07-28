@@ -19,14 +19,16 @@ Route::view('/history', 'pages.history')->name('history');
 Route::view('/objectives', 'pages.objectives')->name('objectives');
 Route::view('/member-value-benefits', 'pages.member-value-benefits')->name('member-value-benefits');
 Route::view('/member-options', 'pages.member-options')->name('member-options');
-Route::view('/corporate', 'pages.corporate')->name('corporate');
-Route::view('/committees', 'pages.committees')->name('committees');
+// CHANGED: corporate/committees/associations leadership is now DB-driven (managed in admin).
+Route::get('/corporate', [PageController::class, 'corporate'])->name('corporate');
+Route::get('/committees', [PageController::class, 'committeesPage'])->name('committees');
 Route::view('/partners', 'pages.partners')->name('partners');
-Route::view('/associations', 'pages.associations')->name('associations');
-Route::view('/events', 'pages.events')->name('events');
-Route::view('/programs', 'pages.programs')->name('programs');
-Route::view('/standard', 'pages.standard')->name('standard');
-Route::view('/resources', 'pages.resources')->name('resources');
+Route::get('/associations', [PageController::class, 'associationsPage'])->name('associations');
+// CHANGED: events/programs/standard/resources now pull admin-managed content from the DB.
+Route::get('/events', [PageController::class, 'events'])->name('events');
+Route::get('/programs', [PageController::class, 'programs'])->name('programs');
+Route::get('/standard', [PageController::class, 'standard'])->name('standard');
+Route::get('/resources', [PageController::class, 'resources'])->name('resources');
 Route::view('/contact', 'pages.contact')->name('contact');
 
 // Database-driven pages

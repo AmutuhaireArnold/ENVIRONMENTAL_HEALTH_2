@@ -5,28 +5,32 @@
 
 @push('structured_data')
 @php
-    $eventsLd = $events->map(fn ($event) => [
-        '@context' => 'https://schema.org',
-        '@type' => 'Event',
-        'name' => $event->title,
-        'startDate' => optional($event->starts_at)->toIso8601String(),
-        'eventAttendanceMode' => 'https://schema.org/OfflineEventAttendanceMode',
-        'eventStatus' => 'https://schema.org/EventScheduled',
-        'location' => [
-            '@type' => 'Place',
-            'name' => $event->location ?: 'Kampala, Uganda',
-            'address' => $event->location ?: 'Kampala, Uganda',
-        ],
-        'description' => $event->description,
-        'organizer' => [
-            '@type' => 'Organization',
-            'name' => 'FEHSU',
-            'url' => url('/'),
-        ],
-    ])->all();
+$eventsLd = $events->map(fn ($event) => [
+'@context' => 'https://schema.org',
+'@type' => 'Event',
+'name' => $event->title,
+'startDate' => optional($event->starts_at)->toIso8601String(),
+'eventAttendanceMode' => 'https://schema.org/OfflineEventAttendanceMode',
+'eventStatus' => 'https://schema.org/EventScheduled',
+'location' => [
+'@type' => 'Place',
+'name' => $event->location ?: 'Kampala, Uganda',
+'address' => $event->location ?: 'Kampala, Uganda',
+],
+'description' => $event->description,
+'organizer' => [
+'@type' => 'Organization',
+'name' => 'FEHSU',
+'url' => url('/'),
+],
+])->all();
 @endphp
 @foreach ($eventsLd as $eventLd)
-<script type="application/ld+json">{!! json_encode($eventLd, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}</script>
+<script type="application/ld+json">
+    {
+        !!json_encode($eventLd, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!
+    }
+</script>
 @endforeach
 @endpush
 
