@@ -52,7 +52,7 @@ class ExampleTest extends TestCase
         $response->assertSee('/storage/events/world-health-day.jpg', false);
     }
 
-    public function test_homepage_section_is_for_current_and_upcoming_events(): void
+    public function test_homepage_section_is_for_current_happening_events_only(): void
     {
         Event::create([
             'title' => 'Community Safety Summit',
@@ -66,10 +66,24 @@ class ExampleTest extends TestCase
             'is_published' => true,
         ]);
 
+        Event::create([
+            'title' => 'World Environmental Health Day',
+            'slug' => 'world-environmental-health-day',
+            'type' => 'happening_today',
+            'description' => 'A student awareness campaign for healthier communities.',
+            'starts_at' => now()->subDay(),
+            'ends_at' => now()->addDay(),
+            'location' => 'Kampala',
+            'cover_image' => 'events/world-health-day.jpg',
+            'is_published' => true,
+        ]);
+
         $response = $this->get('/');
 
         $response->assertOk();
-        $response->assertSeeText('CURRENT & UPCOMING');
+        $response->assertSeeText('CURRENT EVENTS');
         $response->assertSeeText('What’s happening');
+        $response->assertSeeText('World Environmental Health Day');
+        $response->assertDontSeeText('Community Safety Summit');
     }
 }
