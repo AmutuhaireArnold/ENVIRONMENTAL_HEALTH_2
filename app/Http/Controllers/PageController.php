@@ -16,7 +16,7 @@ class PageController extends Controller
         return view('pages.home', [
             'videos' => MediaItem::where('type', 'youtube')->orderBy('sort_order')->limit(3)->get(),
             'upcoming' => Event::where('is_published', true)
-                ->where('type', 'upcoming')
+                ->whereIn('type', ['happening_today', 'upcoming'])
                 ->where(fn ($query) => $query->whereNull('starts_at')->orWhere('starts_at', '>=', now()))
                 ->orderBy('starts_at')
                 ->limit(6)

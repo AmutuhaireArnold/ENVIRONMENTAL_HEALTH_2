@@ -26,11 +26,12 @@ class EventForm
                     ->unique(ignoreRecord: true),
                 Select::make('type')
                     ->options([
+                        'happening_today' => 'Happening today — shows on the homepage current events section',
                         'upcoming' => 'Upcoming — shows on Upcoming events page + homepage calendar',
                         'program' => 'Program — shows on Programs page',
                         'event' => 'Event — shows on Events page',
                     ])
-                    ->default('upcoming')
+                    ->default('happening_today')
                     ->helperText('Controls WHERE on the website this event appears.')
                     ->required(),
                 Textarea::make('description')

@@ -77,7 +77,7 @@
                             </div>
                             <div class="home-event-body">
                                 <div class="home-event-meta">
-                                    <span class="tag mono">{{ strtoupper($event->type ?? 'EVENT') }}</span>
+                                    <span class="tag mono">{{ $event->type === 'happening_today' ? 'HAPPENING TODAY' : strtoupper($event->type ?? 'EVENT') }}</span>
                                     <span class="date mono">{{ $event->starts_at ? $event->starts_at->format('d M') : 'NOW' }}</span>
                                 </div>
                                 <h3>{{ $event->title }}</h3>

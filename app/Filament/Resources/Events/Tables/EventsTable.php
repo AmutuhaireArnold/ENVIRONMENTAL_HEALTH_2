@@ -30,6 +30,7 @@ class EventsTable
                 TextColumn::make('type')
                     ->badge()
                     ->color(fn(string $state): string => match ($state) {
+                        'happening_today' => 'warning',
                         'upcoming' => 'success',
                         'program' => 'info',
                         default => 'primary',
@@ -56,7 +57,12 @@ class EventsTable
             ])
             ->filters([
                 SelectFilter::make('type')
-                    ->options(['upcoming' => 'Upcoming', 'program' => 'Program', 'event' => 'Event']),
+                    ->options([
+                        'happening_today' => 'Happening today',
+                        'upcoming' => 'Upcoming',
+                        'program' => 'Program',
+                        'event' => 'Event',
+                    ]),
             ])
             ->recordActions([
                 EditAction::make(),
