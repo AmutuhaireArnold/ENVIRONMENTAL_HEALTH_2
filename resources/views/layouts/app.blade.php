@@ -75,17 +75,6 @@
 </head>
 
 <body>
-  <div id="splashScreen" class="splash-screen" aria-hidden="true">
-    <div class="splash-inner">
-      <img src="/images/PHOTO.jpeg" alt="FEHSU logo" class="splash-logo">
-      <h1 class="splash-title">FEHSU</h1>
-      <p class="splash-sub condensed">Federation of Environmental Health Students' of Uganda</p>
-      <div class="splash-bar">
-        <div class="splash-bar-fill"></div>
-      </div>
-      <p class="splash-loading-text condensed">Loading<span class="dots"><span>.</span><span>.</span><span>.</span></span></p>
-    </div>
-  </div>
   <a class="skip-link" href="#main-content">Skip to main content</a>
   <header>
     <nav>
@@ -259,24 +248,6 @@
   </a>
 
   <script>
-    (function() {
-      var splash = document.getElementById('splashScreen');
-      if (!splash) return;
-      if (sessionStorage.getItem('fehsuSplashShown')) {
-        splash.style.display = 'none';
-        return;
-      }
-      document.body.classList.add('splash-active');
-      sessionStorage.setItem('fehsuSplashShown', '1');
-      setTimeout(function() {
-        splash.classList.add('hide');
-        document.body.classList.remove('splash-active');
-        setTimeout(function() {
-          splash.style.display = 'none';
-        }, 650);
-      }, 5000);
-    })();
-
     function toggleMenu() {
       var h = document.getElementById('hamburgerBtn'),
         n = document.getElementById('navLinks');
@@ -334,7 +305,7 @@
       document.addEventListener('click', function(e) {
         var n = document.getElementById('navLinks'),
           h = document.getElementById('hamburgerBtn');
-        if (n && n.classList.contains('open') && !n.contains(e.target) && !h.contains(e.target)) closeMenu();
+        if (n && n.classList.contains('open') && h && !n.contains(e.target) && !h.contains(e.target)) closeMenu();
       });
 
       window.addEventListener('resize', function() {
