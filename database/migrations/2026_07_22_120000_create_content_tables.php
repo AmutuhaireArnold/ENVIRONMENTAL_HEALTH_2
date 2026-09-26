@@ -25,7 +25,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('slug')->unique();
-            $table->enum('type', ['event', 'program', 'upcoming'])->default('event');
+            $table->enum('type', ['event', 'program', 'upcoming', 'happening_today'])->default('event');
             $table->text('description')->nullable();
             $table->timestamp('starts_at')->nullable();
             $table->timestamp('ends_at')->nullable();
