@@ -1,7 +1,14 @@
 @extends('layouts.app')
 
+@php
+    $featuredPressImage = $posts->first()?->cover_image
+        ? (str_starts_with($posts->first()->cover_image, '/') ? $posts->first()->cover_image : '/storage/' . $posts->first()->cover_image)
+        : '/images/PHOTO.jpeg';
+@endphp
+
 @section('title', 'Press release — FEHSU')
 @section('description', 'Official press releases and statements from FEHSU.')
+@section('og_image', url($featuredPressImage))
 
 @section('content')
 <section class="page-hero has-photo">
@@ -17,7 +24,15 @@
     <div class="wrap">
         <div class="card-grid">
             @foreach ($posts as $post)
+            @php
+                $postImage = $post->cover_image
+                    ? (str_starts_with($post->cover_image, '/') ? $post->cover_image : '/storage/' . $post->cover_image)
+                    : null;
+            @endphp
             <div class="info-card">
+                @if ($postImage)
+                    <img src="{{ $postImage }}" alt="{{ $post->title }}" style="width:100%; height:220px; object-fit:cover; border-radius:12px; margin-bottom:14px; display:block;">
+                @endif
                 <div class="tagrow"><span class="cat mono">PRESS RELEASE</span><span class="date mono">{{ $post->published_at ? strtoupper($post->published_at->format('j M Y')) : '' }}</span></div>
                 <h3>{{ $post->title }}</h3>
                 <p>{{ $post->excerpt }}</p>
