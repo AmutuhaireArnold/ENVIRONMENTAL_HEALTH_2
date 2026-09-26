@@ -51,4 +51,25 @@ class ExampleTest extends TestCase
         $response->assertSeeText('World Environmental Health Day');
         $response->assertSee('/storage/events/world-health-day.jpg', false);
     }
+
+    public function test_homepage_section_is_for_current_and_upcoming_events(): void
+    {
+        Event::create([
+            'title' => 'Community Safety Summit',
+            'slug' => 'community-safety-summit',
+            'type' => 'upcoming',
+            'description' => 'A national safety forum for student leaders.',
+            'starts_at' => now()->addDays(7),
+            'ends_at' => now()->addDays(8),
+            'location' => 'Kampala',
+            'cover_image' => '/images/PHOTO.jpeg',
+            'is_published' => true,
+        ]);
+
+        $response = $this->get('/');
+
+        $response->assertOk();
+        $response->assertSeeText('CURRENT & UPCOMING');
+        $response->assertSeeText('What’s happening');
+    }
 }

@@ -56,8 +56,8 @@
     <div class="wrap">
         <div class="home-event-head reveal-left">
             <div>
-                <span class="tag mono">CURRENT EVENTS</span>
-                <h2 class="display">What’s happening now</h2>
+                <span class="tag mono">CURRENT &amp; UPCOMING</span>
+                <h2 class="display">What’s happening</h2>
             </div>
             <a class="btn-outline" href="/upcoming-events">See all</a>
         </div>
@@ -88,7 +88,7 @@
             </div>
         @else
             <div class="home-event-empty reveal-left">
-                <p>No current events published yet. New updates will appear here from the admin dashboard.</p>
+                <p>No current or upcoming events published yet. New updates will appear here from the admin dashboard.</p>
             </div>
         @endif
     </div>
