@@ -30,4 +30,25 @@ class ExampleTest extends TestCase
         $response->assertSeeText('Community Safety Summit');
         $response->assertDontSee('Search the homepage');
     }
+
+    public function test_homepage_shows_happening_today_events_even_when_their_start_date_is_in_the_past(): void
+    {
+        Event::create([
+            'title' => 'World Environmental Health Day',
+            'slug' => 'world-environmental-health-day',
+            'type' => 'happening_today',
+            'description' => 'A student awareness campaign for healthier communities.',
+            'starts_at' => now()->subDay(),
+            'ends_at' => now()->addDay(),
+            'location' => 'Kampala',
+            'cover_image' => 'events/world-health-day.jpg',
+            'is_published' => true,
+        ]);
+
+        $response = $this->get('/');
+
+        $response->assertOk();
+        $response->assertSeeText('World Environmental Health Day');
+        $response->assertSee('/storage/events/world-health-day.jpg', false);
+    }
 }

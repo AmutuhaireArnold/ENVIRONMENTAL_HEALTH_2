@@ -66,14 +66,9 @@
             <div class="home-event-marquee reveal-left">
                 <div class="home-event-track">
                     @foreach ($upcoming as $event)
-                        @php
-                            $eventImage = $event->cover_image
-                                ? (str_starts_with($event->cover_image, 'http') ? $event->cover_image : '/storage/' . ltrim($event->cover_image, '/'))
-                                : '/images/PHOTO.jpeg';
-                        @endphp
                         <article class="home-event-card">
                             <div class="home-event-photo">
-                                <img src="{{ $eventImage }}" alt="{{ $event->title }}">
+                                <img src="{{ $event->cover_image_url }}" alt="{{ $event->title }}">
                             </div>
                             <div class="home-event-body">
                                 <div class="home-event-meta">
