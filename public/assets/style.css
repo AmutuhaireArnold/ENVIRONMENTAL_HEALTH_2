@@ -1114,34 +1114,40 @@ body.modal-open{ overflow:hidden; }
 .home-art-copy h3{ font-size:1.12rem; color:var(--ink); font-weight:800; margin:0 0 8px; }
 .home-art-copy p{ font-size:.9rem; color:var(--steel); line-height:1.6; margin:0; }
 
-.home-search-wrap{ padding:0 0 28px; }
-.home-search-shell{
-  display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;
-  padding:24px 26px; border:1px solid var(--line); border-radius:var(--radius);
-  background:linear-gradient(135deg, rgba(255,255,255,.96), rgba(241,245,247,.98));
+.home-event-rail{ padding:18px 0 46px; }
+.home-event-head{
+  display:flex; align-items:end; justify-content:space-between; gap:18px; margin-bottom:22px;
+  padding:18px 0 10px; border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+}
+.home-event-head h2{ margin:8px 0 0; font-size:clamp(2rem, 3vw, 3.3rem); }
+.home-event-head .btn-outline{ border-radius:999px; padding:0.9rem 1.3rem; }
+.home-event-marquee{
+  position:relative; overflow:hidden; border:1px solid var(--line); border-radius:24px;
+  background:linear-gradient(135deg, rgba(255,255,255,.96), rgba(240,244,246,.98));
   box-shadow:var(--shadow-sm);
 }
-.home-search-copy h2{ margin:0 0 8px; font-size:1.9rem; }
-.home-search-copy p{ margin:0; color:var(--steel); max-width:600px; }
-.home-search-form{
-  display:flex; align-items:center; gap:12px; flex:1 1 360px; justify-content:flex-end;
+.home-event-track{
+  display:flex; gap:18px; padding:18px; width:max-content; animation: homeEventSlide 20s ease-in-out infinite alternate;
 }
-.home-search-form input{
-  width:min(100%, 420px); padding:13px 14px; border-radius:999px; border:1px solid var(--line);
-  background:#fff; color:var(--ink); font-size:.92rem; box-shadow:inset 0 1px 1px rgba(8,21,34,.04);
+.home-event-card{
+  display:flex; flex-direction:column; width:min(320px, 78vw); border-radius:18px; overflow:hidden;
+  background:#fff; border:1px solid var(--line); box-shadow:var(--shadow-sm); transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
 }
-.home-search-form input:focus{ border-color:var(--clay); outline:none; box-shadow:0 0 0 3px rgba(170,126,77,.18); }
-.home-search-form .cta-btn{ border-radius:999px; padding-inline:20px; }
-.home-search-results{ width:100%; margin-top:18px; }
-.home-search-results-list{ display:flex; flex-wrap:wrap; gap:10px; }
-.home-search-result{
-  display:inline-flex; align-items:center; gap:8px; padding:9px 12px; border-radius:999px;
-  background:var(--paper); border:1px solid var(--line); color:var(--ink); font-size:.82rem; font-weight:700;
-}
-.home-search-result:hover{ border-color:var(--clay); color:var(--clay); }
-.home-search-hint{ margin:0; font-size:.84rem; color:var(--steel); }
-.sr-only{ position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
-.search-card.is-hidden{ display:none !important; }
+.home-event-card:hover{ transform:translateY(-4px); box-shadow:var(--shadow-md); border-color:var(--clay); }
+.home-event-photo{ height:225px; overflow:hidden; }
+.home-event-photo img{ width:100%; height:100%; object-fit:cover; display:block; transition:transform .5s ease; }
+.home-event-card:hover .home-event-photo img{ transform:scale(1.05); }
+.home-event-body{ padding:16px 16px 18px; }
+.home-event-meta{ display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:12px; }
+.home-event-meta .tag{ font-size:.64rem; }
+.home-event-meta .date{ font-size:.72rem; color:var(--steel); }
+.home-event-body h3{ margin:0 0 10px; font-size:1.2rem; line-height:1.3; color:var(--ink); }
+.home-event-body p{ margin:0; font-size:.9rem; line-height:1.6; color:var(--steel); }
+.home-event-footer{ display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:16px; padding-top:12px; border-top:1px solid var(--line); color:var(--ink); font-size:.8rem; }
+.home-event-footer span{ color:var(--steel); }
+.home-event-footer a{ color:var(--leaf); font-weight:700; }
+.home-event-empty{ padding:24px 18px; border:1px solid var(--line); border-radius:18px; background:rgba(255,255,255,.9); color:var(--steel); }
+@keyframes homeEventSlide{ 0%{ transform:translateX(0); } 100%{ transform:translateX(28px); } }
 @keyframes artPulse{ 0%,100%{ transform:translateY(0) scale(1); opacity:.55; } 50%{ transform:translateY(10px) scale(1.08); opacity:.9; } }
 
 /* ============ HOME EVENTS TEASER ============ */

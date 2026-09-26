@@ -52,42 +52,52 @@
     </div>
 </section>
 
-<section class="home-search-wrap">
+<section class="home-event-rail">
     <div class="wrap">
-        <div class="home-search-shell reveal-left">
-            <div class="home-search-copy">
-                <span class="tag mono">DISCOVER</span>
-                <h2 class="display">Search the homepage</h2>
-                <p>Jump quickly to membership, events, leadership, updates, and partner moments.</p>
+        <div class="home-event-head reveal-left">
+            <div>
+                <span class="tag mono">CURRENT EVENTS</span>
+                <h2 class="display">What’s happening now</h2>
             </div>
-            <form class="home-search-form" id="homeSearchForm">
-                <label class="sr-only" for="homeSearch">Search website</label>
-                <input id="homeSearch" type="search" placeholder="Search the website: membership, events, resources, leadership..." aria-label="Search the website">
-                <button type="submit" class="cta-btn">Search</button>
-            </form>
-            <div class="home-search-results" id="homeSearchResults" aria-live="polite"></div>
+            <a class="btn-outline" href="/upcoming-events">See all</a>
         </div>
+
+        @if ($upcoming->isNotEmpty())
+            <div class="home-event-marquee reveal-left">
+                <div class="home-event-track">
+                    @foreach ($upcoming as $event)
+                        @php
+                            $eventImage = $event->cover_image
+                                ? (str_starts_with($event->cover_image, 'http') ? $event->cover_image : '/storage/' . ltrim($event->cover_image, '/'))
+                                : '/images/PHOTO.jpeg';
+                        @endphp
+                        <article class="home-event-card">
+                            <div class="home-event-photo">
+                                <img src="{{ $eventImage }}" alt="{{ $event->title }}">
+                            </div>
+                            <div class="home-event-body">
+                                <div class="home-event-meta">
+                                    <span class="tag mono">{{ strtoupper($event->type ?? 'EVENT') }}</span>
+                                    <span class="date mono">{{ $event->starts_at ? $event->starts_at->format('d M') : 'NOW' }}</span>
+                                </div>
+                                <h3>{{ $event->title }}</h3>
+                                <p>{{ \Illuminate\Support\Str::limit(strip_tags($event->description ?? ''), 110) }}</p>
+                                <div class="home-event-footer">
+                                    <span>{{ $event->location ?: 'Kampala, Uganda' }}</span>
+                                    <a href="/upcoming-events">View</a>
+                                </div>
+                            </div>
+                        </article>
+                    @endforeach
+                </div>
+            </div>
+        @else
+            <div class="home-event-empty reveal-left">
+                <p>No current events published yet. New updates will appear here from the admin dashboard.</p>
+            </div>
+        @endif
     </div>
 </section>
-
-<!-- <section class="home-search-wrap">
-    <div class="wrap">
-        <div class="home-search-shell reveal-left">
-            <div class="home-search-copy">
-                <span class="tag mono">DISCOVER</span>
-                <h2 class="display">Search the homepage</h2>
-                <p>Jump quickly to membership, events, leadership, updates, and partner moments.</p>
-            </div>
-            <form class="home-search-form" id="homeSearchForm">
-                <label class="sr-only" for="homeSearch">Search website</label>
-                <input id="homeSearch" type="search" placeholder="Search the website: membership, events, resources, leadership..." aria-label="Search the website">
-                <button type="submit" class="cta-btn">Search</button>
-            </form>
-            <div class="home-search-results" id="homeSearchResults" aria-live="polite"></div>
-        </div>
-    </div>
-</section> 
--->
 
 <section class="quick-access on-home">
     <div class="wrap">
